@@ -1,7 +1,0 @@
-@charset "utf-8";
-
-@keyframes pulse { 
-  50% { opacity: 0.65; }
-}
-
-.animate-pulse-fast { animation: 1.5s cubic-bezier(0.4, 0, 0.6, 1) 0s infinite normal none running pulse; }
