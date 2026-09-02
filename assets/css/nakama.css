@@ -20,10 +20,20 @@ body { background: radial-gradient(1100px 700px at 75% -10%,#262033,var(--ink)) 
 
 .burger { margin-left: auto; width: 42px; height: 42px; border: 1px solid rgba(255, 255, 255, 0.17); background: none; color: rgb(233, 223, 201); border-radius: 8px; cursor: pointer; font-size: 20px; }
 
+/* Corrección para que el contenido se ajuste correctamente en móviles y tablets */
 @media (max-width: 1100px) {
-  .topbar { display: flex; }
-}
+  /* 1. Oculta o resetea la posición del fondo en pantallas medianas y móviles */
+  body:not([data-page="index"]) main::before {
+    inset: 0;
+  }
 
+  /* 2. Añade un espacio superior para que el menú superior (topbar de 56px) no tape el contenido */
+  body:not([data-page="index"]) main,
+  main {
+    margin-left: 0;
+    padding-top: 56px;
+  }
+}
 #sidenav { position: fixed; inset: 0px auto 0px 0px; width: 248px; background: rgba(20, 16, 25, 0.97); border-right: 1px solid rgba(255, 255, 255, 0.07); z-index: 70; display: flex; flex-direction: column; padding: 24px 16px; overflow-y: auto; transition: transform 0.35s; }
 
 #sidenav .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
