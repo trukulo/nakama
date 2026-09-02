@@ -14,26 +14,12 @@ body { background: radial-gradient(1100px 700px at 75% -10%,#262033,var(--ink)) 
 
 #progress { position: fixed; top: 0px; left: 0px; height: 3px; width: 0px; background: var(--gold); z-index: 99; }
 
-.topbar { display: none; position: fixed; top: 0px; left: 0px; right: 0px; height: 56px; background: rgba(20, 16, 25, 0.96); z-index: 60; align-items: center; padding: 0px 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+.topbar { display: none; position: fixed; top: 0px; left: 0px; right: 0px; height: 56px; background: rgba(20, 16, 25, 0.98); z-index: 100; align-items: center; padding: 0px 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
 
 .topbar .logo { color: var(--gold); font: 400 20px var(--ft); letter-spacing: 0.18em; }
 
 .burger { margin-left: auto; width: 42px; height: 42px; border: 1px solid rgba(255, 255, 255, 0.17); background: none; color: rgb(233, 223, 201); border-radius: 8px; cursor: pointer; font-size: 20px; }
 
-/* Corrección para que el contenido se ajuste correctamente en móviles y tablets */
-@media (max-width: 1100px) {
-  /* 1. Oculta o resetea la posición del fondo en pantallas medianas y móviles */
-  body:not([data-page="index"]) main::before {
-    inset: 0;
-  }
-
-  /* 2. Añade un espacio superior para que el menú superior (topbar de 56px) no tape el contenido */
-  body:not([data-page="index"]) main,
-  main {
-    margin-left: 0;
-    padding-top: 56px;
-  }
-}
 #sidenav { position: fixed; inset: 0px auto 0px 0px; width: 248px; background: rgba(20, 16, 25, 0.97); border-right: 1px solid rgba(255, 255, 255, 0.07); z-index: 70; display: flex; flex-direction: column; padding: 24px 16px; overflow-y: auto; transition: transform 0.35s; }
 
 #sidenav .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
@@ -57,9 +43,11 @@ body { background: radial-gradient(1100px 700px at 75% -10%,#262033,var(--ink)) 
 #sidenav .sfoot { margin-top: auto; padding-top: 18px; color: #9f947f; font-size: 10.5px; line-height: 1.6; border-top: 1px solid rgba(255, 255, 255, 0.063); }
 
 @media (max-width: 1100px) {
-  #sidenav { transform: translateX(-102%); }
-  #sidenav.open { transform: none; box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 60px; }
-  main { margin-left: 0px; }
+  .topbar { display: flex !important; }
+  #sidenav { transform: translateX(-102%); z-index: 110; }
+  #sidenav.open { transform: translateX(0); box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 60px; }
+  main { margin-left: 0px !important; padding-top: 56px; }
+  body:not([data-page="index"]) main::before { inset: 0; }
 }
 
 main { margin-left: 248px; }
@@ -435,7 +423,7 @@ footer p { font-size: 12px; line-height: 1.8; max-width: 480px; margin: 0px; }
 
 .ggrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; margin: 16px 0px; content-visibility: auto; contain-intrinsic-size: auto 1200px; }
 
-.gcard { background: rgb(255, 249, 236); border-top-color: ; border-top-style: ; border-top-width: ; border-right-color: ; border-right-style: ; border-right-width: ; border-bottom-color: ; border-bottom-style: ; border-bottom-width: ; border-image-source: ; border-image-slice: ; border-image-width: ; border-image-outset: ; border-image-repeat: ; border-left: 4px solid var(--gc,#c9a24b); border-radius: 12px; padding: 14px 16px; transition: 0.2s; position: relative; }
+.gcard { background: rgb(255, 249, 236); border-left: 4px solid var(--gc,#c9a24b); border-radius: 12px; padding: 14px 16px; transition: 0.2s; position: relative; }
 
 .gcard:hover { transform: translateY(-2px); box-shadow: rgba(43, 36, 25, 0.094) 0px 8px 20px; }
 
@@ -518,7 +506,6 @@ table.best { width: 100%; border-collapse: collapse; font-size: 11.5px; backgrou
 .dsvg text { pointer-events: none; user-select: none; }
 .ghelp{display:block;margin-top:5px;color:#756b5b;font-size:11px;line-height:1.35;}
 
-
 /* ---------- accesibilidad y rendimiento ---------- */
 :where(a,button,input,select):focus-visible { outline:3px solid var(--focus); outline-offset:2px; }
 .tool { border:1px solid rgba(255,255,255,.14); }
@@ -535,25 +522,23 @@ table.best { width: 100%; border-collapse: collapse; font-size: 11.5px; backgrou
 .section-kicker { margin-top:16px !important; }
 .gfootnote { color:#5f5343 !important; font-size:12px !important; }
 .gen-error { border-color:#a83b2b; background:#f9e2dc; color:#5b2016; }
+
 @media (max-width:700px) {
   .gctrl > div { min-width:100%; }
   .tool .btn-t { width:100%; }
   .dsvg { min-width:520px; }
 
-  /* Las tablas de estadísticas (senshi, monstruos, PNJ, reglas) pueden
-     tener muchas columnas: en móvil se deslizan en horizontal en vez
-     de aplastar el texto. */
   .tb { display:block; width:auto; max-width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; }
   .tb tbody { display:table-row-group; }
   .tb tr { display:table-row; }
   .tb th, .tb td { white-space:nowrap; }
 
-  /* Objetivos táctiles algo más grandes en botones pequeños */
   .rm { width:34px; height:34px; font-size:17px; }
   .stp button { width:36px; height:36px; }
   .tabs button { padding:9px 16px; }
   .krest, .kic, .ksig { flex-shrink: 0; }
 }
+
 @media (prefers-reduced-motion:reduce) {
   html { scroll-behavior:auto; }
   *,*::before,*::after { animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; }
@@ -661,11 +646,6 @@ body:not([data-page="index"]) .chap-num { opacity: .95; }
 a { color: #7b5a16; }
 a:hover { color: #4d3910; }
 :where(a,button,input,select):focus-visible { outline-color: #256b9d; outline-width: 3px; }
-
-/* Respeta pantallas estrechas y evita el pseudo-fondo sobre el menú */
-@media (max-width:1100px) {
-  body:not([data-page="index"]) main::before { left: 0; }
-}
 
 @media (max-width:700px) {
   body:not([data-page="index"]) .chap { padding-top: 48px; }
