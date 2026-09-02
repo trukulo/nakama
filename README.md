@@ -10,3 +10,9 @@ Versión estática y offline del manuscrito, con generadores interactivos.
 - SVG del mapa optimizado mediante patrón de cuadrícula, reduciendo nodos repetidos.
 - CSS con mejor contraste, estados de foco accesibles, controles más legibles y soporte para `prefers-reduced-motion`.
 - Se eliminó el mapa de ejemplo enorme incrustado en `cap16.html`; ahora la mazmorra se genera bajo demanda, haciendo la página inicial bastante más ligera.
+
+## Revisión visual v3
+- Corregido el contraste global de las páginas de contenido: antes heredaban el fondo oscuro de la portada y dejaban texto oscuro sobre fondo oscuro.
+- Las páginas de capítulos usan ahora una superficie clara de lectura, mientras que los paneles interactivos conservan su tema oscuro.
+- Menú lateral, formularios, textos secundarios y estados de foco reforzados para mejorar legibilidad y accesibilidad.
+- Sin sombras ni efectos innecesarios en el texto; se mantiene el estilo japonés sin sacrificar lectura.

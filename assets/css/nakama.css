@@ -532,3 +532,122 @@ table.best { width: 100%; border-collapse: collapse; font-size: 11.5px; backgrou
   html { scroll-behavior:auto; }
   *,*::before,*::after { animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; }
 }
+
+/* ---------- tema de lectura: páginas de contenido ---------- */
+body:not([data-page="index"]) {
+  background: #ece5d7;
+  color: #2b261f;
+}
+
+body:not([data-page="index"]) main {
+  min-height: calc(100vh - 3px);
+  background: var(--paper);
+  color: var(--text);
+  border-bottom: 1px solid #d5c9b0;
+}
+
+body:not([data-page="index"]) main::before {
+  content: "";
+  display: block;
+  position: fixed;
+  inset: 0 0 0 248px;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(90deg, rgba(72,54,30,.035), transparent 12%, transparent 88%, rgba(72,54,30,.025));
+}
+
+body:not([data-page="index"]) main > .wrap,
+body:not([data-page="index"]) main .chap {
+  position: relative;
+  z-index: 1;
+}
+
+body:not([data-page="index"]) .chap {
+  padding-bottom: 42px;
+}
+
+body:not([data-page="index"]) .chap-head h2,
+body:not([data-page="index"]) h3,
+body:not([data-page="index"]) h4,
+body:not([data-page="index"]) p,
+body:not([data-page="index"]) li,
+body:not([data-page="index"]) .lead {
+  text-shadow: none;
+}
+
+body:not([data-page="index"]) .chap-head h2 { color: #29231b; }
+body:not([data-page="index"]) .chap-sub { color: #625746; }
+body:not([data-page="index"]) p { color: #30291f; }
+body:not([data-page="index"]) p b,
+body:not([data-page="index"]) h3,
+body:not([data-page="index"]) h4 { color: #211c16; }
+body:not([data-page="index"]) .lead { color: #3a3126; }
+body:not([data-page="index"]) .chap-num { opacity: .95; }
+
+/* Lectura cómoda en bloques secundarios */
+.note, .tip, .card, .timeline li, .senshi, .yosai, .tb, .filter,
+.tabs button, .gcard, .genout, .bestwrap {
+  box-shadow: 0 1px 2px rgba(38,28,16,.04);
+}
+
+.note { color: #332b20; background: #f3ead8; border-left-color: #a98232; }
+.tip { color: #3b3124; background: #f7eedc; border-color: #a88a4b; }
+.ghelp { color: #655a49; }
+
+/* Herramientas: mantener el panel oscuro, pero con contraste real */
+.tool { background: #201b2b; color: #f2ecdf; border-color: #51475e; }
+.tool .sub { color: #e7dfd1; }
+.tool label { color: #f1eadf; }
+.tool input[type="number"],
+.tool input[type="text"],
+.tool select,
+.jlist .srow .n input,
+.stp button {
+  background: #30283e;
+  color: #f5eee2;
+  border-color: #62566f;
+}
+.tool input::placeholder { color: #bdb3a5; opacity: 1; }
+.tool input:hover, .tool select:hover { border-color: #c9a24b; }
+.tool input:focus, .tool select:focus { box-shadow: 0 0 0 3px rgba(201,162,75,.24); }
+.tool .srow, .tool .jrow { border-bottom-color: rgba(255,255,255,.11); }
+.tool .srow .n, .tool .jrow .n { color: #eee7db; }
+.tool .srow .v { color: #f6efdf; background: #30283e; }
+.tool .jrow .n small { color: #c5bcae !important; }
+
+/* Controles de generación más fáciles de escanear */
+.gctrl { gap: 16px; }
+.gctrl > div { flex: 1 1 210px; min-width: 190px; }
+.gctrl > div:last-child { flex: 0 1 auto; }
+.gctrl label { gap: 7px; }
+.gctrl select, .gctrl input { min-height: 42px; }
+.gctrl .btn-t { min-height: 42px; white-space: nowrap; }
+
+/* Menú lateral: contraste y estado activo más claros */
+#sidenav { background: #17141d; border-right-color: #302a38; }
+#sidenav nav a { color: #d7cfc2; }
+#sidenav nav a .kn { color: #a99c8a; }
+#sidenav nav a:hover { color: #fff8ec; background: #25202b; }
+#sidenav nav a.active { color: #f0c45e; background: #2b2526; border-left-color: #d5a83e; box-shadow: inset 0 0 0 1px rgba(213,168,62,.08); }
+#sidenav .sfoot { color: #b5aa9a; border-top-color: #332d39; }
+
+/* Enlace y foco visibles */
+a { color: #7b5a16; }
+a:hover { color: #4d3910; }
+:where(a,button,input,select):focus-visible { outline-color: #256b9d; outline-width: 3px; }
+
+/* Respeta pantallas estrechas y evita el pseudo-fondo sobre el menú */
+@media (max-width:1100px) {
+  body:not([data-page="index"]) main::before { left: 0; }
+}
+
+@media (max-width:700px) {
+  body:not([data-page="index"]) .chap { padding-top: 48px; }
+  body:not([data-page="index"]) .chap-head { gap: 10px; }
+  body:not([data-page="index"]) .chap-num { font-size: 42px; }
+  body:not([data-page="index"]) .chap-head h2 { font-size: 25px; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .yosai:hover, .gcard:hover { transform: none; }
+}
