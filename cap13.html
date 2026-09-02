@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PNJ de ejemplo Plantillas base y generador aleatorio · Nakama</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/nakama.css">
+</head>
+<body data-page="cap13">
+<div id="navmount"></div>
+<main><div class="wrap"><section class="chap" id="pnj" style="--c:var(--ts)">
+<span class="wmk">兵</span>
+<div class="chap-head"><span class="chap-num">13</span><h2>PNJ de ejemplo<span class="chap-sub">Plantillas base y generador aleatorio</span></h2></div>
+<p class="lead">Para diseñar PNJ es bueno partir de plantillas base y, sobre ellas, añadir poderes y demás: así os ahorráis trabajo previo y podéis centraros en lo importante.</p>
+<table class="tb" style="font-size:11.5px">
+<tbody><tr><th>Plantilla</th><th>In</th><th>At Me</th><th>Da Me</th><th>At Di</th><th>Da Di</th><th>De Me</th><th>De Di</th><th>CK</th><th>PK</th><th>PV</th><th>Abs</th></tr>
+<tr><td><b>Senshi Ki 10</b></td><td>2</td><td>+0</td><td>1d6</td><td>+0</td><td>1d6</td><td>11</td><td>11</td><td>3</td><td>15</td><td>20</td><td>0</td></tr>
+<tr><td><b>Senshi Físico melee 10</b></td><td>0</td><td>+2</td><td>1d6+2</td><td>+0</td><td>1d6</td><td>12</td><td>11</td><td>0</td><td>0</td><td>30</td><td>1</td></tr>
+<tr><td><b>Senshi Físico dist. 10</b></td><td>3</td><td>+0</td><td>1d6</td><td>+3</td><td>2d6</td><td>10</td><td>11</td><td>0</td><td>0</td><td>20</td><td>0</td></tr>
+<tr><td><b>Senshi equilibrado 10</b></td><td>1</td><td>+1</td><td>1d6+1</td><td>+1</td><td>1d6+1</td><td>11</td><td>11</td><td>1</td><td>5</td><td>20</td><td>1</td></tr>
+<tr><td><b>Senshi tanque 10</b></td><td>0</td><td>+0</td><td>1d6</td><td>+0</td><td>1d6</td><td>12</td><td>12</td><td>0</td><td>0</td><td>35</td><td>3</td></tr>
+<tr><td><b>Senshi danzante 10</b></td><td>3</td><td>+0</td><td>1d6</td><td>+0</td><td>1d6</td><td>13</td><td>13</td><td>0</td><td>0</td><td>20</td><td>1</td></tr>
+<tr><td><b>Senshi Ki 20</b></td><td>4</td><td>+0</td><td>1d6</td><td>+0</td><td>1d6</td><td>12</td><td>12</td><td>4</td><td>20</td><td>30</td><td>2</td></tr>
+<tr><td><b>Senshi Físico melee 20</b></td><td>0</td><td>+4</td><td>2d6+1</td><td>+0</td><td>1d6</td><td>14</td><td>13</td><td>0</td><td>0</td><td>35</td><td>2</td></tr>
+<tr><td><b>Senshi Físico dist. 20</b></td><td>4</td><td>+1</td><td>1d6+1</td><td>+4</td><td>2d6+1</td><td>11</td><td>12</td><td>0</td><td>0</td><td>30</td><td>1</td></tr>
+<tr><td><b>Senshi equilibrado 20</b></td><td>2</td><td>+2</td><td>2d6</td><td>+2</td><td>2d6</td><td>12</td><td>12</td><td>1</td><td>5</td><td>25</td><td>1</td></tr>
+<tr><td><b>Senshi tanque 20</b></td><td>0</td><td>+2</td><td>2d6</td><td>+0</td><td>1d6</td><td>14</td><td>13</td><td>0</td><td>0</td><td>40</td><td>4</td></tr>
+<tr><td><b>Senshi danzante 20</b></td><td>5</td><td>+1</td><td>1d6</td><td>+1</td><td>1d6</td><td>14</td><td>14</td><td>1</td><td>5</td><td>30</td><td>1</td></tr>
+<tr><td><b>Daimyo equilibrado 30</b></td><td>3</td><td>+3</td><td>2d6+1</td><td>+3</td><td>2d6+1</td><td>13</td><td>13</td><td>2</td><td>10</td><td>30</td><td>1</td></tr>
+<tr><td><b>Daimyo tanque 30</b></td><td>1</td><td>+4</td><td>2d6+2</td><td>+0</td><td>1d6</td><td>15</td><td>15</td><td>0</td><td>0</td><td>45</td><td>5</td></tr>
+</tbody></table>
+<div class="tool" id="pnjGen">
+<h3>Generador de PNJ</h3>
+<p class="sub">Combina las plantillas oficiales del libro (10/20/30 PC) con nombre, Kazoku, escuela, habilidades, jutsus del grimorio, un rasgo, una motivación y un secreto para el DJ. Las plantillas de 30 PC marcadas con † siguen la progresión de las oficiales.</p>
+<div class="gctrl">
+<div><label>Poder del PNJ<select id="pnjPc"><option selected="" value="10">10 PC · Senshi</option><option value="20">20 PC · veterano</option><option value="30">30 PC · Daimyo</option></select></label></div>
+<div><label>Yosai<select id="pnjYos"><option selected="" value="any">Aleatorio</option><option value="hi">Hi · Fuego</option><option value="ts">Tsuchi · Tierra</option><option value="kz">Kaze · Viento</option><option value="mz">Mizu · Agua</option><option value="tg">Tengoku · Cielo</option><option value="ym">Yami · Oscuridad</option></select></label></div>
+<div style="display:flex;align-items:flex-end"><button class="btn-t" id="pnjGo">⚔ Generar PNJ</button></div>
+</div>
+<div class="genout" id="pnjOut"><p class="ph">Pulsa «Generar PNJ» y un guerrero de Shikoku aparecerá.</p></div>
+</div>
+<div class="orn">絆</div>
+</section></div></main>
+<script src="assets/js/nucleo.js"></script>
+<script src="assets/js/datos.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

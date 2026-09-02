@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Generador de mazmorras · Nakama</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/nakama.css">
+</head>
+<body data-page="cap16">
+<div id="navmount"></div>
+<main><div class="wrap"><section class="chap" id="mazmorra" style="--c:#3a5f8f">
+<span class="wmk">迷</span>
+<div class="chap-head"><span class="chap-num">16</span><h2>Generador de mazmorras<span class="chap-sub">Papel cuadriculado azul · salas numeradas · leyenda clásica</span></h2></div>
+<p class="lead">Mazmorras al estilo de los módulos clásicos: un mapa sobre papel cuadriculado azul, con salas y pasillos en blanco, cada sala numerada, puertas con su icono, puertas secretas de línea discontinua, estatuas y escaleras — y la leyenda en la esquina. Debajo, la clave sala por sala con monstruos, PNJ antagonistas y tesoros construidos con las reglas del libro.</p>
+<p>La misma semilla genera siempre la misma mazmorra: anótala para volver a ella o compártela con tu grupo. El nivel de amenaza indica qué te vas a encontrar: del 1 (ruinas ocupadas, enemigos modestos) al 5 (corazón del sello, máxima amenaza). No es un tipo de sótano: es simplemente la dificultad de la mazmorra.</p>
+<div class="tool" id="dunGen">
+<h3>Generador de mazmorras</h3>
+<p class="sub">Elige el tamaño y el <b>nivel de amenaza</b>, escribe una semilla si quieres repetir exactamente la misma mazmorra y pulsa Generar. Los números del mapa corresponden a las salas de la clave; las trampas de pasillo están marcadas con una ×.</p>
+<div class="gctrl">
+<div><label>Tamaño<select id="dgSize"><option value="23">Compacta · 23×23 · ~12 salas</option><option selected="" value="29">Normal · 29×29 · ~16 salas</option><option value="37">Grande · 37×37 · ~20 salas</option></select></label></div>
+<div><label>Nivel de amenaza<select id="dgLvl"><option value="1">1 · Ruinas ocupadas — bandidos y alimañas</option><option selected="" value="2">2 · Guarida infestada — bestias y saqueadores</option><option value="3">3 · Cripta sellada — guardianes y muertos inquietos</option><option value="4">4 · Fortaleza — enemigos veteranos y defensas</option><option value="5">5 · Corazón del sello — máxima amenaza y jefe final</option></select></label><small class="ghelp">Solo marca la dificultad. 1 = fácil · 3 = peligrosa · 5 = extrema.</small></div>
+<div><label>Semilla (opcional)<input id="dgSeed" placeholder="p. ej. «nakama-1»" type="text"/></label></div>
+<div style="display:flex;align-items:flex-end"><button class="btn-t" id="dunGo">迷 Generar mazmorra</button></div>
+</div>
+<div class="genout" id="dunOut"><p class="ph">Tu mazmorra aparecerá aquí. Elige el tamaño y el nivel de amenaza y pulsa <b>Generar mazmorra</b>. Si escribes una semilla, podrás reconstruir exactamente el mismo mapa.</p></div>
+<div class="tip"><b>Consejo del DJ, vieja escuela:</b> no enseñes el mapa. Lee las salas en voz alta («un pasillo de tres brazos, huele a ceniza…»), deja que sean ellos quienes dibujen, y recuerda: las puertas secretas hay que buscarlas (Buscar/Rastrar, dificultad 13) — en el mapa salen discontinuas para ti, no para ellos.</div>
+<div class="orn">絆</div>
+</section></div></main>
+<script src="assets/js/nucleo.js"></script>
+<script src="assets/js/datos.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

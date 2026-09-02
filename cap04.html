@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Los Kazoku Las casas de Shikoku · Nakama</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/nakama.css">
+</head>
+<body data-page="cap04">
+<div id="navmount"></div>
+<main><div class="wrap"><section class="chap" id="kazoku" style="--c:var(--kz)">
+<span class="wmk">家</span>
+<div class="chap-head"><span class="chap-num">04</span><h2>Los Kazoku<span class="chap-sub">Las casas de Shikoku</span></h2></div>
+<p class="lead">Los Kazoku se especializan en el estudio de algunas artes por encima de otras, y algunos de ellos, especialmente los mayores, se caracterizan por llegar más lejos en algún arte que el resto.</p>
+<div class="tabs" id="kzTabs">
+<button class="on" data-p="kz-ts" style="--c:var(--ts)">Tsuchi 土</button>
+<button data-p="kz-hi" style="--c:var(--hi)">Hi 火</button>
+<button data-p="kz-kz" style="--c:var(--kz)">Kaze 風</button>
+<button data-p="kz-mz" style="--c:var(--mz)">Mizu 水</button>
+<button data-p="kz-tg" style="--c:var(--tg)">Tengoku 天</button>
+<button data-p="kz-ym" style="--c:var(--ym)">Yami 闇</button>
+</div>
+<input class="filter" id="kzFilter" placeholder="Filtrar casas… (p. ej. «zorro», «tigre»)" type="text"/>
+<div id="kzPanels">
+<div class="kz-panel on" id="kz-ts" style="--c:var(--ts)">
+<h3 style="margin-top:10px">Casas mayores</h3><div class="chips"><span class="chip hd">Raion <small>León</small></span><span class="chip">Okami <small>Lobo</small></span><span class="chip">Usagi <small>Conejo</small></span><span class="chip">Tora <small>Tigre</small></span><span class="chip">Kuma <small>Oso</small></span></div>
+<h3>Secundarias</h3><div class="chips"><span class="chip">Neko <small>Gato</small></span><span class="chip">Uma <small>Caballo</small></span><span class="chip">Inu <small>Perro</small></span><span class="chip">Inoshishi <small>Jabalí</small></span><span class="chip">Ushi <small>Buey</small></span></div>
+<h3>Menores</h3><div class="chips"><span class="chip">Arumajiro <small>Armadillo</small></span><span class="chip">Sai <small>Rinoceronte</small></span><span class="chip">Yagi <small>Gabra</small></span><span class="chip">Kamereon <small>Camaleón</small></span><span class="chip">Kirin <small>Jirafa</small></span><span class="chip">Nezumi <small>Ratón</small></span><span class="chip">Shika <small>Ciervo</small></span><span class="chip">Zou <small>Elefante</small></span></div>
+</div>
+<div class="kz-panel" id="kz-hi" style="--c:var(--hi)">
+<h3 style="margin-top:10px">Casas mayores</h3><div class="chips"><span class="chip hd">Sanshoo <small>Salamandra</small></span><span class="chip">Ooyamaneko <small>Lince</small></span><span class="chip">Harinezumi <small>Erizo</small></span><span class="chip">Kitsune <small>Zorro</small></span><span class="chip">Saru <small>Mono</small></span></div>
+<h3>Menores</h3><div class="chips"><span class="chip">Tanuki <small>Mapache</small></span><span class="chip">Risu <small>Ardilla</small></span><span class="chip">Tori <small>Gallo</small></span><span class="chip">Hyoo <small>Leopardo</small></span><span class="chip">Buta <small>Cerdo</small></span></div>
+</div>
+<div class="kz-panel" id="kz-kz" style="--c:var(--kz)">
+<h3 style="margin-top:10px">Casas mayores</h3><div class="chips"><span class="chip hd">Washi <small>Águila</small></span><span class="chip">Hayabusa <small>Halcón</small></span><span class="chip">Fukuro <small>Búho</small></span><span class="chip">Tsuru <small>Grulla</small></span><span class="chip">Hachidori <small>Colibrí</small></span></div>
+<h3>Menores</h3><div class="chips"><span class="chip">Tsubame <small>Golondrina</small></span><span class="chip">Hagewashi <small>Buitre</small></span></div>
+</div>
+<div class="kz-panel" id="kz-mz" style="--c:var(--mz)">
+<h3 style="margin-top:10px">Casas mayores</h3><div class="chips"><span class="chip hd">Same <small>Tiburón</small></span><span class="chip">Mekajiki <small>Pez espada</small></span><span class="chip">Fugu <small>Pez globo</small></span><span class="chip">Akumasen <small>Raya manta</small></span><span class="chip">Kurage <small>Medusa</small></span></div>
+<h3>Menores</h3><div class="chips"><span class="chip">Hitode <small>Estrella de mar</small></span><span class="chip">Kani <small>Cangrejo</small></span></div>
+</div>
+<div class="kz-panel" id="kz-tg" style="--c:var(--tg)">
+<h3 style="margin-top:10px">Casas mayores</h3><div class="chips"><span class="chip hd">Ryu <small>Dragón</small></span><span class="chip">Fenikksu <small>Fénix</small></span><span class="chip">Pegasasu <small>Pegaso</small></span><span class="chip">Yunikon <small>Unicornio</small></span><span class="chip">Hidora <small>Hidra</small></span></div>
+<h3>Menores</h3><div class="chips"><span class="chip">Ningyo <small>Sirena</small></span><span class="chip">Kimera <small>Quimera</small></span></div>
+</div>
+<div class="kz-panel" id="kz-ym" style="--c:var(--ym)">
+<h3 style="margin-top:10px">Casas mayores</h3><div class="chips"><span class="chip hd">Kobura <small>Cobra</small></span><span class="chip">Taranchura <small>Tarántula</small></span><span class="chip">Koomori <small>Murciélago</small></span><span class="chip">Kamakiri <small>Mantis</small></span><span class="chip">Sasori <small>Escorpión</small></span></div>
+<h3>Menores</h3><div class="chips"><span class="chip">Mukade <small>Ciempiés</small></span><span class="chip">Wamu <small>Gusano</small></span></div>
+</div>
+</div>
+<div class="note">Las listas no son cerradas: casas como <b>Kondoru</b> (cóndor), <b>Hakuchoo</b> (cisne) o <b>Kamo</b> (pato) ilustran casas menores creadas a medida para vuestro propio Yosai.</div>
+<h3>Tres casas menores con historia</h3>
+<div class="grid">
+<article class="card" style="--c:var(--hi)"><h4>Risu · la Ardilla</h4><p>Tienen a los dos hermanos Kokoro y Shin como su mayor esperanza. No creen que lleguen a formar parte de las grandes casas, pero sí a despuntar entre las menores para conseguir, con ellos, mejor descendencia y crecer en el futuro. Tienen en mira a Kitsune (Zorro) y Tora (Tigre) como posibles uniones.</p></article>
+<article class="card" style="--c:var(--hi)"><h4>Tanuki · el Mapache</h4><p>Están seguros de conseguir, bajo el liderazgo de la Daimyo (señora) Akane y su descendencia, alcanzar a las grandes casas. La muerte de su anterior Daimyo, protegiendo al Shogun de Hi en la última batalla contra Yami, les favorece aún más en sus aspiraciones.</p></article>
+<article class="card" style="--c:var(--kz)"><h4>Tsubame · la Golondrina</h4><p>Natsuki, la Daimyo (señora), es la única que ha demostrado estar a alto nivel, aunque aún no ha conseguido casarse porque no encuentran a nadie adecuado; con el tiempo, quizás se convierta en un imposible a menos que lo hagan con otro Yosai, algo a lo que son muy reacios. Se consideran los protectores de la parte baja de la ciudad.</p></article>
+</div>
+<div class="orn">絆</div>
+</section></div></main>
+<script src="assets/js/nucleo.js"></script>
+<script src="assets/js/datos.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reglas básicas Resolución con 3d6 · Nakama</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/nakama.css">
+</head>
+<body data-page="cap09">
+<div id="navmount"></div>
+<main><div class="wrap"><section class="chap" id="reglas" style="--c:var(--red)">
+<span class="wmk">規</span>
+<div class="chap-head"><span class="chap-num">09</span><h2>Reglas básicas<span class="chap-sub">Resolución con 3d6</span></h2></div>
+<p class="lead">Cuando tu personaje intente algo importante y/o arriesgado, tira 3d6, súmalos y suma el valor de la habilidad o característica más apropiada: ese es el total de tu tirada.</p>
+<p>Si lo que intentas no es importante ni arriesgado, no merece la pena la tirada: simplemente sucede, si entra dentro de la lógica. Si compites con otro personaje, él también tira; deberás superarla para tener éxito, pudiéndose dar el empate.</p>
+<p>En un enfrentamiento de características o habilidades (Sigilo contra Advertir/Notar, ataque contra defensa), se tira contra <b>10 + habilidad o 10 + característica</b>: si se iguala o supera, se tiene éxito. En cualquier otra situación, el director decide la dificultad, el valor mínimo a obtener.</p>
+<table class="tb">
+<tbody><tr><th>Dificultad</th><th>Tarea</th></tr>
+<tr><td>6–7</td><td>Sencilla</td></tr><tr><td>8–9</td><td>Fácil</td></tr>
+<tr><td><b>10–11</b></td><td>Media, que implique complicación</td></tr><tr><td>12–13</td><td>Difícil</td></tr>
+<tr><td>14–15</td><td>Muy difícil</td></tr><tr><td>16–17</td><td>Extrema</td></tr><tr><td>18</td><td>Proeza legendaria</td></tr>
+</tbody></table>
+<p><em>El manuscrito original se interrumpe en la tabla de dificultades; la escala superior se completa siguiendo la progresión del sistema. Verifícala con vuestro texto fuente.</em></p>
+<div class="tool" id="dados">
+<h3>Dado de 3d6</h3>
+<p class="sub">El corazón del sistema. Convención habitual: 3 natural = pifia, 16+ natural = crítico (el DJ decide).</p>
+<div class="dice-row"><div class="die" id="d1"><span class="p"></span><span class="p"></span><span class="p on"></span><span class="p"></span><span class="p on"></span><span class="p"></span><span class="p on"></span><span class="p"></span><span class="p"></span></div><div class="die" id="d2"><span class="p"></span><span class="p"></span><span class="p on"></span><span class="p"></span><span class="p on"></span><span class="p"></span><span class="p on"></span><span class="p"></span><span class="p"></span></div><div class="die" id="d3"><span class="p"></span><span class="p"></span><span class="p on"></span><span class="p"></span><span class="p on"></span><span class="p"></span><span class="p on"></span><span class="p"></span><span class="p"></span></div></div>
+<div class="dice-ctrl">
+<div><label>Bono<input id="dMod" type="number" value="0"/></label></div>
+<div><label>Dificultad<input id="dDif" type="number" value="10"/></label></div>
+<div style="display:flex;align-items:flex-end"><button class="btn-t" id="btnRoll">Lanzar 3d6</button></div>
+</div>
+<div class="dice-out" id="dOut">Preparado para lanzar.</div>
+</div>
+<div class="orn">絆</div>
+</section></div></main>
+<script src="assets/js/nucleo.js"></script>
+<script src="assets/js/datos.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diseño de jutsu Ataque · Potenciar · Invocación · Nakama</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/nakama.css">
+</head>
+<body data-page="cap10">
+<div id="navmount"></div>
+<main><div class="wrap"><section class="chap" id="jutsu" style="--c:var(--tg)">
+<span class="wmk">術</span>
+<div class="chap-head"><span class="chap-num">10</span><h2>Diseño de jutsu<span class="chap-sub">Ataque · Potenciar · Invocación</span></h2></div>
+<p class="lead">Un jutsu gasta su nivel en puntos de Ki aunque no se lance con éxito o no golpee. Al crear un personaje se tienen 0 PK: hay que comprarlos. Se recuperan 1d6 tras un combate y 2d6 tras dormir una noche entera (1d6 si se descansa mal).</p>
+<p>Para acertar con un jutsu de ataque, la misma tirada sirve para superar la dificultad del jutsu y la defensa del enemigo: <b>3d6 + Control de Ki</b>.</p>
+<p>Hay tres tipos: los de <b>ataque</b> cuestan 6 PdJ en nivel 1 (+3 por nivel extra); los de <b>potenciar</b>, 2 PdJ (+2 por nivel); y los de <b>invocación</b> parten de 2 PdJ más los PC de la criatura. Un jutsu de nivel 3 de ataque serían 12 PdJ; uno de potenciar, 6; y uno de invocación, 6 (2 de base + 4 PC de criatura).</p>
+<div class="note"><b>Jutsu por turnos:</b> el efecto es inmediato y dura hasta que vuelve a tocarnos, inclusive. Un +2 a defensa a mitad de turno nos protege hasta nuestro siguiente turno, y un +2 al ataque puede usarse ya en el turno siguiente.</div>
+<h3>Efectos de ataque</h3>
+<table class="tb" style="--c:var(--red)">
+<tbody><tr><th>Efecto</th><th>Coste</th><th>Detalle</th></tr>
+<tr><td>Daño +1</td><td>1 PdJ</td><td>Cada +3 = 1d6. Sin compra de daño, el jutsu no daña.</td></tr>
+<tr><td>A distancia</td><td>1 PdJ</td><td>El jutsu afecta a distancia.</td></tr>
+<tr><td>Objetivo adicional</td><td>3 PdJ</td><td>Si no existe, el efecto se pierde; también debe superar su defensa.</td></tr>
+<tr><td>Ignora absorción</td><td>3 PdJ</td><td>El daño ignora la absorción.</td></tr>
+<tr><td>Incapacitado</td><td>2 PdJ</td><td>−1 (ataque, daño y jutsu) el siguiente turno; máximo −3 (6 PdJ).</td></tr>
+<tr><td>Evitar movimiento</td><td>2 PdJ</td><td>1 turno (la víctima puede atacar); 3 turnos (o 1d6) = 6 PdJ.</td></tr>
+<tr><td>Congelar</td><td>5 PdJ</td><td>La víctima no puede atacar 1 turno; +2 PdJ cada turno extra. Se rompe si recibe daño.</td></tr>
+<tr><td>Robar vida</td><td>2 PdJ</td><td>Roba 1 PV si no lo absorbe; nunca por encima del máximo. Recuperación mejorada no aplica.</td></tr>
+<tr><td>Robar Ki</td><td>2 PdJ</td><td>Roba 1 PK si el contrincante lo tiene; nunca por encima del máximo.</td></tr>
+</tbody></table>
+<p><b>Críticos especiales:</b> al sacar crítico en un jutsu de ataque se puede aumentar el robo de vida o de Ki (si el jutsu los usa) o la duración de los efectos.</p>
+<h3>Efectos de potenciar</h3>
+<table class="tb" style="--c:var(--kz)">
+<tbody><tr><th>Efecto</th><th>Coste</th><th>Detalle</th></tr>
+<tr><td>Otra persona</td><td>1 PdJ</td><td>N veces = N personas a la vez (hay que elegir).</td></tr>
+<tr><td>A distancia</td><td>1 PdJ</td><td>Potenciar, curar o aplicar efectos sin tocar.</td></tr>
+<tr><td>Todo el grupo</td><td>4 PdJ</td><td>Incluye la distancia.</td></tr>
+<tr><td>Característica +1</td><td>1 PdJ</td><td>Una de las 9 características, durante 1d6 turnos.</td></tr>
+<tr><td>Curación</td><td>1 PdJ</td><td>+2 PV (cada 3 PV = 1d6).</td></tr>
+<tr><td>Invisibilidad</td><td>1 PdJ</td><td>1 turno; se rompe al atacar.</td></tr>
+<tr><td>Volar</td><td>1 PdJ</td><td>1 turno; 5 m/turno atacando, 10 sin atacar.</td></tr>
+<tr><td>Respirar bajo el agua</td><td>1 PdJ</td><td>1d6 minutos; cada minuto extra cuesta 1d6 PV de asfixia.</td></tr>
+<tr><td>Duplicado</td><td>4 PdJ</td><td>1d6 turnos; doble exacto con 5 PV, PK globales, actúa de inmediato. +1 PdJ = +5 PV.</td></tr>
+<tr><td>Espinas</td><td>1 PdJ</td><td>Daño al atacante en CC, tanto como PdJ (cada +3 = 1d6).</td></tr>
+<tr><td>Habilidad +1</td><td>1 PdJ</td><td>Durante 1d6 minutos.</td></tr>
+<tr><td>Visión verdadera</td><td>4 PdJ</td><td>Ver el Ki durante 1d6 turnos; revela invisibles.</td></tr>
+<tr><td>Teletransporte</td><td>1 PdJ</td><td>Por cada 5 m; atraviesa sólidos.</td></tr>
+</tbody></table>
+<div class="tip"><b>Sé imaginativo:</b> volar rompe una defensa cuerpo a cuerpo y alcanza zonas protegidas para atacar a distancia; la invisibilidad consigue un ataque por sorpresa contra defensa 10 del objetivo.</div>
+<h3>Invocación</h3>
+<p>Requiere 2 PdJ (la base) más tantos PdJ como PC tenga la criatura; cada PdJ adicional la mejora en 1 PC, y se gasta igual que en un personaje, salvo el Ki, que lo gasta del invocador. Ejemplo: una criatura de 4 PC es un jutsu de 6 PdJ, nivel 3. Cada turno invocada cuesta 1 punto de Ki; solo una criatura por combate, presente hasta el final, la desinvocación, el desmayo del invocador, quedarse sin PK o llegar a 0 PV (desaparece). Las criaturas parten del perfil base humano: PV 20, defensas 10, daño 1d6.</p>
+<h3>Dificultades</h3>
+<table class="tb">
+<tbody><tr><th>Nivel</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+<tr><th>Necesita</th><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+<tr><th>Gasta Ki</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+</tbody></table>
+<div class="tool" id="calcJutsu">
+<h3>Taller de jutsu</h3>
+<p class="sub">Calculadora de PdJ según las tablas del libro. El coste final del jutsu en PC es igual a su nivel; su gasto de Ki también.</p>
+<div class="jseg">
+<label><input checked="" name="jtype" type="radio" value="atk"/> Ataque</label>
+<label><input name="jtype" type="radio" value="pot"/> Potenciar</label>
+<label><input name="jtype" type="radio" value="inv"/> Invocación</label>
+</div>
+<div class="srow" id="jLvlRow"><div class="n"><b>Nivel del jutsu</b><small id="jLvlNote" style="color:#8a8271">base 6 PdJ +3 por nivel</small></div><span class="stp"><button data-l="-">−</button><span class="q" id="jLvl">1</span><button data-l="+">+</button></span></div>
+<div class="srow" id="jInvRow" style="display:none"><div class="n"><b>PC de la criatura</b> (+ PdJ de mejora, cada uno mejora 1 PC)</div><span class="stp"><button data-i="-">−</button><span class="q" id="jInvPC">4</span><button data-i="+">+</button></span></div>
+<div id="jFx"><div class="jrow"><div class="n">Daño +1<small>cada +3 = 1d6</small></div>
+<span class="stp"><button data-d="-1" data-f="dmg">−</button><span class="q">0</span><button data-d="1" data-f="dmg">+</button></span>
+<span class="cst">—</span></div><div class="jrow"><div class="n">A distancia</div>
+<span class="stp"><button data-d="-1" data-f="rng">−</button><span class="q">0</span><button data-d="1" data-f="rng">+</button></span>
+<span class="cst">—</span></div><div class="jrow"><div class="n">Objetivo adicional<small>supera también su defensa</small></div>
+<span class="stp"><button data-d="-1" data-f="tgt">−</button><span class="q">0</span><button data-d="1" data-f="tgt">+</button></span>
+<span class="cst">—</span></div><div class="jrow"><div class="n">Ignora absorción</div>
+<span class="stp"><button data-d="-1" data-f="noa">−</button><span class="q">0</span><button data-d="1" data-f="noa">+</button></span>
+<span class="cst">—</span></div><div class="jrow"><div class="n">Incapacitado (−1)<small>máx. −3 (6 PdJ)</small></div>
+<span class="stp"><button data-d="-1" data-f="inc">−</button><span class="q">0</span><button data-d="1" data-f="inc">+</button></span>
+<span class="cst">—</span></div><div class="jrow"><div class="n">Evitar movimiento 1 turno<small>la víctima puede atacar</small></div>
+<span class="stp"><button data-d="-1" data-f="mov">−</button><span class="q">0</span><button data-d="1" data-f="mov">+</button></span>
+<span class="cst">—</span></div><div class="jrow"><div class="n">Congelar (1.er turno)<small>se rompe si recibe daño</small></div>
+<span class="stp"><button data-d="-1" data-f="frz">−</button><span class="q">0</span><button data-d="1" data-f="frz">+</button></span>
+<span class="cst">—</span></div><div class="jrow"><div class="n">Congelar: turno extra</div>
+<span class="stp"><button data-d="-1" data-f="frx">−</button><span class="q">0</span><button data-d="1" data-f="frx">+</button></span>
+<span class="cst">—</span></div><div class="jrow"><div class="n">Robar vida<small>roba 1 PV</small></div>
+<span class="stp"><button data-d="-1" data-f="lf">−</button><span class="q">0</span><button data-d="1" data-f="lf">+</button></span>
+<span class="cst">—</span></div><div class="jrow"><div class="n">Robar Ki<small>roba 1 PK</small></div>
+<span class="stp"><button data-d="-1" data-f="ki">−</button><span class="q">0</span><button data-d="1" data-f="ki">+</button></span>
+<span class="cst">—</span></div></div>
+<div class="jout">
+<div><b id="jPdJ">6</b><span>PdJ totales</span></div><div><b id="jNiv">1</b><span>nivel</span></div>
+<div><b id="jPC">1 PC</b><span>coste en PC</span></div><div><b id="jDif">9</b><span>dificultad</span></div><div><b id="jKi">1</b><span>Ki por lanzamiento</span></div>
+</div>
+<p class="warn" id="jWarn"></p>
+</div>
+<div class="orn">絆</div>
+</section></div></main>
+<script src="assets/js/nucleo.js"></script>
+<script src="assets/js/datos.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

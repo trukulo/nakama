@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crear el personaje Concepto · generador · constructor · Nakama</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/nakama.css">
+</head>
+<body data-page="cap08">
+<div id="navmount"></div>
+<main><div class="wrap"><section class="chap" id="personaje" style="--c:var(--mz)">
+<span class="wmk">人</span>
+<div class="chap-head"><span class="chap-num">08</span><h2>Crear el personaje<span class="chap-sub">Concepto · generador · constructor</span></h2></div>
+<p class="lead">Antes de gastar puntos, sabe qué tipo de personaje quieres jugar: en Nakama un personaje simboliza un concepto, ya sea del animal de su Kazoku o algo más genérico: una actitud, un fenómeno natural, un objeto…</p>
+<ul class="txt">
+<li>Descríbelo <b>físicamente</b>: ¿alto y esbelto, musculoso, fibroso? ¿Cabeza rapada, una cicatriz, una máscara?</li>
+<li>Describe su <b>personalidad</b>: ¿siniestro, introvertido, mujeriego, serio, enérgico, irascible?</li>
+<li>¿Cuál es tu <b>Kazoku</b> y qué cualidades reflejas de él?</li>
+<li>¿Qué <b>estilo de combate</b> prefiere? ¿Sus armas favoritas? ¿Hay alguna de la que no se separe jamás?</li>
+<li>¿Conoce algún <b>jutsu</b>? ¿Defensivo, de ataque, entorpece a los rivales, te da ventaja?</li>
+</ul>
+<div class="tip"><b>Puntos de inicio:</b> 10 puntos para Senshi recién nombrados, 15 con algo de experiencia, 20 si son veteranos. Recomendación: empezar con 10 y crecer desde la adolescencia.</div>
+<h3>Características básicas</h3>
+<table class="tb">
+<tbody><tr><th>Característica</th><th>Base</th><th>Coste</th><th>Efecto</th></tr>
+<tr><td><b>Iniciativa</b></td><td>+0</td><td>1 PC = +1</td><td>Capacidad de reacción y reflejos: actuar antes en combate.</td></tr>
+<tr><td><b>Ataque Melee</b></td><td>+0</td><td>1 PC = +1</td><td>Precisión cuerpo a cuerpo.</td></tr>
+<tr><td><b>Daño Melee</b></td><td>1d6</td><td>1 PC = +1 (cada +3 = 1d6)</td><td>Daño en combate cuerpo a cuerpo.</td></tr>
+<tr><td><b>Defensa Melee</b></td><td>10</td><td>1 PC = +1</td><td>Si el oponente iguala o supera la defensa, hay daño.</td></tr>
+<tr><td><b>Ataque Distancia</b></td><td>+0</td><td>1 PC = +1</td><td>Precisión a distancia.</td></tr>
+<tr><td><b>Daño Distancia</b></td><td>1d6</td><td>1 PC = +1 (cada +3 = 1d6)</td><td>Daño a distancia.</td></tr>
+<tr><td><b>Defensa Distancia</b></td><td>10</td><td>1 PC = +1</td><td>Defensa frente a ataques a distancia.</td></tr>
+<tr><td><b>Absorción</b></td><td>0</td><td>1 PC = +1</td><td>Reduce el daño recibido: armadura, piel dura o magia.</td></tr>
+<tr><td><b>Puntos de Vida</b></td><td>20</td><td>1 PC = +5 PV</td><td>A 0 PV quedas inconsciente.</td></tr>
+<tr><td><b>Control de Ki</b></td><td>+0</td><td>1 PC = +1</td><td>Entrenamiento en el ki: el bono de los jutsu.</td></tr>
+<tr><td><b>Puntos de Ki</b></td><td>0</td><td colspan="2">Maná: 1 PC = +5 PK (recupera 2d6 tras cada combate, completos al dormir) · Rabia: 1 PC = +1 y ganas PK igual a tu Rabia por golpe melee con éxito (empiezas a 0 cada combate) · 1 jutsu de nivel X = X PC.</td></tr>
+</tbody></table>
+<p><b>Un humano normal:</b> absorción 0, ataques +0, daños 1d6, defensas 10, iniciativa +0, 20 PV.</p>
+<h3>Características especiales</h3>
+<table class="tb">
+<tbody><tr><th>Ventaja</th><th>Coste</th><th>Efecto</th></tr>
+<tr><td><b>Certero</b></td><td>2 PC</td><td>Ignora los 1 en las tiradas de daño, repitiéndolos.</td></tr>
+<tr><td><b>Crear sellos mágicos (Fuinjutsu)</b></td><td>2 PC</td><td>Acceso al sistema de magia de sellos.</td></tr>
+<tr><td><b>Especialista Kage / Reikon / Shisen</b></td><td>1 PC c/u</td><td>Repite una tirada de esa escuela una vez al día.</td></tr>
+<tr><td><b>Madera de héroe</b></td><td>2 PC</td><td>Malherido, sigue pudiendo hacer críticos.</td></tr>
+<tr><td><b>Magia de sangre (Chijutsu)</b></td><td>1 PC</td><td>Paga los jutsu con 1 PV por nivel (1d6 cada 3) en vez de Ki.</td></tr>
+<tr><td><b>Recuperación mejorada</b></td><td>1 PC</td><td>+1 PV y PK extra al descansar y al ser curado. Acumulativo.</td></tr>
+<tr><td><b>Suerte</b></td><td>5 PC</td><td>Repite una tirada por escena, incluso la de un enemigo atacado (antes del daño).</td></tr>
+<tr><td><b>Acumulador de Ki</b></td><td>2 PC</td><td>Al descansar, recupera 1 dado más de Ki.</td></tr>
+</tbody></table>
+<h3>Habilidades (mismo presupuesto que las características)</h3>
+<div class="grid">
+<article class="card sch" style="--c:var(--kz)"><div class="kic">眼</div><h4>Shisen · explorador</h4><ul>
+<li><b>Advertir/Notar</b> — sentidos: ver ocultos, oír pasos, escuchar tras una puerta. Se opone al Sigilo.</li>
+<li><b>Atletismo</b> — arrancadas, saltos, escalado, huidas.</li>
+<li><b>Buscar/Rastrear</b> — búsqueda enfocada: pasadizos, huellas, puertas ocultas.</li>
+<li><b>Cabalgar</b> — trotar, galopar, atacar desde la montura.</li>
+<li><b>Nadar/Navegar</b> — mapas, rutas, tormentas, buceo.</li>
+<li><b>Supervivencia/Cazar</b> — orientarse, hacer fuego, cazar.</li>
+</ul></article>
+<article class="card sch" style="--c:var(--ym)"><div class="kic">影</div><h4>Kage · espía</h4><ul>
+<li><b>Callejeo</b> — bajos fondos, mercado negro, escapar por los callejones.</li>
+<li><b>Disfraz</b> — pasar por otra persona o desapercibido.</li>
+<li><b>Mecanismos</b> — forzar cerraduras, trampas.</li>
+<li><b>Robar bolsillos</b> — quitar algo sin que se note.</li>
+<li><b>Rumores</b> — a mayor tirada, más y mejores rumores.</li>
+<li><b>Sigilo</b> — andar en silencio y esconderse.</li>
+</ul></article>
+<article class="card sch" style="--c:var(--hi)"><div class="kic">魂</div><h4>Reikon · alma</h4><ul>
+<li><b>Comercio</b> — rutas, gangas, regateo.</li>
+<li><b>Etiqueta</b> — protocolos, reverencias, títulos.</li>
+<li><b>Ocultismo</b> — ciencias ocultas, reales o míticas.</li>
+<li><b>Música</b> — instrumentos y canto.</li>
+<li><b>Sanación/Hierbas</b> — curar 2d6; dificultad 10 (13 en circunstancias adversas); 1 vez al día por paciente.</li>
+<li><b>Tradición/Historia</b> — historia, leyes, ritos, costumbres.</li>
+</ul></article>
+</div>
+<h3>Límites y mejora</h3>
+<p>Los máximos de habilidades y características suben 1 cada 10 PC/PH: con 10 puntos el máximo es 3; con 20, 4; con 30, 5… hasta 12 con 100. Recomendación: máximo absoluto 30 para jugadores y 50 para PNJ legendarios, como el Emperador Kobura.</p>
+<p>Cada partida jugada otorga 1 PC y 1 PH (2 y 2 si fue especialmente buena y larga; nada si fue de relleno; o crecimiento lento alternando). Al recibir experiencia, puedes redistribuir en las características (no en las habilidades) tantos puntos como tu límite: la capacidad de adaptación y aprendizaje de un guerrero que cambia de estilo.</p>
+<h3>Plantillas de personaje (10 PC)</h3>
+<div class="grid">
+<article class="card" style="--c:var(--ts)"><h4>Tanque</h4><div class="chips"><span class="chip">PV 35</span><span class="chip">Abs 3</span><span class="chip">Def CC 11</span><span class="chip">Def Dis 11</span><span class="chip">At CC +1</span><span class="chip">Daño 1d6+1</span></div><p>Se pone delante de todo y recibe el daño.</p></article>
+<article class="card" style="--c:var(--red)"><h4>DPS melee</h4><div class="chips"><span class="chip">In 3</span><span class="chip">At CC +3</span><span class="chip">Daño 2d6</span><span class="chip">PV 25</span></div><p>Solo hace daño, sin parar.</p></article>
+<article class="card" style="--c:var(--red)"><h4>DPS distancia</h4><div class="chips"><span class="chip">In 3</span><span class="chip">At Dis +3</span><span class="chip">Daño 2d6</span><span class="chip">Certero</span></div><p>El mismo concepto, a distancia.</p></article>
+<article class="card" style="--c:var(--kz)"><h4>Curandero</h4><div class="chips"><span class="chip">CK +2</span><span class="chip">PK 15</span><span class="chip">Abs 1</span><span class="chip">PV 30</span></div><p>Jutsu de nivel 2: cura 2d6 a un objetivo.</p></article>
+<article class="card" style="--c:var(--ym)"><h4>Controlador</h4><div class="chips"><span class="chip">CK +3</span><span class="chip">PK 15</span></div><p>Nivel 1: congela 1 turno sin daño · Nivel 3: 2d6 e incapacita (−1) a 2 objetivos a distancia.</p></article>
+<article class="card" style="--c:var(--mz)"><h4>Equilibrados</h4><div class="chips"><span class="chip">In 2</span><span class="chip">At +2</span><span class="chip">Daño 1d6+2</span><span class="chip">Def 12</span><span class="chip">PV 25</span><span class="chip">Abs 1</span></div><p>Versión melee o a distancia.</p></article>
+<article class="card" style="--c:var(--tg)"><h4>Potenciador</h4><div class="chips"><span class="chip">CK +2</span><span class="chip">PK 10</span></div><p>Tres jutsus de nivel 2: +1d6 al daño (CC o distancia) o +3 a la iniciativa durante 1d6 turnos.</p></article>
+</div>
+<div class="tool" id="senshiGen">
+<h3>Generador de Senshi</h3>
+<p class="sub">Crea un guerrero completo al azar: nombre, Kazoku, escuela, arquetipo, estadísticas que cuadran exactamente con el presupuesto, jutsus del grimorio acordes a su elemento, habilidades, apariencia, personalidad, motivación y secreto. Después, cárgalo en el constructor de abajo y ajústalo a tu gusto.</p>
+<div class="gctrl">
+<div><label>Puntos de inicio<select id="sgPc"><option selected="" value="10">10 · recién nombrado</option><option value="15">15 · con experiencia</option><option value="20">20 · veterano</option></select></label></div>
+<div><label>Yosai<select id="sgYos"><option selected="" value="any">Aleatorio</option><option value="hi">Hi · Fuego</option><option value="ts">Tsuchi · Tierra</option><option value="kz">Kaze · Viento</option><option value="mz">Mizu · Agua</option><option value="tg">Tengoku · Cielo</option><option value="ym">Yami · Oscuridad</option></select></label></div>
+<div><label>Arquetipo<select id="sgArch"><option selected="" value="any">Aleatorio</option><option value="espadachin">Espadachín</option><option value="arquero">Arquero</option><option value="tanque">Tanque</option><option value="danzante">Danzante</option><option value="elementalista">Elementalista</option><option value="invocador">Invocador</option><option value="potenciador">Potenciador</option><option value="equilibrado">Equilibrado</option></select></label></div>
+<div style="display:flex;align-items:flex-end"><button class="btn-t" id="sgGo">仲 Generar Senshi</button></div>
+</div>
+<div class="genout" id="sgOut"><p class="ph">Pulsa «Generar Senshi» y un guerrero de Shikoku nacerá ante ti.</p></div>
+</div>
+<div class="tool" id="builder">
+<h3>Crea tu Senshi</h3>
+<p class="sub">Constructor manual con presupuesto y límites del libro. Carga un Senshi generado arriba, ajústalo a tu gusto y vigila los contadores de PC y PH: validan el presupuesto en todo momento.</p>
+<div class="bld-top">
+<label>Nombre<input id="bName" placeholder="p. ej. Tsuru Akane" type="text"/></label>
+<label>Kazoku<input id="bKaz" placeholder="p. ej. Tsuru (Grulla)" type="text"/></label>
+<label>Concepto<input id="bCon" placeholder="besada por el fuego" type="text"/></label>
+<label>Puntos de inicio<select id="bBudget"><option selected="" value="10">10 · recién nombrado</option><option value="15">15 · con experiencia</option><option value="20">20 · veterano</option></select></label>
+</div>
+<div class="bld-bar">
+<button class="btn-t" data-tpl="tanque">Tanque</button>
+<button class="btn-t" data-tpl="dpsme">DPS melee</button>
+<button class="btn-t" data-tpl="equi">Equilibrado</button>
+<button class="btn-t" data-tpl="cura">Curandero</button>
+<button class="btn-t" data-tpl="reset">Vaciar</button>
+</div>
+<div id="bStats"><div class="srow"><div class="n"><b>Iniciativa</b></div>
+<span class="stp"><button data-d="-1" data-s="ini">−</button><span class="q">0</span><button data-d="1" data-s="ini">+</button></span>
+<span class="v">+0</span><span class="pc">0 PC</span></div><div class="srow"><div class="n"><b>Ataque melee</b></div>
+<span class="stp"><button data-d="-1" data-s="atme">−</button><span class="q">0</span><button data-d="1" data-s="atme">+</button></span>
+<span class="v">+0</span><span class="pc">0 PC</span></div><div class="srow"><div class="n"><b>Daño melee</b></div>
+<span class="stp"><button data-d="-1" data-s="dame">−</button><span class="q">0</span><button data-d="1" data-s="dame">+</button></span>
+<span class="v">1d6</span><span class="pc">0 PC</span></div><div class="srow"><div class="n"><b>Defensa melee</b></div>
+<span class="stp"><button data-d="-1" data-s="defme">−</button><span class="q">0</span><button data-d="1" data-s="defme">+</button></span>
+<span class="v">10</span><span class="pc">0 PC</span></div><div class="srow"><div class="n"><b>Ataque distancia</b></div>
+<span class="stp"><button data-d="-1" data-s="atdi">−</button><span class="q">0</span><button data-d="1" data-s="atdi">+</button></span>
+<span class="v">+0</span><span class="pc">0 PC</span></div><div class="srow"><div class="n"><b>Daño distancia</b></div>
+<span class="stp"><button data-d="-1" data-s="dadi">−</button><span class="q">0</span><button data-d="1" data-s="dadi">+</button></span>
+<span class="v">1d6</span><span class="pc">0 PC</span></div><div class="srow"><div class="n"><b>Defensa distancia</b></div>
+<span class="stp"><button data-d="-1" data-s="defdi">−</button><span class="q">0</span><button data-d="1" data-s="defdi">+</button></span>
+<span class="v">10</span><span class="pc">0 PC</span></div><div class="srow"><div class="n"><b>Absorción</b></div>
+<span class="stp"><button data-d="-1" data-s="abs">−</button><span class="q">0</span><button data-d="1" data-s="abs">+</button></span>
+<span class="v">0</span><span class="pc">0 PC</span></div><div class="srow"><div class="n"><b>Puntos de vida</b></div>
+<span class="stp"><button data-d="-1" data-s="pv">−</button><span class="q">0</span><button data-d="1" data-s="pv">+</button></span>
+<span class="v">20</span><span class="pc">0 PC</span></div><div class="srow"><div class="n"><b>Control de Ki</b></div>
+<span class="stp"><button data-d="-1" data-s="ck">−</button><span class="q">0</span><button data-d="1" data-s="ck">+</button></span>
+<span class="v">+0</span><span class="pc">0 PC</span></div></div>
+<h3 style="color:var(--gold);margin-top:20px">Ki</h3>
+<div class="srow"><div class="n">Modo<select id="bKi" style="width:auto;margin-left:10px"><option value="none">Sin Ki</option><option value="mana">Maná</option><option value="rage">Rabia</option></select></div></div>
+<div class="srow" id="bKiRow" style="display:none"><div class="n" id="bKiLabel">Puntos de Ki (Maná)</div><span class="stp"><button data-a="-">−</button><span class="q" id="bKiQ">0</span><button data-a="+">+</button></span><span class="v" id="bKiV">0</span><span class="pc" id="bKiPC">0 PC</span></div>
+<h3 style="color:var(--gold);margin-top:20px">Jutsu</h3>
+<div class="jlist" id="bJutsu"></div>
+<div class="bld-bar"><button class="btn-t" id="bAddJ">+ Añadir jutsu</button></div>
+<h3 style="color:var(--gold);margin-top:20px">Características especiales</h3>
+<div class="advgrid" id="bAdv"><label><input data-a="cer" type="checkbox"/><span><b>Certero · 2 PC</b>Repite los 1 en el daño</span></label><label><input data-a="fuin" type="checkbox"/><span><b>Sellos mágicos (Fuinjutsu) · 2 PC</b>Magia de sellos</span></label><label><input data-a="kage" type="checkbox"/><span><b>Especialista Kage · 1 PC</b>Repite 1 tirada de Kage al día</span></label><label><input data-a="reik" type="checkbox"/><span><b>Especialista Reikon · 1 PC</b>Repite 1 tirada de Reikon al día</span></label><label><input data-a="shis" type="checkbox"/><span><b>Especialista Shisen · 1 PC</b>Repite 1 tirada de Shisen al día</span></label><label><input data-a="mad" type="checkbox"/><span><b>Madera de héroe · 2 PC</b>Críticos incluso malherido</span></label><label><input data-a="chi" type="checkbox"/><span><b>Magia de sangre (Chijutsu) · 1 PC</b>Paga jutsu con PV</span></label><label><input data-a="rec" type="checkbox"/><span><b>Recuperación mejorada · 1 PC</b>+1 PV y PK extra</span></label><label><input data-a="sue" type="checkbox"/><span><b>Suerte · 5 PC</b>Repite una tirada por escena</span></label><label><input data-a="acu" type="checkbox"/><span><b>Acumulador de Ki · 2 PC</b>+1d6 de Ki al descansar</span></label></div>
+<h3 style="color:var(--gold);margin-top:20px">Habilidades (PH)</h3>
+<div id="bSkills"><div style="color: rgb(201, 162, 75); font: 700 14px var(--fd); margin: 14px 0px 4px;">Shisen</div><div class="srow"><div class="n">Advertir/Notar</div>
+<span class="stp"><button data-d="-1" data-k="Advertir/Notar">−</button><span class="q">0</span><button data-d="1" data-k="Advertir/Notar">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Atletismo</div>
+<span class="stp"><button data-d="-1" data-k="Atletismo">−</button><span class="q">0</span><button data-d="1" data-k="Atletismo">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Buscar/Rastrear</div>
+<span class="stp"><button data-d="-1" data-k="Buscar/Rastrear">−</button><span class="q">0</span><button data-d="1" data-k="Buscar/Rastrear">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Cabalgar</div>
+<span class="stp"><button data-d="-1" data-k="Cabalgar">−</button><span class="q">0</span><button data-d="1" data-k="Cabalgar">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Nadar/Navegar</div>
+<span class="stp"><button data-d="-1" data-k="Nadar/Navegar">−</button><span class="q">0</span><button data-d="1" data-k="Nadar/Navegar">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Supervivencia/Cazar</div>
+<span class="stp"><button data-d="-1" data-k="Supervivencia/Cazar">−</button><span class="q">0</span><button data-d="1" data-k="Supervivencia/Cazar">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div style="color: rgb(201, 162, 75); font: 700 14px var(--fd); margin: 14px 0px 4px;">Kage</div><div class="srow"><div class="n">Callejeo</div>
+<span class="stp"><button data-d="-1" data-k="Callejeo">−</button><span class="q">0</span><button data-d="1" data-k="Callejeo">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Disfraz</div>
+<span class="stp"><button data-d="-1" data-k="Disfraz">−</button><span class="q">0</span><button data-d="1" data-k="Disfraz">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Mecanismos</div>
+<span class="stp"><button data-d="-1" data-k="Mecanismos">−</button><span class="q">0</span><button data-d="1" data-k="Mecanismos">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Robar bolsillos</div>
+<span class="stp"><button data-d="-1" data-k="Robar bolsillos">−</button><span class="q">0</span><button data-d="1" data-k="Robar bolsillos">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Rumores</div>
+<span class="stp"><button data-d="-1" data-k="Rumores">−</button><span class="q">0</span><button data-d="1" data-k="Rumores">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Sigilo</div>
+<span class="stp"><button data-d="-1" data-k="Sigilo">−</button><span class="q">0</span><button data-d="1" data-k="Sigilo">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div style="color: rgb(201, 162, 75); font: 700 14px var(--fd); margin: 14px 0px 4px;">Reikon</div><div class="srow"><div class="n">Comercio</div>
+<span class="stp"><button data-d="-1" data-k="Comercio">−</button><span class="q">0</span><button data-d="1" data-k="Comercio">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Etiqueta</div>
+<span class="stp"><button data-d="-1" data-k="Etiqueta">−</button><span class="q">0</span><button data-d="1" data-k="Etiqueta">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Ocultismo</div>
+<span class="stp"><button data-d="-1" data-k="Ocultismo">−</button><span class="q">0</span><button data-d="1" data-k="Ocultismo">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Música</div>
+<span class="stp"><button data-d="-1" data-k="Música">−</button><span class="q">0</span><button data-d="1" data-k="Música">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Sanación/Hierbas</div>
+<span class="stp"><button data-d="-1" data-k="Sanación/Hierbas">−</button><span class="q">0</span><button data-d="1" data-k="Sanación/Hierbas">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div><div class="srow"><div class="n">Tradición/Historia</div>
+<span class="stp"><button data-d="-1" data-k="Tradición/Historia">−</button><span class="q">0</span><button data-d="1" data-k="Tradición/Historia">+</button></span>
+<span class="v">0</span><span class="pc">0 PH</span></div></div>
+<div class="bsum">
+<div id="bPC"><b>0/10</b><span>PC gastados</span></div>
+<div id="bPH"><b>0/10</b><span>PH gastados</span></div>
+<div id="bLim"><b>3</b><span>máximo por valor</span></div>
+<div id="bDef"><b>10 / 10</b><span>defensas CC / Dis</span></div>
+</div>
+<p class="warn" id="bWarn"></p>
+</div>
+<div class="orn">絆</div>
+</section></div></main>
+<script src="assets/js/nucleo.js"></script>
+<script src="assets/js/datos.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
