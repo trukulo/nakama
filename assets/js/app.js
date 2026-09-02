@@ -230,11 +230,37 @@ function runSG2(){
   const gskl={};chosen.forEach(x=>gskl[x]=0);
   let left=ph,guard=0;
   while(left>0&&guard++<999){const sk2=pick(chosen);if(gskl[sk2]<cap){gskl[sk2]++;left--;}}
-  SG_LAST={b,el,yos,arcKey,A,s,nm,mean,house,school,jutsus,gskl,
+  // Características especiales: 60% de los Senshi tienen 1-2 (hasta 2 PC con 10, hasta 3 PC con 20)
+  const advPicks=[];
+  if(Math.random()<0.6){
+    const maxAdvCost=b>=20?3:b>=15?2:2;
+    // ponderar: Certero/Madera para builds físicos, Suerte raro, Recuperación muy común
+    const poolAdv=[...S_ADV].sort(()=>Math.random()-0.5);
+    let cost=0;
+    for(const a of poolAdv){
+      if(cost+a.c>maxAdvCost) continue;
+      // afinidad por arquetipo
+      if(a.id==='cer' && !['espadachin','arquero','equilibrado'].includes(arcKey) && Math.random()<0.7) continue;
+      if(a.id==='mad' && arcKey!=='tanque' && Math.random()<0.6) continue;
+      if(a.id==='sue' && Math.random()<0.85) continue; // Suerte cara, más rara
+      if(Math.random()<0.45){
+        advPicks.push(a);
+        cost+=a.c;
+        if(advPicks.length>=2 || cost>=maxAdvCost) break;
+      }
+    }
+    // si no cogió nada pero tocaba, fuerza una barata
+    if(!advPicks.length && Math.random()<0.5){
+      const cheap=poolAdv.find(a=>a.c===1);
+      if(cheap) advPicks.push(cheap);
+    }
+  }
+  SG_LAST={b,el,yos,arcKey,A,s,nm,mean,house,school,jutsus,gskl,advPicks,
     app:`Pelo ${pick(SG_HAIR_C)} ${pick(SG_HAIR_S)}, ojos ${pick(SG_EYE)}, complexión ${pick(SG_BOD)}. Viste colores ${ELCOL[el]} y luce ${pick(SG_TREND)}.`,
     pers:pick(SG_PERS),concept:pick(SG_CONCEPT),rasgo:pick(QK),mot:pick(MOT),sec:pick(SEC)};
   const c=SG_LAST, col=ELC[el];
   const skillsLine=Object.entries(c.gskl).filter(([,v])=>N(v)>0).map(([n2,v])=>`${n2} ${N(v)}`).join(', ');
+  const advLine=c.advPicks.length?c.advPicks.map(a=>`${a.n} (${a.c} PC)`).join(' · '):'—';
   $('#sgOut').innerHTML=`
     <h4>${nm} <small style="font:400 13px var(--fb);color:#6f6350">(${mean})</small></h4>
     <p class="gsub">${yos[1]} · Kazoku ${house} · Escuela ${school} · ${A.n} (${b} PC) · concepto: ${c.concept}</p>
@@ -243,6 +269,7 @@ function runSG2(){
       <tr><th>In</th><th>At CC</th><th>Daño CC</th><th>At Dis</th><th>Daño Dis</th><th>Def CC</th><th>Def Dis</th><th>Abs</th><th>PV</th><th>CK</th><th>PK</th></tr>
       <tr><td>+${N(s.in)}</td><td>+${N(s.atm)}</td><td>${dmgS(s.dtm)}</td><td>+${N(s.atd)}</td><td>${dmgS(s.dtd)}</td><td>${10+N(s.dfm)}</td><td>${10+N(s.dfd)}</td><td>${N(s.ab)}</td><td>${20+N(s.pvx)*5}</td><td>+${N(s.ck)}</td><td>${N(s.pk)?N(s.pk)*5:'—'}</td></tr>
     </table>
+    ${c.advPicks.length?`<p class="gline"><b>Características especiales:</b> ${advLine}</p>`:''}
     ${c.jutsus.length?`<p class="gline" style="margin:2px 0 0"><b>Jutsu (Maná · ${N(s.pk)*5} PK):</b></p>${c.jutsus.map(jutsuLine).join('')}`:'<p class="gline"><b>Jutsu:</b> ninguno; su fuerza es el acero.</p>'}
     <p class="gline"><b>Habilidades (${ph} PH):</b> ${skillsLine}</p>
     <p class="gline"><b>Rasgo:</b> ${c.rasgo}.</p>
@@ -843,6 +870,7 @@ function dunGoRun(){
       st.defme=10+N(s.dfm);st.defdi=10+N(s.dfd);st.abs=N(s.ab);st.pv=20+N(s.pvx)*5;st.ck=N(s.ck);
       jut=c.jutsus.map(g=>({n:g[3],lv:N(g[1])||1}));
       Object.assign(skl,c.gskl);
+      (c.advPicks||[]).forEach(a=>adv[a.id]=true);
       ki=N(s.pk)>0?'mana':'none';pk=N(s.pk)*5;
       $('#bName').value=c.nm;$('#bKaz').value=`${c.house} (${c.yos[1]})`;$('#bCon').value=c.concept;
       $('#bKi').value=ki;$('#bKiRow').style.display=ki==='none'?'none':'flex';

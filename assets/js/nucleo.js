@@ -57,8 +57,10 @@ const NAV=[
  ['cap12.html','例','Senshi de ejemplo'],
  ['cap13.html','兵','PNJ y generador'],
  ['cap14.html','獣','Bestiario'],
- ['cap15.html','言','Glosario y nombres'],
- ['cap16.html','迷','Mazmorras']
+  ['cap15.html','言','Glosario y nombres'],
+  ['cap16.html','迷','Mazmorras'],
+  ['cap17.html','鴉','Karasu No Aki'],
+  ['cap18.html','師','Ser Máster']
 ];
 
 (function(){
