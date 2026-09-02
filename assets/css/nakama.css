@@ -6,6 +6,8 @@ html { scroll-behavior: smooth; }
 
 :root { --ink:#15131a; --paper:#f6efdf; --paper-2:#fffaf0; --gold:#b4872f; --red:#a83b2b; --text:#241d15; --muted:#5f5343; --line:#cdbf9d; --hi:#b53e2e; --ts:#936331; --kz:#557b43; --mz:#2f6f98; --tg:#9a741d; --ym:#6c4593; --fd:serif; --fb:sans-serif; --ft:'Reggae One',serif; --fpx:sans-serif; --focus:#2f6f98; }
 
+html, body { max-width: 100%; overflow-x: hidden; }
+
 body { background: radial-gradient(1100px 700px at 75% -10%,#262033,var(--ink)) var(--ink); font-family: var(--fb); color: var(--text); }
 
 ::selection { background: var(--gold); color: var(--ink); }
@@ -527,6 +529,20 @@ table.best { width: 100%; border-collapse: collapse; font-size: 11.5px; backgrou
   .gctrl > div { min-width:100%; }
   .tool .btn-t { width:100%; }
   .dsvg { min-width:520px; }
+
+  /* Las tablas de estadísticas (senshi, monstruos, PNJ, reglas) pueden
+     tener muchas columnas: en móvil se deslizan en horizontal en vez
+     de aplastar el texto. */
+  .tb { display:block; width:auto; max-width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .tb tbody { display:table-row-group; }
+  .tb tr { display:table-row; }
+  .tb th, .tb td { white-space:nowrap; }
+
+  /* Objetivos táctiles algo más grandes en botones pequeños */
+  .rm { width:34px; height:34px; font-size:17px; }
+  .stp button { width:36px; height:36px; }
+  .tabs button { padding:9px 16px; }
+  .krest, .kic, .ksig { flex-shrink: 0; }
 }
 @media (prefers-reduced-motion:reduce) {
   html { scroll-behavior:auto; }
