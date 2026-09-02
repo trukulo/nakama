@@ -657,7 +657,7 @@ function dunGoRun(){
   if($('#d1')){
     const PIPS={1:[4],2:[2,6],3:[2,4,6],4:[0,2,6,8],5:[0,2,4,6,8],6:[0,2,3,5,6,8]};
     const face=(el,v)=>$$('.p',el).forEach((p,i)=>p.classList.toggle('on',PIPS[v].includes(i)));
-    ['d1','d2','d3'].forEach(id=>{const d=$('#'+id);for(let i=0;i<9;i++){const p=document.createElement('span');p.className='p';d.appendChild(p);}face(d,3);});
+    ['d1','d2','d3'].forEach(id=>{const d=$('#'+id);d.setAttribute('role','img');d.setAttribute('aria-label','dado 3');for(let i=0;i<9;i++){const p=document.createElement('span');p.className='p';d.appendChild(p);}face(d,3);});
     const PIPoff=el=>{const on=$$('.p',el).map((p,i)=>p.classList.contains('on')?i:-1).filter(i=>i>=0);
       for(const k in PIPS){if(PIPS[k].length===on.length&&PIPS[k].every((v,i)=>v===on[i]))return +k;}return 1;};
     const dice=[$('#d1'),$('#d2'),$('#d3')];
@@ -838,6 +838,13 @@ function dunGoRun(){
   if($('#bStats')){
     renderStats();renderAdv();renderSkills();renderJut();calc();
     $('#bAddJ').addEventListener('click',()=>{if(jut.length>=6)return;jut.push({n:'',lv:1});renderJut();calc();});
+    const expJ=$('#bExportJSON'), expP=$('#bExportPDF');
+    if(expJ) expJ.addEventListener('click',()=>{
+      const data={name:$('#bName')?.value||'',kazoku:$('#bKaz')?.value||'',concept:$('#bCon')?.value||'',budget,stats:st,adv,pk,ki,jut,skills:skl};
+      const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+      const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=(data.name||'senshi')+'.json'; a.click();
+    });
+    if(expP) expP.addEventListener('click',()=>window.print());
     $('#bKi').addEventListener('change',e=>{ki=e.target.value;pk=0;$('#bKiRow').style.display=ki==='none'?'none':'flex';
       $('#bKiLabel').textContent=ki==='mana'?'Puntos de Ki (Maná · 1 PC = +5 PK)':'Rabia (1 PC = +1)';updKi();calc();});
     $('#bKiRow').addEventListener('click',e=>{const b=e.target.closest('button[data-a]');if(!b)return;

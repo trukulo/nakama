@@ -1,0 +1,16 @@
+{
+  "name": "Nakama — juego de rol",
+  "short_name": "Nakama",
+  "description": "Edición web offline del manuscrito de Nakama, con grimorio, bestiario y generadores",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f6efdf",
+  "theme_color": "#b4872f",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

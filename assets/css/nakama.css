@@ -1,11 +1,11 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Shippori+Mincho:wght@400;500;600;700;800&family=Zen+Old+Mincho:wght@400;500;600;700;900&display=swap&font-display=swap');
 
 * { box-sizing: border-box; margin: 0px; padding: 0px; }
 
 html { scroll-behavior: smooth; }
 
-:root { --ink:#15131a; --paper:#f6efdf; --paper-2:#fffaf0; --gold:#b4872f; --red:#a83b2b; --text:#241d15; --muted:#5f5343; --line:#cdbf9d; --hi:#b53e2e; --ts:#936331; --kz:#557b43; --mz:#2f6f98; --tg:#9a741d; --ym:#6c4593; --fd:'Crimson Text','Noto Serif SC',serif; --fb:sans-serif; --ft:'Crimson Text','Noto Serif SC',serif; --fpx:sans-serif; --focus:#2f6f98; }
+:root { --ink:#15131a; --paper:#f6efdf; --paper-2:#fffaf0; --gold:#b4872f; --red:#a83b2b; --text:#241d15; --muted:#5f5343; --line:#cdbf9d; --hi:#b53e2e; --ts:#936331; --kz:#557b43; --mz:#2f6f98; --tg:#9a741d; --ym:#6c4593; --fd:'Shippori Mincho','Zen Old Mincho',serif; --fb:'Noto Sans JP',sans-serif; --ft:'Protest Revolution','Shippori Mincho',cursive; --fpx:sans-serif; --focus:#2f6f98; }
 
 html, body { max-width: 100%; overflow-x: hidden; }
 
@@ -121,7 +121,7 @@ h3 { font: 700 19px var(--fd); color: rgb(36, 28, 18); margin: 30px 0px 12px; di
 
 h3::before { content: ""; width: 10px; height: 10px; background: var(--c,var(--gold)); transform: rotate(45deg); flex: 0 0 auto; }
 
-p { margin-bottom: 1em; line-height: 1.78; font-size: 15px; }
+p { margin-bottom: 1em; line-height: 1.65; font-size: 15px; }
 
 p b { color: rgb(29, 23, 16); }
 
@@ -141,7 +141,7 @@ ul.txt li { margin-bottom: 0.6em; line-height: 1.65; font-size: 14.5px; }
 
 .tb { width: 100%; border-collapse: collapse; margin: 14px 0px 22px; font-size: 13px; background: rgb(255, 249, 236); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
 
-.tb th { background: var(--c,var(--mz)); color: rgb(247, 239, 221); font-family: var(--fd); padding: 8px 10px; text-align: left; font-size: 12.5px; }
+.tb th { background: var(--c,var(--mz)); color: rgb(247, 239, 221); font-family: var(--fd); padding: 8px 10px; text-align: left; font-size: 12.5px; position: sticky; top: 0; z-index: 1; }
 
 .tb td { border-bottom: 1px solid var(--line); padding: 7px 10px; vertical-align: top; line-height: 1.55; }
 
@@ -442,7 +442,9 @@ footer p { font-size: 12px; line-height: 1.8; max-width: 480px; margin: 0px; }
 
 .gbr { display: flex; justify-content: space-between; gap: 10px; font-size: 11.5px; padding: 2.5px 0px; border-bottom: 1px dashed rgb(228, 217, 192); line-height: 1.4; }
 
-.gbr b { color: rgb(138, 109, 31); font-size: 11px; white-space: nowrap; }
+.gbr span { color: #1e170f; font-weight: 600; }
+
+.gbr b { color: #7a5a0a; font-size: 11px; white-space: nowrap; font-weight: 700; }
 
 .gbr:last-of-type { border-bottom: 1px solid var(--line); margin-bottom: 7px; }
 

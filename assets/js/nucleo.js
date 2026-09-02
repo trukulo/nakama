@@ -68,15 +68,27 @@ const NAV=[
   const links=NAV.map(n=>`<a href="${n[0]}"${n[0]===page?' class="active"':''}><span class="kn">${n[1]}</span>${n[2]}</a>`).join('');
   document.getElementById('navmount').outerHTML=`
     <div id="progress"></div>
-    <header class="topbar"><span class="logo">仲間 NAKAMA</span><button class="burger" id="burger" aria-label="Abrir menú">☰</button></header>
+    <header class="topbar"><span class="logo">仲間 NAKAMA</span><div style="flex:1"></div><input id="topSearch" class="filter" placeholder="Buscar…" style="max-width:200px;margin:0 10px;display:none"><button class="burger" id="burger" aria-label="Abrir menú">☰</button></header>
     <aside id="sidenav">
       <div class="brand"><div class="bk">仲</div><div><b>NAKAMA</b><small>JUEGO DE ROL</small></div></div>
+      <input id="globalSearch" class="filter" placeholder="Buscar capítulos, jutsus, criaturas…" aria-label="Buscar en toda la web" style="margin:10px 0 4px">
       <nav>${links}</nav>
       <div class="sfoot">Edición web del manuscrito original.<br>Erratas corregidas · reglas intactas.</div>
     </aside>`;
   const sn=$('#sidenav');
   $('#burger').addEventListener('click',()=>sn.classList.toggle('open'));
   $$('#sidenav nav a').forEach(a=>a.addEventListener('click',()=>sn.classList.remove('open')));
+  // búsqueda global
+  const gSearch=$('#globalSearch'), topSearch=$('#topSearch');
+  function doSearch(v){
+    v=v.toLowerCase();
+    $$('#sidenav nav a').forEach(a=>a.style.display=a.textContent.toLowerCase().includes(v)?'':'none');
+    if($('#grQ')){ $('#grQ').value=v; $('#grQ').dispatchEvent(new Event('input')); }
+    if($('#beQ')){ $('#beQ').value=v; $('#beQ').dispatchEvent(new Event('input')); }
+    if($('#kzFilter')){ $('#kzFilter').value=v; $('#kzFilter').dispatchEvent(new Event('input')); }
+  }
+  if(gSearch) gSearch.addEventListener('input',e=>doSearch(e.target.value));
+  if(topSearch){ topSearch.style.display='block'; topSearch.addEventListener('input',e=>{doSearch(e.target.value); if(gSearch) gSearch.value=e.target.value;}); }
   let busy=false;
   addEventListener('scroll',()=>{if(busy)return;busy=true;requestAnimationFrame(()=>{const h=document.documentElement;$('#progress').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';busy=false})},{passive:true});
   document.addEventListener('click',e=>{
@@ -93,4 +105,36 @@ const NAV=[
   const f=document.createElement('footer');
   f.innerHTML=`<div class="wrap"><div class="fkanji">仲間</div><p><b style="color:#c9a24b">NAKAMA</b> · Un juego de rol de Jose Casado, Xavier Borrut, Daniel Rosas, Daniel Lorente, Txell Pérez y Miguel Angel Zarza.<br>Edición web del manuscrito: erratas corregidas, maquetación renovada, reglas intactas. Grimorio, bestiario y generadores creados para esta edición siguiendo las reglas del libro. Las ilustraciones son emblemas kanji y mapas decorativos creados para esta edición.</p></div>`;
   document.body.appendChild(f);
+  // back to top
+  const bt=document.createElement('button'); bt.textContent='↑'; bt.setAttribute('aria-label','Volver arriba');
+  bt.style.cssText='position:fixed;right:16px;bottom:16px;width:42px;height:42px;border-radius:50%;border:1px solid #c9a24b;background:#201b2b;color:#c9a24b;font:700 18px serif;cursor:pointer;display:none;z-index:90';
+  document.body.appendChild(bt);
+  bt.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
+  addEventListener('scroll',()=>bt.style.display=scrollY>400?'block':'none',{passive:true});
+  // TOC sticky for long chapters
+  const chap=document.querySelector('.chap');
+  if(chap && chap.querySelectorAll('h3').length>=4){
+    const toc=document.createElement('nav'); toc.className='toc';
+    toc.style.cssText='position:sticky;top:70px;background:#fffaf0;border:1px solid #cdbf9d;border-radius:10px;padding:10px 14px;margin:14px 0;font-size:12.5px;z-index:2';
+    toc.innerHTML='<b style="color:#b4872f">En esta página</b><ul style="margin:8px 0 0;padding-left:16px">'+[...chap.querySelectorAll('h3')].map((h,i)=>{if(!h.id) h.id='sec'+i; return `<li><a href="#${h.id}" style="color:#5f5343;text-decoration:none">${h.textContent}</a></li>`}).join('')+'</ul>';
+    chap.insertBefore(toc, chap.querySelector('.pdf-text')||chap.firstChild);
+  }
+  // SEO/OG/json-ld
+  if(!document.querySelector('meta[name="description"]')){
+    const m=document.createElement('meta'); m.name='description';
+    m.content=document.title+' — Nakama, juego de rol de fortalezas y clanes. Manuscrito p.'+(document.querySelector('.chap-num')?.textContent||'');
+    document.head.appendChild(m);
+  }
+  if(!document.querySelector('meta[property="og:image"]')){
+    const o=document.createElement('meta'); o.setAttribute('property','og:image'); o.content='assets/img/pdf/p01_00_p1.webp';
+    document.head.appendChild(o);
+  }
+  const ld=document.createElement('script'); ld.type='application/ld+json';
+  ld.textContent=JSON.stringify({"@context":"https://schema.org","@type":"Book","name":"Nakama","author":["Jose Casado","Xavier Borrut"],"inLanguage":"es","bookFormat":"https://schema.org/EBook","url":location.href});
+  document.head.appendChild(ld);
+  if(!document.querySelector('link[rel="manifest"]')){
+    const ml=document.createElement('link'); ml.rel='manifest'; ml.href='manifest.json';
+    document.head.appendChild(ml);
+  }
+  if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js').catch(()=>{}); }
 })();
