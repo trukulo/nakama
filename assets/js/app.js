@@ -728,7 +728,7 @@ function dunGoRun(){
       let lv=N($('#jrLv').value);if(!lv)lv=1+rnd(5);
       const elS=$('#jrEl').value;
       const el=elS==='any'?pick(YOS)[0]:elS;
-      const n=Math.max(1,Math.min(5,N($('#jrN').value)||1));
+      const n=Math.max(1,Math.min(6,N($('#jrN').value)||1));
       const names=new Set();const cards=[];
       for(let i=0;i<n;i++){
         let j=jrMake(ty,lv,el),g=0;

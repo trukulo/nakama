@@ -1,0 +1,818 @@
+﻿
+Qué es Nakama
+Tienes en tus manos un juego que busca emular los mangas y animes enfocados al combate, pero que no dejan de lado la historia. Piensa en Naruto, Ninja Scroll, Basilisk, Los Caballeros del Zodiaco, Bola de Dragón, One Piece, Inuyasha, Bleach ...
+Los jugadores son Senshis, guerreros elegidos de entre cientos para defender sus Yosai (Fortalezas) y sus Kazoku (Casas), todo girando alrededor del Nakama, grupos de compañeros de distintos Kazokus que luchan juntos aliados.
+En Nakama es importante la lealtad, la amistad y la familia. Los personajes en Nakama no son simples guerreros, son aquellos en quienes toda su gente confía para defenderlos.
+Autores
+Jose Casado, Xavier Borrut, Daniel Rosas, Daniel Lorente, Txell Pérez y Miguel Angel Zarza.
+Agradecimientos
+Jon Perojo, Eusebi Vazquez, Nuria Casellas, Clara Jauregui, Laia Andreu, Manuel Lopez, Belen Berenguel, Teresa Villagrán, Craig.
+
+Dónde sucede 
+Las historias de Nakama tienen lugar en la isla de Shikoku (que significa 4 países), una isla dividida en los 4 Yosais (Fortalezas), más el divino de Tengoku, situado en el monte Tenga (Cielo), y en una zona desconocida, en las profundidades del subsuelo, se encuentra el Yosai (Fortaleza) Yami (Oscuridad). 
+Las 4 zonas son Higoku, Tsuchigoku, Mizugoku y Kazegoku, referentes a cada uno de los Yosais (Fortalezas) cuyo elemento les da nombre.
+
+
+ Al Norte se encuentra Hi, el fuego, con su capital situada dentro de un extinto volcán y rodeado de un gran bosque nacido de la fértil tierra proveniente de las cenizas, al sur está Tsuchi, la tierra, con su capital en medio de unas imponentes llanuras y rios, rodeado por colinas y alguna que otra montaña baja, al este Kaze, el viento, con su capital formada por edificios en varias alturas, siendo más importante la familia mientras más alto sean sus edificios, al oeste Mizu, el agua, con su capital lindando con el mar y llena de canales que la surcan. Dentro de Kaze, existe una zona remota con la montaña más alta de Shikoku, y en cuya inmensa cima (Tengudake) se situa el Yosai de Tengoku, la fortaleza de los cielos, por encima de las nubes y casi siempre nevado.
+Y Yami, la ocuridad, que unicamente se sabe que está bajo tierra, en un complejo entramado de túneles, pero el resto de yosai desconocen su ubicación. 
+Anteriormente, el pais se llamaba Ichikoku, cuando era un único país unificado bajo el mandato del Yami Yosai (Fortaleza oscura),pero esto cambió para reflejar su caída y el cambio a la alianza de los nuevos Yosais (Fortalezas). Al principio, Yami Yosai estaba en el centro de todo y era el núcleo del imperio, con todo bajo su mando, en una gigantesca ciudad-templo dedicado al Emperador Cobra (Kobura Tenno). Pero tras el ataque de las 4 fortalezas para liberarse de su yugo de dicha ciudad sólo quedan hoy ruinas y a nadie le gusta acercarse pues se dice que está guardada por los espíritus de los muertos (Shinigami). 
+
+Estructura Social 
+Lo primero que hay que entender en Nakama, es su estructura piramidal. Aquí todo tiene un sitio en el mundo, una posición de poder. 
+Organización
+El primero arriba de todo es el Tenno (Emperador), es la punta de la pirámide. Bajo él se encuentran los Shoguns (Señores de la Guerra) de los Yosais (Fortalezas), siendo a su vez el emperador el Shogun (Señor de la Guerra) de su propio Yosai (Fortaleza). 
+Por debajo de los Shoguns (Señores de la Guerra), se encuentran los Daimyos (Señores), que son los cabezas de familia de cada Kazoku (Casa), y por debajo de estos están los Senshi, los guerreros que defienden la causa de su casa. 
+Por debajo de los Senshi (Guerreros), están los Kizoku (Nobles), hijos de nobles que son nobles, pero no tienen aptitudes para el combate. Se dedican a tareas diplomáticas, políticas y administrativas, y a veces también de consejo y conocimiento. 
+Y por último, los Heimin (el pueblo), que son la base de la estructura del campesinado y el comercio. El hijo de un Heimin puede llegar a convertirse en Senshi si le ven las aptitudes necesarias, convirtiéndose su descendencia en Kizoku, si la tuviera. 
+Luego está la influencia y prestigio de cada Yosai (Fortaleza), sus alianzas, y la influencia y prestigio de los Kazoku (Casas), y a que Yosai (Fortaleza) Pertenecen. 
+Kazoku (Casas) hay básicamente de dos tipos, Kazokus (Casas) Mayores y Kazokus (Casas) menores. Las mayores son aquellas cuyos Daimyos (Señor) tienen voto en el consejo del Yosai (Fortaleza), aunque estén por debajo del Shogun (Señor de la Guerra). 
+De Senshis (Guerreros) existen 3 tipos, divididos así normalmente por su función en los Kazokus (Fortalezas) o nakamas (Grupo), los Reikon (Almas) que se encargan de los asuntos de la corte y las casas, los Kages (Sombras) que son los especialistas en infiltración y los Shisen (Ojos) que son los especialistas en exploración y vigilancia. Un Senshi puede tener formación en más de una cosa, pero siempre destacará más en una sola de ellas. 
+Kage, Reikon y Shisen 
+Hay 3 grandes escuelas de Senshi en los Kazokus: Kage, la sombra, dedicada al espionaje, el sigilo y los subterfugios. Reikon, el alma, dedicado a la tradición, a los estudios, la sanación y el estudio de la magia y poderes ocultos, los Jutsus. Y Shisen, los ojos, dedicado a la supervivencia en entornos duros, a potenciar los sentidos y la observación. 
+Cada alumno de una gran casa pasa 3 épocas de su formación de juventud dedicándose a una o a distintas de estas áreas, y recibirá un título acorde a su dedicación, o Kansei (completo) si se ha dedicado a todas. 
+Tratamientos 
+Heika es el tratamiento que recibe el Tenno, emperador. Y en caso de haber Kogo, emperatriz, igual, Kogo Heika. 
+Dono es el tratamiento de alguien perteneciente a la más alta nobleza, los Daimyos y los Shogun.
+San es el sufijo honorífico más común, con un significado similar al “señor” o “señora” del castellano. Es utilizado tanto para referirse a hombres como a mujeres, siempre en segunda o tercera persona y nunca al referirse a uno mismo. 
+Kun se utiliza generalmente para tratar a personas de sexo masculino de menor edad o categoría. 
+Chan es un sufijo diminutivo que indica afecto. Por este motivo, dirigirse con el sufijo honorífico chan a un superior se consideraría condescendiente y de mala educación. Este sufijo se utiliza en general para referirse a adolescentes de sexo femenino y niños, aunque puede utilizarse para expresar cariño, por ejemplo hablando de un amigo o una mascota. 
+Senpai se usa para dirigirse a una persona de mayor rango, o con más experiencia. 
+Sensei se usa para referirse a los maestros Senshi, tanto de jutsu (combate), como kage, shisen o reikon. 
+Sama es una versión más respetuosa y formal de san. Puede usarse para referirse a alguien que uno admira profundamente. 
+Todos los sufijos van tras el nombre propio, por ejemplo: Natsuki Sensei. 
+Luego tenemos tratamiento por estudios, por ejemplo, tendriamos a Rin Reikon, una erudita, a Ken Shisen (un explorador), a Minami Kage (espía) y a Yuki Kansei (todoterreno). 
+
+
+Yosais y Kazokus
+Los Kazokus se especializan en el estudio de algunas artes por encima de otras, y algunos de ellos, especialmente los mayores, se caracterizan por llegar más lejos en algún arte que el resto. 
+Tsuchi (Tierra) 
+Clanes Mayores
+    • Raion (León)
+    • Okami (Lobo)
+    • Usagi (Conejo)
+    • Tora (Tigre)
+    • Kuma (Oso)Mayores
+Secundarias 
+    • Neko (Gato)
+    • Uma (Caballo)
+    • Ina (Perro)
+    • Inoshishi (Jabalí)
+    • Ushi (Buey)
+Menores
+    • Arumajiro (Armadillo) 
+    • Sai (Rinoceronte) 
+    • Yagi (cabra) 
+    • Kamereon (camaleón) 
+    • Kirin (jirafa) 
+    • Nezumi (ratón) 
+    • Shika (ciervo) 
+    • Zoo (elefante) 
+
+Hi (Fuego) 
+    • Sanshoo (Salamandra) 
+    • Ooyamaneko (Lince) 
+    • Harinezumi (Erizo) 
+    • Kitsune (Zorro) 
+    • Saru (Mono) 
+    • Tanuki (Mapache) - Kazoku menor. 
+    • Risu (Ardilla) - Kazoku menor. 
+    • Tori (Gallo) - Kazoku menor. 
+    • Hyoo (leopardo) - Kazoku menor. 
+    • Buta (Cerdo) - Kazoku menor. 
+Kaze (Viento) 
+    • Washi (Aguila) 
+    • Hayabusa (Halcón) 
+    • Fukuro (Buho) 
+    • Tsuru (Grulla) 
+    • Hachidori (Colibrí) 
+    • Tsubame (Golondrina) - Kazoku menor. 
+    • Hagewashi (Buitre) - Kazoku menor. 
+Mizu (Agua) 
+    • Same (Tiburón) 
+    • Mekajiki (Pez espada) 
+    • Fugu (Pez globo) 
+    • Akumasen (Rayamanta) 
+    • Kurage (Medusa) 
+    • Hitode (Estrella de Mar) - Kazoku menor. 
+    • Kani (Cangrejo) - Kazoku menor. 
+
+Tengoku (Cielo) 
+    • Ryu (Dragon) 
+    • Fenikksu (Fenix) 
+    • Pegasasu (Pegaso) 
+    • Yunikon (Unicornio) 
+    • Hidora (Hydra) 
+    • Ningyo (Sirena) - Kazoku menor. 
+    • Kimera (Quimera) - Kazoku menor. 
+Yami (Oscuridad) 
+    • Kobura (Cobra) 
+    • Taranchura (Tarantula) 
+    • Koomori (Murcielago) 
+    • Kamakiri (Mantis) 
+    • Sasori (Escorpión) 
+    • Mukade (Ciempiés) - Kazoku menor. 
+    • Wamu (Gusano) - Kazoku menor. 
+
+Historia y Relaciones entre Yosais 
+Tsuchi Yosai (Fortaleza de la Tierra) 
+Hace 50 años Katsuro Raion unió a los Yosais (Fortalezas) para romper el yugo del Kotei Kobura, un tirano que tenía en condiciones de semiesclavitud al resto de los Yosais (Fortalezas). El mismo Katsuro se proclamó Kotei (Emperador) cambiando su nombre a Tsuchi (Tierra), en honor a su propio Yosai (Fortaleza), y estableciendo una corte donde tratar temas con el resto de Yosais (Fortalezas), dándoles una independencia de la que jamás habían gozado. 
+Hi Yosai (Fortaleza del Fuego) 
+Viven un momento de esplendor, parecen recuperados de esa época en la que tenían que entregar todas las cosechas al Kotei (Emperador), y por primera vez en mucho tiempo, parecen haber recuperado la felicidad... excepto su Shogun, que perdió a su esposa en la batalla por derrocar al Kobura. La fortaleza prospera, pero hay muchas dudas. 
+Yami Yosai (Fortaleza de la Oscuridad) 
+La Fortaleza de Yami (Oscuridad) tuvo que exiliarse, buscando refugio bajo tierra, quedando oculta y proscrita al resto de Yosais (Fortalezas). sus miembros, especialmente los Kobura (Cobras), buscan venganza y volver a recuperar su antiguo poder. 
+Organización y Costumbres 
+Función de los Senshi (Guerreros) 
+La función básica de los Senshis (Guerreros) es proteger los Yosai (Fortalezas), a petición de su Daimyo (Señor), de su Shogun (Señor de la Guerra), o directamente del Kotei (Emperador). Evidentemente, también por iniciativa propia. 
+Cómo se protegen los Yosai (Fortalezas) es algo absolutamente subjetivo, un ataque a otro Yosai (Fortaleza) puede considerarse una acción preventiva de protección (aunque seguramente, tendrá consecuencias). 
+Básicamente, a un Senshi (Guerrero) o grupo de Senshis (Guerreros) se les asigna una misión y se espera de ellos que se cumpla, y que mientras se hace, aumente el prestigio tanto de su Kazoku como de su Yosai (Fortaleza). 
+Matrimonios y Kazokus (Casas) 
+Los matrimonios funcionan como alianzas, y marcan el Control de Ki y prestigio que tiene una gran casa. Casar alguien de un Kazoku menor con alguien de un Kazoku mayor aumenta el prestigio de la primera, aunque también disminuye el de la segunda, aunque pueden haber excepciones. Cuando alguien de una Kazoku menor es tan excepcional como para ser importante por sí mismo, un matrimonio con dicho Senshi (Guerrero) es considerado como aumentar el status. 
+Una forma de quitar poder a otro Kazoku mayor es que el resto les niegue matrimonio, de tal modo que los Kazokus (Casas) se autorregulan si uno de ellos no está en sintonía con el resto, o no tiene suficiente prestigio para mantenerse. Es raro ver una casa mayor caer a menor, pero no es imposible. Para que caiga, necesita el voto unánime de las otras cuatro casas, del Shogun (Señor de la Guerra), y por supuesto, el Kotei (Emperador) tiene derecho a veto. 
+En un matrimonio, la pareja pasa a ser parte de un solo Kazoku (Casa), y éste habrá sido previamente acordado por los Daimyos (Señores), junto a la alianza matrimonial. Así, un Senshi Risu (Guerrero de la Casa de la Ardilla) puede convertirse en un Sanshoo (Salamandra). 
+En raros casos, un Kazoku menor tiene casi tanto prestigio como uno mayor, y su Daimyo (Señor) es invitado a las reuniones del Consejo, aunque no tiene derecho a voto. 
+Aún más raro es el caso de matrimonios entre Kazokus (Casas) de distintos Yosais (Fortalezas) pero también se ha dado, y se puede dar. 
+
+
+
+Creando tu Yosai 
+Nakama no está pensado para dartelo todo. No te vamos a dar todos los Yosai (Fortalezas) y todos los Kazokus (Casas) que pueden haber en el mundo. Como mucho, lo que te damos son ejemplos que puedes seguir. Pero lo realmente interesante de Nakama es dejar a los jugadores que creen la personalidad de sus Yosai con sus respectivas Kazokus (Casas), y sus familias, usando tú, como director de juego, dichas historias para entrelazarlas con alianzas, matrimonios y pasado común interesante, y darle personalidad al Yosai en que basarás la historia. 
+Nosotros te damos el punto de partida, pero sois tú y tus jugadores los que tenéis que insuflar vida en el Yosai. 
+¿Qué pueden hacer los jugadores? 
+Los jugadores podrían hacer un par de personajes secundarios más de su Kazoku (Casa), y explicar qué relación tienen con su personaje principal. Además, podrían inventar una leyenda y darle color y algunos rasgos comunes a los miembros de ésta. Así, el Kazoku Sanshoo (Casa de la Salamandra) es conocido especialmente por su cabello pelirrojo como predominante, y los colores negro y rojo en sus ropajes. 
+
+¿Qué puede hacer el director de juego? 
+El director debe crear historias secretas, relaciones prohibidas, concertar matrimonios, y crear un entorno vívido que ayude a sentirse dentro del Yosai (Fortaleza). Ser un Senshi (Guerrero) es algo más que pelear y tener poderes y magia, es ser parte de una gran estructura viva. 
+La función es básicamente, crear el resto de Kazokus (Casas), y darles relaciones entre sí para crear el Yosai. 
+¿Qué historias puedo contar? 
+Esto es más difícil de responder, pero tienes en tus manos la posibilidad de jugar centrado en combate, en la política familiar, en la etiqueta en la corte, e incluso en la rama militar, creando una nueva Gran Guerra. 
+Lo importante es que te damos una herramienta para dar consistencia a los grupos (Los Yosai - las Fortalezas), pero también con fuentes de conflicto (Los Kazoku - las casas). 
+Varios Yosais a la vez 
+Una de las cosas interesantes de Nakama, es que se pueden jugar a la vez con varios Yosais, enlazando historias y entrecruzandose. Así podemos tener diferentes estilos de juego con cada uno de ellos, pero todo el mundo avanza a la vez. Incluso podemos poner a los jugadores desde el punto de vista de sus propios enemigos. 
+Y es una herramienta muy interesante si falta gente y hay que jugar partidas de relleno, puede hacerse perfectamente con personajes menos relevantes y con historias más sencillas. 
+Por ejemplo, en la saga de Jaken Kokoro puede empezarse siendo de Yami Yosai para liberarlo, luego ser de Tengoku Yosai para parar la amenaza inminente del Jaken Kokoro, haciendolo huir, y tener que pedir ayuda a otro de los Yosais, metiendo política por medio. Y este último Yosai, enviará a sus guerreros a ayudar a Tengoku. 
+Así los jugadores llevarían personajes de 3 Yosais diferentes en la misma historia, dando un punto diferente de vista a la campaña. 
+Recuerda, es una herramienta simplemente, usarla o no es cosa tuya. 
+Yosais que no son Yosais
+Una de las posibilidades que da el juego es jugar con organizaciones que no se estructuran como Yosais, lo importante es pensar en como llevar a los Personajes en un grupo dentro de esta organización.
+Dos ejemplos para esto son:
+Jiyu Kantai, una flota pirata en el que la gente se divide en flotas de barcos. 
+
+Ronins, Senshis renengados que han huido de sus Yosais por un motivo u otro.
+Ejemplos de Yosais modificados
+Un ejemplo clásico de Yosai modificado en Nakama es el del Yami Yosai. Inicialmente, Yami mandaba y mantenía la paz en todo el Imperio. Pero la rebelión de los Yosais menores comenzó un periódo de guerras y destrucción.
+Escondidos en las Sombras, los jugadores pertenecen a un Yosai que busca recuperar su gloria. 
+Esto es diferente a como se ve el Yami de forma clásica, un grupo de tiranos sin escrúpulos que gobernaban esclavizando a todos los campesinos y subyugando a los campesinos.
+Dale tu toque a tu Yosai, hazlo tuyo.
+Ejemplos de Kazokus menores 
+Risu (Ardilla) 
+Tienen a los dos hermanos Kokoro y Shin como su mayor esperanza. No creen que lleguen a formar parte de las grandes casas, pero sí a despuntar entre las menores para conseguir mejor descendencia con ellos y crecer en un futuro. Tienen en mira a Kitsune (Zorro) y Tora (Tigre) como posibles uniones, sea con los hijos mayores, o con los hijos pequeños. 
+Tanuki (Mapache) 
+Están seguros de conseguir bajo el liderazgo de la Daimyo (Señor) Akane y su descendencia alcanzar a las grandes casas. La muerte de su anterior Daimyo (Señor) protegiendo al Hi Shogun (Señor de la Guerra de la fortaleza del Fuego) en la última batalla contra Yami Yosai (Fortaleza de la Oscuridad) les favorece aún más en sus aspiraciones, en contra de lo que podría haber parecido en un principio. 
+Tsubame (Golondrina) 
+De Tsubame, Natsuki la Daimyo (Señora) es la única que ha demostrado estar a alto nivel, aunque aún no ha conseguido casarse debido a que no encuentran a nadie adecuado, y con el paso del tiempo, quizás se convierta en un imposible a menos que lo ha-
+gan con otro Yosai (Fortaleza) distinto, algo a lo que son muy reacios. Se consideran los protectores de la parte baja de la ciudad, y siempre están intentando que alguna familia crezca, o mejor aún, que la parte baja gane en importancia. 
+Chicas
+Ai (Amor).
+Akane (Flor de Rubia).
+Aoi (Azul).
+Aya (Colores).
+Hana (Flor). Hanon (Sonido de las Olas).
+Hikari (Luz).
+Hotaru (Luciérnaga).
+Kaori (Aroma).
+Kohana (Pequeña).
+Mei (Belleza).
+Midori (Verde).
+Miharu (Primavera).
+Mika (Bella flor).
+Miu (Lluvia).
+Murasaki (Púrpura).
+Nanami (Siete Mares).
+Naomi (Ola).
+Natsu (Verano).
+Natsuki (siete lunas).
+Nozomi (Sueño).
+Ran (Orquídea).
+Rin (Valiente).
+Shizune (Calma).
+Tsuki (Luna).
+Yoko (Hija del Océano). Yukiko (Hija de la Nieve).
+Yumiko (Arquera).
+Yuri (Azucena).
+Chicos
+Akira (brillante).
+Aoi (Azul).
+Asahi (Sol).
+Daisuke (Grande). Etsu (Más allá).
+Fumio (Literario).
+Juro (Décimo hijo).
+Kai (Mar).
+Kaminari (Relámpago).
+Kazuo (Pacífico).
+Kei (luciérnaga).
+Ken (Fuerte).
+Koki (Resplandor).
+Masashi (Elegante).
+Nobu (Fé). Nozomu 	(Esperanza, Sueño).
+Ren (Flor de loto).
+Riki (Fuerza).
+Ryo (radiante).
+Ryota (Fuerte).
+Saku (Universo).
+Shin (Corazón).
+Sora (Cielo).
+Tadashi (Leal).
+Tai (sublime).
+Taiga (Río Grande).
+Tsubasa (Alas).
+Yasushi (Tranquilo).
+Yoo (Valiente).
+Yuki (Coraje).
+Empezando una Campaña
+La estructura clásica de una campaña está pensada para introducir a los jugadores poco a poco al mundo, y hacer que se sientan parte de éste de manera natural, sin saturarlos de información.
+Además, también es intencionado este diseño para que el Director de Juego pueda ir creando su mundo poco a poco, y no tenga que tener todo preparado de antemano.
+Primera Sesión, Akai Yoake
+En esta aventura lo ideal es presentar sus Kazokus (casas) a cada jugador, con un pequeño rito y discurso para cada uno de ellos (idealmente, que lo creen ellos mismos, para sentirse más parte de la familia).
+Tras esta presentación, se hará un pequeño torneo de exhibición, de esta manera los personajes se presentan en sociedad, y los jugadores empiezan a conocer como funciona el sistema de reglas.
+También sirve para presentar El Shogun, que oficiará el torneo, los Daimyos, y los personajes no jugadores de la misma edad que los protagonistas. Sus posibles amigos (o no) y rivales.
+Segunda Sesión, una misión sencilla
+Plantear una misión fácil de cumplir, pero que enseñe parte del Yosai (Posada, Dojo, alguna casa concreta...) y los alrededores del Yosai.
+Algo tan sencillo como buscar información de una criatura que se haya visto en las afueras, y luego ir a cazarla. Recuerda que son Senshis primerizos, no los van a mandar a algo complicado.
+Intenta moverlos tanto por parte del Yosai, obligandolos a usar etiqueta en ciertas partes, tradición e historia en otras, y por fuera del Yosai, usando sigilo, supervivencia, y cosas similares. Usa esta sesión para explorar el sistema aún más, además del mundo.
+Tercera Sesión, antagonista
+Aquí es donde se presenta el principal rival del Yosai, y de paso, de los personajes. Te recomendamos el Yami, pero nada te obliga. El Yami es el antiguo gobierno tiránico derrocado que intenta volver a su esplendor pasado. Vengativos, rencorosos, y malvados.
+Cuarta Sesión, pueblo en apuros
+Un Daimyo los llama a su Kazoku, y les pide que vayan a una misión (tiene el permiso del Shogun). Hay que ayudar a un pueblo que, aún estando lejos, a varios días, depende del Yosai y en concreto, del Kazoku que les ha convocado.
+Esta misión es para que vean como funciona la estructura del Yosai, no solo dentro de la fortaleza, sino también fuera. También les hace empezar a interaccionar con uno de los daimyos, y empiezan a ver gente con poder.
+Quinta Sesión, Política
+En este capítulo lo ideal es empezar a meter un conflicto interno entre dos Kazokus y obligar a los jugadores a tomar partido. No tienen porque estar de acuerdo en qué bando alinearse, pero si es importante que vean que existen luchas de poder.
+Sexta Sesión, Torneo
+Ya ha pasado un tiempo desde que son Senshis, es un buen momento para medir su nivel de poder. Lo ideal es un torneo sencillo, y aunque eso ya es al gusto, enfrentarlos por parejas funciona especialmente bien.
+Intenta hacer dicho torneo en un escenario evocador, y no te quedes solo con el torneo, mete elementos adicionales como un infiltrado, alguien que intenta desprestigiar otro Kazoku, o simplemente elementos externos que aprovechan el torneo para robar algo.
+En este torneo, si quieres, puedes traer invitados de otros Yosais, para empezar a introducirlos.
+Séptima Sesión, diplomacia
+Es el momento de que los personajes viajen, vean mundo, y visiten otros Yosais, con sus problemas y su gente. Hazlo radicalmente distinto al Yosai en el que están, que vean que existe diversidad y puedan comparar con lo suyo.
+Es aquí donde empieza tu verdadera Campaña.
+Es vuesta campaña, es vuestro mundo
+A éstas alturas, ya lo habrás decidido tú solo, pero te lo vamos a dejar negro sobre blanco.
+Es vuestro mundo y hacéis con él lo que os de la gana. Nakama como ambientación, no existe de forma detallada. Nakama es un marco de ambientación para que juegues a algo creado por vosotros mismos, que os haga sentir partes del mundo, que las cosas que pasen os importen realmente.
+Es posible que en el futuro saquemos Yosais ya creados por completo, por si os queréis ahorrar el trabajo. Pero nunca, nunca, existirá algo como “Ambientación Oficial y Canon”.
+Bueno... quizás decir nunca sea excesivo. Pero baste decir que es TU mundo, TU juego, y TU mandas.
+Nada te impide hacerlo post-apocaliptico, o meterle tecnología, o meter Dinosaurios, o meter Mechas... bueno, esto último no pega demasiado... pero es tu juego.
+Y si hay varios Directores de juego en tu grupo, tampoco tengáis miedo a hacer diferentes versiones. Usad la idea del Universos Paralelos, casi todo es igual, pero hay cambios entre unos y otros.
+Quizás algo así te tire para atrás, el no tener un mundo de antemano y tener que hacerlo tú. Pero de verdad... pruebalo, nunca verás más implicados a los jugadores que participando en la creación.
+Crear el personaje
+Antes de ponernos a gastar puntos  en habilidades y demás, es muy recomendable saber qué tipo de personaje queremos jugar. En el mundo de Nakama un personaje suele simbolizar un concepto, ya sea característico del animal de su Kazoku, o de un concepto más genérico aplicado, como una actitud, un fenómeno natural, un objeto, etcétera.Teniendo esto en cuenta, responde las siguientes preguntas:
+Describe a tu personaje físicamente: ¿Es alto y esbelto, bajo y gordo, musculoso, fibroso, lleva la cabeza rapada, una cicatriz le recorre el torso, cubre su cara con una máscara?
+Describe su personalidad: ¿Es un tipo siniestro, introvertido, mujeriego, serio y responsable, enérgico, irascible, voluntarioso, desapasionado?
+¿Cuál es tu Kazoku? ¿Cuáles de las cualidades de tu Kazoku se ven reflejadas en tu personaje y de qué manera?
+Tu personaje es un experto en combate, ¿pero qué estilo prefiere? ¿Cuáles son sus armas favoritas?¿Hay alguna de la que no se separe jamás?¿Qué técnicas suele emplear con ellas?
+¿Conoce tu personaje algún jutsu?¿En qué consiste?¿Se trata de una técnica defensiva, de ataque, entorpece a tus rivales de alguna forma, te ofrece alguna ventaja sobre ellos?
+Una vez que tengas claro cómo va a ser tu personaje, es hora de definirlo a nivel de reglas.
+Rasgos básicos de un personaje
+Habilidades
+Todas ellas con base 0, divididas en:
+    • Habilidades de Shisen (explorador): se trata de habilidades orientadas a la percepción, la forma física y la supervivencia en la naturaleza y cómo obtener recursos de esta.
+    • Habilidades de Kage (espía): engloba las habilidades dedicadas al subterfugio, el latrocinio y el saber moverse por los bajos fondos.
+    • Habilidades de Reikon (noble): incluye habilidades académicas, artísticas y diplomáticas, orientadas a personajes de alta alcurnia o de vida contemplativa.
+Más adelante podrás escoger, de estas tres categorías, cuáles son las habilidades de tu personaje y su valor. Puedes escoger habilidades de cualquier categoría, pero responde a las siguientes preguntas: ¿Cómo aprendiste tus habilidades? ¿Tuviste un mentor, o quizás las has aprendido por las malas? ¿Has tenido que vivir de ellas? ¿De qué manera? ¿Te ha supuesto esto algún problema con alguien? ¿Porqué?
+Puntos de Inicio
+Se recomienda dar a los jugadores 10 puntos para senshis recién nombrados, 15 si quieren tener algo de experiencia, y 20 si ya son veteranos.
+Nuestra recomendación, no obstante, es empezar con 10 puntos, y crecer desde la adolescencia.
+Características básicas
+Las características son los rasgos del personaje orientados al combate. Todas  ellas comienzan con un valor base que podrás aumentar más adelante. Son las siguientes, con sus correspondientes valores de base:
+    • Iniciativa +0. Mide nuestra capacidad de reacción y reflejos. Con una iniciativa alta actuarás antes que tus oponentes en los combates.
+    • Defensa Melee 10. Es nuestra capacidad para detener, esquivar o desviar los golpes de nuestros adversarios en combates cuerpo a cuerpo. Si nuestro oponente iguala o supera nuestra defensa, recibiremos daño.
+    • Ataque Melee +0. Mide nuestra precisión en combate cuerpo a cuerpo, y cuanto más alta sea más fácil nos será superar las defensas de nuestro oponente.
+    • Daño Melee 1d6. Cuanto mayor sea esta característica, mayor será el daño que provoquemos a nuestros oponentes en combates cuerpo a cuerpo.
+    • Defensa Distancia 10. Y al igual que la anterior se refería al combate cuerpo a cuerpo, esta es nuestra defensa para ataques a distancia.
+    • Ataque Distancia +0. Es como la anterior, pero para ataques a distancia.
+    • Daño Distancia 1d6. Como la anterior, pero refiriéndonos al daño provocado a distancia.
+    • Absorción 0. La absorción reduce la cantidad de daño que recibimos, bien por nuestra armadura, una piel sobrenaturalmente dura o algún tipo de magia.
+    • Puntos de Vida 20. Los puntos de vida son la cantidad de daño que podemos sufrir antes de caer rendidos. El daño recibido reduce nuestros puntos de vida, y cuando estos llegan a cero quedaremos inconscientes.
+    • Control de Ki, base +0. Se trata de nuestro entrenamiento en técnicas de control, manipulación y proyección del ki, o lo que es lo mismo, nuestra capacidad de hacer jutsus.
+    • Puntos de Ki, base 0. Las técnicas de Ki, jutsus, gastan puntos de esta reserva de Ki.
+Aumentar características básicas
+    • Absorción: cada 1 PC aumenta la característica en +1 (base 0).
+    • Ataque Melee: cada 1 PC aumenta la característica en +1 (base 0).
+    • Ataque Distancia: cada 1 PC aumenta la característica en +1 (base 0).
+    • Daño Melee: cada 1 PC aumenta la característica en +1 (base 1d6 de daño, cada 3 puntos equivale a 1d6).
+    • Daño Distancia: cada 1 PC aumenta la característica en +1 (base 1d6 de daño, cada 3 puntos equivale a 1d6).
+    • Defensa Melee: cada 1 PC aumenta la característica en +1 (base 10).
+    • Defensa Distancia: cada 1 PC aumenta la característica en +1 (base 10).
+    • Iniciativa: cada 1 PC aumenta la característica en +1 (base 0).
+    • Puntos de Vida: cada 1 PC nos aumenta en 5 los puntos de vida (base 20 PV).
+
+
+
+
+Un humano normal tiene todos los bonos a cero, esto significa lo siguiente:
+    • Absorción 0
+    • Ataque Melee +0
+    • Ataque Distancia +0
+    • Daño Melee 1d6
+    • Daño Distancia 1d6
+    • Defensa Melee 10
+    • Defensa Distancia 10
+    • Iniciativa 0
+    • Puntos de Vida 20
+Características especiales
+    • Certero: 2 PC. Ignora los 1 en las tiradas de daño, volviendolos a tirar (si sacan otro 1, se vuelve a tirar otra vez).
+    • Crear Sellos Mágicos (Fuinjutsu) (2 PC) - Permite utilizar el sistema de magia de sellos.
+    • Especialista Kage (espia) (1 PC) - Permite repetir tirada en una habilidad de Kage una vez al día.
+    • Especialista Reikon (noble) (1 PC) - Permite repetir tirada en una habilidad de Reikon una vez al día.
+    • Especialista Shisen (explorador) (1 PC) - Permite repetir tirada en una habilidad de Shisen una vez al día.
+    • Madera de Heroe: 2 PC. Cuando el personaje está malherido sigue pudiendo hacer críticos.
+    • Magia de Sangre (Chijutsu) (1 PC) - Permite usar la magia de sangre, gastando 1 PV por nivel de Jutsu (1d6 cada 3) en lugar de Puntos de Ki (sigue permitiendo usar Ki igualmente).
+    • Recuperación mejorada: 1 PC. Se recuperan +1 PV y PK adicional al tomar aire y descansa y al ser curado o sanado. Acumulativo.
+    • Suerte: 5 PC. Permite repetir una tirada por escena. Esta tirada puede ser de un enemigo si recibe un ataque (Antes de que se tire el daño).
+    • Acumulador de Ki 2 PC. Al descansar recupera 1 dado más de Ki.
+    • 
+Características de Jutsus
+    • Control del Ki: cada 1 PC aumenta la característica en +1 (base 0). Es el bono para los jutsus y su ataque.
+    • Puntos de Ki: Son los puntos que podemos usar para lanzar jutsus, se tienen o ganan de una de las tres maneras:
+    • Maná: cada 1 PC nos aumenta en +5 los puntos de Ki (base 0 PK). Se recupera 2d6 tras cada combate y completos al dormir por la noche.
+    • Rabia: Por cada golpe en cuerpo a cuerpo que demos con éxito, aunque no hagamos daño, ganamos tantos puntos de Ki como tengamos en la característica. Se empieza con cero cada combate.
+    • 1 Jutsu de nivel X: X PC.
+Habilidades
+Se reparten tantos puntos como en características.
+Habilidades de Shisen (explorador)
+    • Advertir/Notar: se utiliza para los sentidos. Ver alguien escondido, oír un tipo pisando unas hojas secas, escuchar una conversación tras una puerta, ver algo raro en algún sitio, etcétera. Para descubrir a alguien, se tira contra su sigilo.
+    • Atletismo: permite dar una arrancada veloz, saltar en carrera sin perder velocidad o bajar una cierta altura sin hacerse daño, escalar, es muy útil para la huida. Se hace con tiradas enfrentadas o a una dificultad fija, por ejemplo, para cosas como dar saltos.
+    • Buscar/Rastrear: permite buscar algo detenidamente con más posibilidades de encontrarlo como pasadizos secretos, huellas de pisadas o puertas ocultas. Su diferencia con Advertir/ Notar es que en este caso los sentidos se enfocan. No se trata de darse cuenta de algo que ocurre, sino descubrir algo que no está a simple vista.
+    • Cabalgar: manejo del caballo para trotar, galopar, atacar desde la montura y hacer maniobras como saltar con él. También permite poder mantenerlo calmado en situaciones adversas.
+    • Nadar/Navegar: conocimiento de los mapas de navegación y saber concretar rutas para los viajes, aparte de saber moverse en el agua, nadando o buceando. También puede usarse como conocimiento de fenómenos como tormentas, ciclones o remolinos.
+    • Supervivencia/Cazar: arte de sobrevivir en la naturaleza de forma básica. Incluye una amplia gama de conocimientos, desde orientación a hacer fuego o conseguir caza, y las costumbres y características de los animales. 
+
+Habilidades de Kage (espía)
+    • Callejeo: conocimiento de los bajos fondos de las ciudades, y donde se sitúa el mercado negro y los narcotraficantes, matones y gente de similar ralea. También sirve para poder escabullirse de alguien en una persecución aprovechando las características de los callejones
+    • Disfraz: capacidad que se usa para hacernos pasar por otra persona, básicamente se usa para que no se reconozca al personaje o hacerse pasar desapercibido en una cultura distinta. Con el material adecuado, se puede hacer pasar por una persona en concreto.
+    • Mecanismos: capacidad para forzar cerraduras, crear o desactivar trampas, o cualquier otro mecanismo.
+    • Robar bolsillos: capacidad para obtener algo de otro personaje sin que este se entere. Véase advertir/notar.
+    • Rumores: se utiliza para saber si hay algún rumor en el pueblo, como que alguien ha estado robando en casas o que hay un peligro en el bosque. A mayor tirada obtenida, mayor número de rumores y más fiables se obtienen.
+    • Sigilo: permite andar silenciosamente o esconderse, sea en un agujero, entre las sombras o entre el gentío, para evitar que le vean. Véase advertir/notar.
+
+Habilidades de Reikon (noble)
+    • Comercio: conocimiento de las distintas rutas comerciales y/o el valor del material a comerciar. Un buen comerciante sabe descubrir las gangas y poder conseguir precios especiales por compra masiva o, directamente, regatear.
+    • Etiqueta: se utiliza para comportarse con corrección en cada circunstancia. Conocer los protocolos en cortes, saber las costumbres de comida de un país, saber hacer correctamente una reverencia o utilizar el título adecuado.
+    • Ocultismo: conocimiento de las ciencias ocultas, ya sean reales, o míticas, y todo lo que esto engloba.
+    • Música: conocimiento de los instrumentos musicales y lo bien que se tocan, esto incluye canto.
+    • Sanación/Hierbas: permite sanar a otra persona. La dificultad normal para curar es de 10 teniendo instrumental y un lugar adecuado para intervenir. La dificultad es de 13 si las circunstancias son adversas. Se cura 2d6, y sólo se puede usar una vez al día por paciente.
+    • Tradición/Historia: conocimiento de la historia, tradiciones, leyes, religiones, ritos, iconos y costumbres de los poblados de la ambientación.
+Límites
+Los máximos (los límites) de valores de las habilidades y características aumentan en 1 cada 10 PC/
+PH. De inicio el máximo es 3 puntos ya que los personajes empiezan con 10 PC/PH.
+Los límites de PC y de PH son como siguen:
+    • 10 PC o más: 3. •	20 PC o más: 4. •	30 PC o más: 5. •	40 PC o más: 6.
+    • 50 PC o más: 7.
+    • 60 PC o más: 8.
+    • ...
+    • 100 PC : 12
+Nuestra 	recomendación 	para 	Naka-
+ma es que el máximo absoluto sea 50 para PNJS, 30 para jugadores, pero es tu juego y tú marcas los límites.
+
+Mejorar el personaje
+Cada partida jugada, un personaje recibe 1PC y 1PH para mejorar su personaje. Si la partida ha sido especialmente buena y larga, se pueden dar directamente 2 y 2. Si ha sido una partida muy corta o de relleno, se puede no dar ningún punto.
+Otra opción es crecimiento lento e ir dando 1 PC una partida, 1 ph la siguiente, alternando.
+El límite de puntos lo marcas tú, dónde 50 sería algo reservado a grandes heroes y leyendas, y 100 practicamente semidioses.
+En nuestras pruebas un buen límite para que no se vaya de las manos la partida es límite 30 para los jugadores, 50 para alguien extremadamente poderoso, como el Emperador Kobura.
+Cuando se recibe experiencia, el jugador puede redistribuir en las características (No en las habilidades) tantos puntos como tenga en el límite (3 con 10, 4 con 20, 5 con 30...). Esto simula la capacidad de adaptación y aprendizaje, con cambios de estilo desde que se empezó, hasta el momento actual.
+Plantillas de Personaje
+Estas son plantillas de ejemplo creadas con 10 puntos de personaje. Básate en ellas para crear los tuyos de forma rápida.
+
+Tanque
+El Personaje Tanque se pone delante de todo y su misión es recibir daño. Para esto, tiene muchosPuntos de Vida y Absorción.
+PV 35 Abs 3 Def CC 11 Def Dis 11 At CC +1 Daño CC 1d6+1
+DPS CC
+El DPS (Daño por Segundo) es un personaje pensado unica y exclusivamente para hacer daño sin parar. Este es para Cuerpo a Cuerpo.
+Ini 3 At CC +3 Daño CC 2d6 PV 25
+DPS Distancia
+Ini 3 At Dis +3 Daño Dis 2d6 Certero
+Curandero
+CK +2 Puntos de Ki 15 Abs 1 PV 30
+•	Jutsu nivel 2, cura 2d6 a objetivo
+Controlador
+CK +3 Puntos de Ki 15
+•	Jutsu nivel 1,  golpe a distancia que deja congelado a un oponente 1 turno, sin daño.
+•	Jutsu nivel 3, golpea con 2d6 de daño e incapacita con -1 a 2 objetivos a distancia.
+
+Equlibrado CC
+Ini 2 At CC +2 Daño CC 1d6+2 Def CC 12 PV 325Abs 1
+Equlibrado Dis
+Ini 2 At Dis +2 Daño Dis 1d6+2 Def Dis 12 PV 25 Abs 1 Potenciador
+CK 2 PK 10
+    • Jutsu nivel 2: +1d6 a daño CC a objetivo durante 1d6 turnos
+    • Jutsu nivel 2: +1d6 a daño Distancia a objetivo durante 1d6 turnos
+    • Jutsu nivel 2: +3 Iniciativa a objetivo durante 1d6 turnos
+
+Personajes de Ejemplo
+Hachidori Jinso (Colibrí)
+Rubio con el pelo corto de punta, de ojos negros. Un experto en la pelea con multiples dagas, la velocidad es su punto fuerte. Lleva colgados varios cascabeles para poner nervioso a su oponente al hacerlos sonar tanto.
+    • At Me 1 Da Me 1d6+1 (1) De Me 11 (1) De Di 11 (1) CK0 Pv 20 PK 5 (1) In 4 Ab 0
+    • Hachidori Inazuma! (relampago colibri) +2 al daño melee (2) del lanzador durante 1d6 turnos.
+Habilidades
+    • Shisen (Ojos): Advertir/Notar 2, Atletismo 2, Buscar/Rastrear 1, Sanación/Hierbas 1, Supervivencia/Cazar 1.
+    • Reikon (Alma): Etiqueta 1, Música 1, Ocultismo 1.
+Kondoru Mika (Cóndor, casa menor)
+Morena con media melena y ojos verdes. Delgada de estatura media muy bella, embauca y traiciona a los incautos hombres que se ven atraídos por su físico. Siempre va maquillada y arreglada, lleva siempre encima un paraguas japonés donde esconde un delgado sable envenenado en el interior del mango.
+At Me 1 Da Me 2d6 (3) De Me 11 (1) De Di 10 (0) Pv 25 (1) Abs 1 In 1 PK 5 (1)
+•	Aleteo: Permite al lanzador volar 2 turnos (2).
+Habilidades
+    • Reikon (Noble): Etiqueta 2, Ocultismo 1, Tradición/Historia 1.
+    • Kage (sombra): Callejeo 1, Cerraduras/Trampas 2, Rumores 1, Sigilo 2.
+Tsuru Akane (Grulla)
+Pelirroja con una trenza larga que llega hasta las caderas y ojos marrones. Delgada de estatura media que parece que ha sido besada por el fuego (y hay rumores a este repecto). Siempre viste de colores llamativos. Lleva un carcaj en la espalda y una larga vara flexible con un cordel que permite transformarla en un arco.
+    • At Me 1 Da Me 1d6+2 (2) At Di 2 Da 1d6+1 (1) De Me 11 (1) De Di 11 (1) CK1 Pv 20 PK 5 (1) In 1 Ab 0
+    • Arco de fuego (1PC): permite al lanzador hacer +2 de daño durante 1d6 turnos.
+Habilidades
+    • Shisen (Ojos): Advertir/Notar 1, Atletismo 1, Buscar/Rastrear 1, Cabalgar 1, Sanación/Hierbas 1, Supervivencia/Cazar 1.
+    • Reikon (Alma): Comerciar 1, Etiqueta 1, Tradición/Historia 2.
+Fukuro Etsu
+Joven de pelo largo de color gris ceniza. Siempre viste sobriamente con colores poco llamativos. Sus responsabilidades con su casa no le permiten retirarse a estudiar los misterios del mundo. Prometido a una chica a la que no conoce de la fortaleza del fuego por una antigua promesa de la que ya nadie se acuerda porqué se hizo.
+    • At Me 1 Da Me 1d6+2 (2) De Me 11 (1) De Di 
+10 (0) CK0 Pv 25 (1) PK 5 (1) In 0 Ab 1
+    • Certero (2).
+    • Plumas de hielo (2): Daño 1d6+2 a distancia que ignora absorción.
+Habilidades
+    • Kage (sombra): Sigilo +1, Rumores +1, Disfraz +1
+    • Reikon (Alma): Ocultismo +2, Tradicion/historia+1, Etiqueta+1
+Shisen (Ojos): Advertir/Notar +1, Sanación +1, Atletismo +1
+Hakuchoo Tendo (Cisne)
+Joven de pelo largo azul, muy elegante, que siempre va vestido con ropas blancas y amplias. Tiene una katana de color azul celeste, de una gran calidad. Criado en el norte, especialista en hielo. •	At Me 2 Da Me 1d6+2 (2) De Me 11 (1) De Di 10 (0) CK1 Pv 20 (0) PK 5 In 0 Ab 0
+    • Armadura de Hielo (2): Armadura que da absorción 4 durante 1d6 turnos
+    • Golpe Helado (1): Golpe a distancia que deja congelado a un oponente 1 turno, sin daño.
+Habilidades
+    • Shisen (Ojos): Advertir/Notar 1, Atletismo 1, Buscar/Rastrear 1, Sanación/Hierbas 1, Supervivencia/Cazar 3.
+    • Kage (sombra): Sigilo +1, Callejeo +1, Cerraduras/Trampas +1
+Kamo Kiyoshi (Pato)
+Joven de pelo negro corto, ojos verdes serenos. En su vestimenta siempre predomina el negro y azul, y está muy orientada a combatir cómodo.
+Nacido en casa menor desde bien joven se acostumbró a intentar destacar para hacerse un sitio en el Yosai. Rebelde e idealista, intenta hacer notar que las casas pequeñas también tienen su sitio de importancia. El objetivo de Kiyoshi es a largo plazo, intenta conseguir respeto para en un futuro plantear que las grandes casas deberían tener un consejo propio y un sitio en las reuniones del Yosai, como si fuesen una sexta gran casa. Él sabe que no es fácil luchar contra las tradiciones.
+    • At Me 1 Da Me 1d6+1 (1) De Me 11 (1) De Di 11 (1) CK 2 Pv 20 (0) PK 5 In 0 Ab 1
+    • Kamo Taifu (Tornado) Nivel 3, Dif 11: Golpe a dos objetivos con 3d6 daño melee.
+Habilidades
+    • Shisen (Ojos): Advertir/Notar +1, Atletismo +1, Cabalgar +1
+    • Reikon (Alma): Tradición/Historia +3, Etiqueta +2, Ocultismo +1, Comerciar +1, Música +1
+PNJs de Ejemplo
+Para diseñar PNJs, es bueno partir de plantillas base y sobre ellas añadir poderes y más cosas, así nos ahorra bastante trabajo previo y podemos centrarnos en lo importante.
+Senshi Ki Base 10
+Ini 2 At Me 0 Da Me 1d6 At Di 0 Da Di 1d6 De Me 
+11 De Di 11 Ki 3 PK 15 PV 20 Abs 0
+Senshi Físico Melee Base 10
+Ini 0 At Me 2 Da Me 1d6+2 At Di 0 Da Di 1d6 De 
+Me 12 De Di 11 Ki 0 PK 0 PV 30 Abs 1
+Senshi Físico Distancia Base 10
+Ini 3 At Me 0 Da Me 1d6 At Di 3 Da Di 2d6 De Me 
+10 De Di 11 Ki 0 PK 0 PV 20 Abs 0
+Senshi equilibrado base 10
+Ini 1 At Me 1 Da Me 1d6+1 At Di 1 Da Di 1d6+1 De 
+Me 11 De Di 11 Ki 1 PK 5 PV 20 Abs 1
+Senshi Tanque 10
+Ini 0 At Me 0 Da Me 1d6 At Di 0 Da Di 1d6 De Me 
+12 De Di 12 Ki 0 PK 0 PV 35 Abs 3
+Senshi Danzante 10
+Ini 3 At Me 0 Da Me 1d6 At Di 0 Da Di 1d6 De Me 
+13 De Di 13 Ki 0 PK 0 PV 20 Abs 1
+Senshi Ki Base 20
+Ini 4 At Me 0 Da Me 1d6 At Di 0 Da Di 1d6 De Me 
+12 De Di 12 Ki 4 PK 20 PV 30 Abs 2
+Senshi Físico Melee Base 20
+Ini 0 At Me 4 Da Me 2d6+1 At Di 0 Da Di 1d6 De 
+Me 14 De Di 13 Ki 0 PK 0 PV 35 Abs 2
+Senshi Físico Distancia Base 20
+Ini 4 At Me 1 Da Me 1d6+1 At Di 4 Da Di 2d6+1 De 
+Me 11 De Di 12 Ki 0 PK 0 PV 30 Abs 1
+Senshi equilibrado base 20
+Ini 2 At Me 2 Da Me 2d6 At Di 2 Da Di 2d6 De Me 
+12 De Di 12 Ki 1 PK 5 PV 25 Abs 1
+Senshi Tanque 20
+Ini 0 At Me 2 Da Me 2d6 At Di 0 Da Di 1d6 De Me 
+14 De Di 13 Ki 0 PK 0 PV 40 Abs 4
+Senshi Danzante 20
+Ini 5 At Me 1 Da Me 1d6 At Di 1 Da Di 1d6 De M e 14 De Di 14 Ki 1 PK 5 PV 30 Abs 1
+Daimyo equilibrado base 30
+Ini 3 At Me 3 Da Me 2d6+1 At Di 3 Da Di 2d6+1 De 
+Me 13 De Di 13 Ki 2 PK 10 PV 30 Abs 1
+Daimyo Tanque 30
+Ini 1 At Me 4 Da Me 2d6+2 At Di 0 Da Di 1d6 De 
+Me 15 De Di 15 Ki 0 PK 0 PV 45 Abs 5
+Diseño de Jutsus
+Un Jutsu gasta su nivel en puntos de Ki aunque no se lance con éxito o aunque no golpee al enemigo.
+Al crear un personaje se tienen 0 puntos de Ki, y hay que comprar si se quiere utilizar Jutsus. Se recuperan 1d6 tras un combate, 2d6 tras descansar una noche entera (1d6 si se descansa mal).
+Para acertar con un Jutsu de ataque, la misma tirada sirve para ver si se ha superado la dificultad del Jutsu, y para ver si se supera la defensa: 3d6+Control de Ki.
+Es decir, que si sacamos un 8 en la tirada tenemos que comprobar que el 8 (más nuestro Control de Ki) es igual o superior al valor de dificultad del Jutsu y también comprobar si iguala o supera el valor de defensa del enemigo.
+Diseño
+Hay tres tipos de Jutsus: ataque, potenciar e invocación.
+Los de Ataque tienen en 6 Puntos de Jutsu en nivel 1, los de potencia 2 y los de invocación 0.
+Un Jutsu se puede mejorar gastando 1 punto de característica, aumentando 3PDJ en ataque, 2 PdJ en potenciar e invocación. Así un nivel 3 de ataque serían 12 PdJ, uno de potencia 6 y uno de invocación 4.
+Cuando un Jutsu es por turnos, el efecto del Jutsu es inmediato y el turno dura hasta que nos vuelve a tocar otra vez. Es decir, si a mitad de un turno tiro un +2 a defensa es efectivo hasta que nos vuelva a tocar, inclusive. Lo mismo con un +2 al ataque, en el siguiente turno podríamos usarlo y ya se pasaría el efecto.
+Ataque
+    • Nivel 1: 6 PdJ
+    • Aumento de nivel: 3PDJ
+    • Daño: 1 PdJ. +1 al daño (cada +3 = 1d6).
+    • Afecta a distancia: 1 PdJ.
+    • Afecta a un objetivo adicional: 3 PdJ (si no existe objetivo adicional, el efecto se pierde). También debe superar la defensa del objetivo adicional.
+    • Ignora absorción: 3 PdJ.
+    • Incapacitado: 2 PdJ, hace que la víctima tenga un -1 (a ataque, daño y Jutsus) de penalización en el siguiente turno, máximo -3 de penalización (6 PdJ).
+    • Evitar movimiento: 2 PdJ, duración 1 turno (la víctima puede atacar) cada 3 turnos (6 PdJ) equivale a 1d6.
+    • Congelar: 5 PdJ el primer turno (la víctima no puede atacar), 2 PdJ cada turno adicional. cada 3 turnos equivale a 1d6 (6 PdJ). Se rompe el Jutsu si el objetivo recibe daño.
+    • Robar Vida: 2 PdJ, Roba 1 PV si el contrincante no lo absorbe. Nunca da PV por encima del máximo. Recuperación mejorada no se aplica aquí.
+    • Robar Ki: 2 PdJ, Roba 1 PK si el contrincante tiene PK. Nunca da PK por encima del máximo. Recuperación mejorada no se aplica aquí.
+Críticos especiales en Jutsus de Ataque: Cuando se saca crítico en un jutsu de ataque, se pueden elegir cosas como aumentar el robo de vida (debe usarlo el jutsu), el robo de Ki (debe usarlo el jutsu), o aumentar la duración de los turnos de un efecto.
+Potenciar
+    • Nivel 1: 2 PdJ
+    • Aumento de Nivel: 2PdJ
+    • Potenciar a otra persona: 1 PdJ. Se sigue permitiendo usarlo uno mismo, pero hay que elegir. Si se escoge N veces permite potenciar a N personas a la vez.
+    • A distancia: 1 PdJ. Permite potenciar, curar o aplicar otro efecto a alquien sin tener que estar tocándolo.
+    • Potenciar a todo el grupo: 4 PdJ. Esta opción incluye distancia.
+    • Potenciar característica: 1 PdJ. Otorga un +1 en una de estas 9 características (absorción, ataque melee, defensa melee, daño melee, ataque distancia, daño distancia, defensa distancia, iniciativa, Control de Ki) durante 1d6 turnos.
+    • Curación: 1 PdJ. Cura +2 PV (cada 3 PV = 1d6).
+    • Invisibilidad: 1 PdJ. Durante 1 turno. Se rompe cuando se ataca.
+    • Volar: 1 PdJ. Durante 1 turno. Unos 5 metros por turno con ataque, 10 sin atacar.
+    • Respirar bajo el agua: 1 PdJ. Permite respirar bajo el agua durante 1d6 minutos, cada minuto extra se pierde 1d6 PV por asfixia.
+    • Duplicado: 4 PdJ. Durante 1d6 turnos. Saca un doble exacto a nosotros a nuestro lado pero con solo 5 PV . No puede duplicarse todo el grupo. No tiene Puntos de Ki propios, los PK para tirar Jutsus siguen siendo globales aunque el duplicado pueda tirar Jutsus. El duplicado, a diferencia de una invocación, actúa inmediatamente.
+    • PVs adicionales al duplicado: 1PdJ. Aumenta en 5PV al duplicado.
+    • Espinas: Cuando se recibe daño CC, se hace daño al atacante, tanto como PdJ gastados (cada +3 = 1d6).
+    • Potenciar habilidad: 1 PdJ. Otorga un +1 una habilidad durante 1d6 minutos.
+    • Visión verdadera: 4 PdJ. Capaz de ver el Ki  de la gente, durante 1d6 turnos (o minutos fuera de combate). Esto provoca que alguien invisible con Jutsu pueda ser visto.
+    • Teleportar: 1PdJ por cada 5 metros. Puede atravesar solidos.
+En los jutsus de Potenciar hay que buscar efectos adicionales, ser imaginativo. Por ejemplo, un jutsu de volar o invisiblidad sirven también para:
+    • Romper una defensa cuerpo a cuerpo.
+    • Volar, alcanzar zonas protegidas para atacar a distancia.
+    • Invisibilidad, conseguir un ataque por sorpresa, con defensa a dificultad 10 del objetivo.
+Invocación
+Requiere 2 PdJ, la base, para invocar a una criatura y tantos PdJ como PC tenga la criatura invocada. Se puede mejorar una invocación gastando PdJ, cada PdJ adicional mejora en 1 PC a la criatura, se gastan igual que a un Personaje, excepción del KI, que si tiene Jutsus, lo gasta de su invocador. Ejemplo: invocar a una criatura de 4 PC es un Jutsu de 6 PdJ, nivel 3.
+Restricción: cada turno que la criatura esté invocada gasta 1 punto de Ki, sólo puede invocarse una criatura por combate, y esta estará presente hasta que el combate finalice, la des-invoquemos, el invocador caiga inconsciente, nos quedemos sin puntos de Ki o la criatura llegue a 0 PV, en cuyo caso desaparecerá de escena.
+Dificultades
+    • Jutsu a nivel 1: necesita un 9 en la tirada para ser lanzado. Gasta 1 de Ki.
+    • Jutsu a nivel 2: necesita un 10 en la tirada para ser lanzado. Gasta 2 de Ki.
+    • Jutsu a nivel 3: necesita un 11 en la tirada para ser lanzado. Gasta 3 de Ki.
+    • Jutsu a nivel 4: necesita un 12 en la tirada para ser lanzado. Gasta 4 de Ki.
+    • Jutsu a nivel 5: necesita un 13 en la tirada para ser lanzado. Gasta 5 de Ki.
+    • Jutsu a nivel 6: necesita un 14 en la tirada para ser lanzado. Gasta 6 de Ki.
+    • Jutsu a nivel 7: necesita un 15 en la tirada para ser lanzado. Gasta 7 de Ki.
+    • Jutsu a nivel 8: necesita un 16 en la tirada para ser lanzado. Gasta 8 de Ki.
+    • Jutsu a nivel 9: necesita un 17 en la tirada para ser lanzado. Gasta 9 de Ki.
+    • ...
+Reglas Básicas
+
+Cuando tu personaje intente hacer algo que sea importante y/o arriesgado, tira 3d6 y súmalos. Suma también el valor de la Habilidad o Característica más apropiada a lo que intentas hacer. El resultado será el valor total de tu tirada. 
+Si lo que intentas no es importante y/o arriesgado, no merece la pena la tirada, simplemente sucede si entra dentro de la lógica. 
+Si compites con otro personaje, él también hará una tirada. Deberás superarla para tener éxito sobre él, pudiendose darse el caso de empate. 
+En un enfrentamiento de características o habilidades, como sigilo contra advertir/notar o ataque contra defensa, se tira contra 10+habilidad o 10+característica. Si se iguala o supera, se tiene éxito. 
+En cualquier otra situación, el Director decidirá la dificultad de la tirada, o lo que es lo mismo, el valor mínimo que tienes que obtener en tu tirada para tener éxito. Los valores de dificultad son los siguientes: 
+    • 10-11: tarea media que implique complicación. 
+    • 12-13: tarea complicada. 
+    • 15-16: tarea difícil. 
+    • 17-18: tarea casi imposible. 
+Combate
+Iniciativa
+se lanzan 3d6+Iniciativa:
+    • Cuando se saca 15 o más en iniciativa se tienen dos acciones por turno a partir del segundo turno.
+    • Si se saca 18 o más, el primer turno también se tienen dos acciones.
+Golpear
+Se tira por ataque (físico) o Control de Ki (mágico) contra defensa, y si iguala o supera esta, se considera impacto y se procede a lanzar el daño.
+Se diferencia entre melee y distancia.
+Del daño realizado, se resta la absorción del golpeado y esto es el total de PV de heridas que recibe.
+Ataques en ventaja
+Cuando un personaje tiene ventaja sobre otro, tiene un +1 o +2 al daño y al ataque según si es una ventaja menor o mayor. Los modificadores no se suman, sólo se aplica el mejor.
+    • Ventaja menor, +1: Flanqueo, ataque desde posición alta, mala visibilidad de la víctima, dos o tres personajes contra uno...
+    • Ventaja mayor, +2: Ataque por la espalda, víctima caída en el suelo, cegado, enemigo sorprendido, cuatro o más personajes contra uno...
+Pifia
+El triple 1 es pifia y el Director de juego decide que un desastre puede ocurrirle, como perder 1d6 turnos, hacerse el daño a sí mismo o a un compañero, perder todos los bonos de daño al perder el arma, quedarse sin Puntos de Ki, etcétera.
+Emboscar
+Se puede emboscar al enemigo, para conseguirlo hay que tirar sigilo contra advertir/notar del enemigo y si se supera la tirada se obtiene un turno extra gratis de ataque antes de la tirada de iniciativa. En una emboscada de grupo hará la tirada el personaje que tenga mejor sigilo contra el que tenga mejor advertir/notar del enemigo. Una única tirada por grupo y si hay dos personajes con idéntico sigilo o advertir/notar puede tirar cualquiera de ellos.
+Estados de salud
+    • Malherido: Los dobles y triples no tienen efecto en combate.
+    • Inconsciente: Cuando se baja de 0 PVs se está inconsciente.
+    • Muerto: Cuando se está por debajo de -10 PV se muere.
+Descanso y tomar aire
+Tras un combate, los personajes pueden recuperar el aliento, es decir, descansar durante 5 minutos y recuperarse algo de las heridas y el cansancio. Ésto hace recuperar 2d6 puntos de vida y 1d6 de Ki sólo en caso de que el personaje haya sufrido alguna herida o haya gastado Ki durante el combate y nunca recuperará más puntos de vida y de Ki de los perdidos en el combate.
+Durmiendo bien por la noche se recuperan 4d6 de vida y todo el Ki. Si no se duerme en un lugar cómodo se recuperan 3d6. Si se tienen que hacer cortes y se duerme a intervalos por guardias, se recupera solo 2d6. El mínimo para hacer guardias con 2d6 de descanso es 3 personajes, si solo hay dos personas haciendo las guardias, solo recuperan 1d6.
+
+Críticos
+El doble  (o triple) es crítico y podemos elegir en la tabla de críticos apropiada qué hacer, teniendo tantos puntos de crítico (PdC) como el dado de distinto color que hayamos elegido antes de tirar marque.
+Truco: Si no te quieres complicar, lo que salga en el dado es lo que hace de daño adicional en caso de ataque o de turnos adicionales en caso de invocación o potenciar.
+Crítico Ataque (incluye Jutsus)
+    • Daño adicional: 1 PdC. +1 al daño (cada +3 = 1d6).
+    • Afecta a un objetivo adicional: 3 PdC . También debe superar la defensa del objetivo adicional.
+    • Ignora absorción: 3 PdC.
+    • Incapacitado: 2 PdC, hace que la víctima tenga un -1 de penalización en el siguiente turno a ataque y daño. Acumulativo hasta -3 con 6 PdC.
+    • Evitar movimiento: 3 PdC, duración 1 turno (la víctima puede atacar). Con 6 PdC es 1d6 turnos.
+    • Congelar: 6 PdC, duración 1 turno (la víctima no puede atacar). Se rompe el jutsu si el objetivo recibe daño.
+    • Acción relámpago: 6PdC. Dispones inmediatamente de un turno extra. Las nuevas tiradas que hagas no dan más puntos de crítico.
+Crítico en Jutsus (incluye invocaciones)
+    • Aumentar Duración: 1 PdC. Aumenta en 1 el número de turnos (cada +3 = 1d6).
+    • Ki Eficiente: 1 PdC. El coste del Jutsu es 1 PK menos.
+
+Aventura: Karasu No Aki 
+La Caida del Cuervo es una aventura con tintes desagradables, con esa parte oscura del Yosai que no gusta ver, esa en que los aliados se pasan al lado oscuro y tienen motivo para hacerlo. La desesperanza de ver que no se pueden alcanzar las metas impuestas por familia y sociedad marcan el desarrollo de dicha aventura.
+Un Kazoku gris, en descomposición, caido en desgracia, intentando por todos los medios aferrarse al poder, a la cima, y cayendo en las garras de la oscuridad para poder hacerlo.
+Esta es la historia de Karasu Akio y de su caida a las profundidades para convertirse en Karasu Koi.
+Karasu Akio (PC 6): At Me +1 At Di +1 De Me 11 De Di 11 Da Me +1 Da Di +1
+Akio es un joven de pelo negro y largo, con ropajes amplios que mezclan negro y blanco, sus ojos son negros pero brillantes y siempre tiene un rictus de enfado, de rabia. Está desesperado por mantener a su familia en la cima, y no puede hacerlo.
+Academia
+Su entrada a la academia es un puro desastre, todo el mundo lo mira como alguien secundario y está por debajo de todos los compañeros que hay, más teniendo en cuenta que los PJs son auténticos prodigios, la creme de la creme que haya salido en muchos años atrás.
+Los combates iniciales que habrá para entrar serán la gota que colme el vaso.
+Esta será la iniciación de los PJs también, aquí se les formará para que más adelante formen un Nakama.
+Torneo
+Una de las formas más comunes de decidir quien forma parte de un Nakama es viendo como se enfrentan entre sí los jovenes luchadores, aquellos que serán los futuros Senshis partes de un Nakama.
+Lo ideal es enfrentar a todos los PJs cruzándolos contra PNJs, para darles más protagonismo.
+Intenta preparar personajes que complementen bien a los protagonistas, tanto en sexo como en estilo. Un Yosai lleno de chicos solamente es aburrido, y lo mismo con chicas. Recuerda que en este juego es importante las alianzas matrimoniales. Dales importancia a las relaciones para el largo plazo,
+Somos un Nakama
+Tras el torneo, la Daimyo Washi Minori (Verdad) selecciona los Nakama a su gusto y elección (es decir, haz lo que te de la gana y creas que mejor va a funcionar). Por supuesto, los PJs forman su uno de esos Nakama.
+Es importante también definir una tradición propia para marcar el paso de niño a Senshi, un guerrero que va a dar su vida por el Yosai. Recomendamos que cada personaje diseñe el rito de su Kazoku, que lo hará más especial.
+Traición
+Tras el Torneo akio es rechazado como Senshi y no puede formar parte de un Nakama. Despechado, con los últimos ahorros Akio pagará a Ronins para que asesinen a los PJs, pero estos, por suerte, no irán por separado al estar acompañados de su nuevo Sensei, Washi Nori.
+Washi Nori (PC 30): At Me +4 At Di +2 De Me 13 +3 De Di 12 +2 Da Me 2d6 (4) Da Di 2d6 (4) CK+1 PK 5 (1) Ini +2 PV 30 (2) Ab 3 (3) Curar II (2): Se cura 2d6, Dif 10, PK 2.
+Nori es un maestro extremadamente justo, inflexible y con pocos sentimientos, es un profesional. No pueden pedirle que sea como un padre o un amigo, es un maestro marcial que no tendrá compasión de ellos. En el fondo, ha crecido así porque perdió a su primer grupo de alumnos en una batalla y se culpa a sí mismo por haber sido demasiado bueno con ellos y no exigirles bastante. Siempre se sentirá orgulloso de aquellos que luchen al máximo, de aquel que más se esfuerce.
+El grupo de Ronin se compone de 4 bastante peligrosos, conocidos como los Unmei Sokonai (Bastardos del Destino):
+Ryota, Saburo, Sadao y Kuro, los 4 con exactamente los mismos Jutsus y todos gemelos.
+Unmei (20 PC): At Me +1 Da Me 1d6+1 (1) At Di +3 Da Di 1d6+2 (2) De Me 12 (2) De Di 13 (3) CK 
++2 PK 10 (2) Ini +3 PV 25 (1) Ab 2 (2)
+•	Proyectil doble: ataque a distancia (1) que lanza dos proyectiles que causan 1d6+2 de daño (2) a 2 objetivos diferentes (3). Cada gemelo tiene un tipo de Control de Ki distinto: Fuego (Rojo), Hielo (Azul), Rayo (Amarillo) y Energía (Blanco), que además son los colores de sus ropas combinados con el negro.
+Con una irada de Advertir/Notar Dif 12,  los jugadores podrán ver a Akio sobre una casa observando el combate, sin participar. Si le dicen porqué no ayudó, dirá que tenía miedo, simplemente, que no tiene suficiente poder.
+Muerte de Izumi
+Washi Izumi, hija del Shogun, de 5 años de edad, aparece muerta en su cama con un kunai con cabeza de serpiente clavada en su corazón. La revolución que se forma en la aldea es impresionante y comienzan preparativos para ir en busca del Yami Yosai y hacerles pagar caro el atrevimiento.
+Los PJs no irán ya que aún no se les considera suficientemente adultos, en su lugar deben organizar el cambio de posesión de Karasu por la casa que lo sustituya.
+Caida y Ascenso
+Los Pjs deberán acompañar a aquel de cuya casa menor acabe de ascender, para tomar posesión de la nueva zona, de los nuevos edificios. Los Karasu sin embargo, se rebelarán y lucharán porque no quieren ceder la posesión.
+Akio, ahora Koi, ha asesinado a sus padres y ha tomado el control de la casa, e intentará combatir por todos los medios que los saquen de allí. Antes muertos que humillados.
+Los guardias de elite, en 4 grupos de 6 intentarán evitar que se tome posesión de la casa, luchando en el patio en una trampa, donde habrá aceite con fuego (Dif Atletismo 13 para no quemarse 1d6).
+4 Grupos Guardias: +6 At +6 Da Defensa 13 PV 30 Ini 16 (cada 5 menos, cae uno y tienen un punto menos)
+Escena final
+Arriba del todo de la casa, encontrarán a Koi con sun padres crucificados y el mismo Koi haciendo Seppuku, con una especie de hilos de Ki yendo hacia una Marioneta de un Golem Negro de Metal. Éste empezará a destruir todo lo que toca, y será extremadamente difícil atacarle.
+En el despacho de Koi había libros que hablaban de dicho engendro abiertos en su mesa de estudio, y explicaba que si se le rociaba con agua, su resistencia y velocidad eran menores, porque interrumpía el flujo de Ki que albergaba.
+Golem: At Me +5 De Me 15 +5 De Di 13 +3 Da Me 2d6 Abs 6 (3 con Agua) Ini 6 (3 con Agua)
+En el cuerpo de Koi hallan dos kunais idénticos a los usados para asesinar a Izumi. Y si se investiga hay pruebas suficientes con planos y estudios en un diario para saber que ha sido él, y no el Yami Yosai.
+La Casa del Cuervo es desterrada para siempre de Kaze Yosai, y todos sus integrantes menores de edad deben hacer Seppuku para limpiar los crímenes de sus descendientes, que serán asignados a diferentes casas.
+Ser Máster en Nakama
+Hay muchos trucos y enfoques diferentes para ser Master en un juego de rol, algunos puede que los sepas, otros no, pero aquí vamos a intentar ayudarte a nuestra manera, simplificando el control de la partida y de la creación de aventuras, y, sobre todo, personajes. 
+Tu Yosai 
+El Yosai es el centro de toda partida de Nakama, es donde se tienen las relaciones, las misiones, los parentescos. Es lo que da un sentido de crecimiento, porque es con quien se comparan los personajes, con sus superiores y compañeros de otros Nakamas. Haz tu propio Yosai que sea muy especial. No tengas miedo a cambiar los ejemplso que aquí damos, es my importante que lo sientas tuyo y estés agusto con él ¿Prefieres un Shogun Hayabusa (Halcón) en lugar de Washi (Aguila)? Adelante. 
+Usa los jugadores 
+Tu no debes hacer todo el trabajo de crear un Yosai por dos motivos: 
+    1. Porque eso hace que los jugadores se impliquen más en la partida y estén más a gusto con su propia identidad. 
+    2. Porque es trabajo que te ahorras y puedes dedicar a otras cosas de la partida. 
+Pedirle a los jugadores que diseñen sus casas hasta donde puedan es muy interesante, porque de esta manera las conocen de antemano y saben qué pueden pedir y con quien pueden hablar. Además, pedirles que diseñen algún PNJ con un par de pinceladas crea un mayor trasfondo de la ciudad, porque mientras más PNJs existan, más viva está esta. 
+Si encima te mandan material como mapas o algún rumor interno del que ni ellos mismos estén seguros, mucho mejor. 
+Creando personajes rápidos 
+Hay un par de trucos para crear PNJs de forma rápida en Nakama, tanto para poderes, como para habilidades. Todo consiste en darles personalidad con sus historias y actuación, más que con los números. Los números dan soporte a la historia, pero no tanto. 
+
+Creación rápida de poderes 
+Crea poderes como si fuesen jutsus, pero que solo se activen con dobles o triples. De esta manera no tendrás que controlar el Ki, ni decidir cuando lanzan qué. Es el azar quien decide por ellos que hechizos tiran. Ahorrate las estadisticas de Poder, y Control de Ki, y cuenta el coste en nivel de esos hechizos x2.
+Utiliza esto para criaturas y PNJs, no para Personajes Jugadores. 
+Creación rápida de habilidades 
+No separes las habilidades, usalas por grupos de Shisen, Kaze o Reikon, con un coste de 5PC por cada +1 en los grupos. Esto te permite crear más rápido personajes al vuelo. Los personajes son la clave 
+En Nakama los personajes son muy importantes, y sus relaciones definen todo el entorno. Recuerda que a largo plazo serán gente importante, como Daimyos o Senseis de futuros Nakamas. Pero no solo eso... posiblemente serán maridos y esposas con hijos que definirán futuras generaciones ¿Alguien ha dicho jugar con los nietos de los primeros personajes con los que se jugó hace mucho tiempo? 
+
+Apartados del resto 
+Una de las cosas más útiles y que dan más vida es coger un jugador y llevartelo apartado del resto, y allí contarle cosas, o tener escenas individuales con otros PNJs. Hazlo poco, no abuses, pero hazlo para crear incertidumbre en el resto y secretos que guardar. Un Yosai sin secretos es un Yosai aburrido. 
+El foco de protagonismo 
+Cada ciertas partidas, intenta que uno de los personajes tenga una historia importante relacionada con su Kazoku y que el resto le ayuden a resolverlo. Esto hace crecer mucho los personajes, los hace más vivos y más importantes, y de paso da a conocer la casa que han creado al resto de jugadores de la partida. 
+Haciendo combates más interesantes
+    • Crea objetivos, no bolsas de vida: Los jugadores deberían tener un motivo claro al intentar derrotar enemigos. Defender algo, intentar evitar que el enemigo llegue a algún sitio, o que huya con información relelvante. Recuerda que con algo tan sencillo como pone alguien a quien defender, la estrategia de un combate cambia por completo.
+    • Situalo en un escenario: Si un combate tiene lugar en un sitio con características especiales, como la bodega de un barco, con posiblidades de hundirse, poco espacio, y muchas cuerdas y barriles, será muy diferente a un claro de un bosque. Piensa siempre en sitios interesantes como un bosque de bambú, en el que es muy dificil atacar a distancia (+2 a la dificultad), en un campo lleno de barro resbaladizo y cadaveres, en el que es muy dificil atacar cuerpo a cuerpo (+2 a la dificultad).
+    • Crea enemigos especiales, enemigos inmunes a Jutsus, enemigos solo vulnerables a Jutsus, enemigos que ven lo invisible, enemigos que vuelen... 
+    • Haz que los enemigos huyan. A veces se convierte en más peligroso que un enemigo huya que ataque. Si consigue informar de lo que ha pasado, es más peligroso que quitar un par de puntos más de vida a los peresonajes. Haz que los combates puedan derivar en persecuciones desesperadas.
+    • Haz el combate descriptivo: Esto ya lo sabes, pero haz cosas que humillen a jugadores y les de rabia, un corte en la cara, un cabezazo en la nariz, dejarles caer al suelo lleno de barro y mancharles... apela a su orgullo para hacer los combates más personales.
+    • Haz que pasen cosas en combate: Crea sensación de urgencia provocando derrumbes en una cueva, que un barco se hunda, un incendio que se expande, haz la sensación de cuenta atrás y tener que terminar el combate, como sea, sea importante. Provoca ansiedad.
+Dobla las reglas
+Al diseñar cosas, dobla las reglas, no te atengas a ellas, cogelas e inventate cosas como un Koomori que se transforma en Murciellago Deforme Gigante, que ataque no solo a los personajes, sino a un poblado.
+Con tirada de 1-2 que ataque casas o gente del pueblo, con un 3-6 que ataque personajes.
+Además, que solo pueda ser atacado cuerpo a cuerpo cuando ataca a un personaje, y solo por el que recibe el ataque. Esto obligará al grupo a buscar estrategias para combatirlo, como inmovilizarlo o congelarlo ¿Alguien ha dicho usar cuerdas contra él ? Permite la imaginación y el uso de recursos de forma inteligente, pideles tiradas de ataque a distancia de dificultad 18 para atarlo, es dificil... pero no imposible. Que teman las Pifias
+Haz las pifias inolvidables, que duelan, que los dejen en una desventaja absoluta, que tiren por tierra lo que han preparado con mucho trabajo.
+Cuando las pifias son realmente dolorosas, la historia se convierte en mucho más interesante. Es una dificultad más que tienen que solucionar los heroes, si la vida fuera fácil... serían aburridos.
+
+Índice
+
+Qué es Nakama	2
+Autores	2
+Agradecimientos	2
+	3
+Dónde sucede	3
+Estructura Social	5
+Organización	5
+Kage, Reikon y Shisen	7
+Tratamientos	8
+Yosais y Kazokus	10
+Tsuchi (Tierra)	10
+Clanes Mayores	10
+Secundarias	10
+Menores	10
+Hi (Fuego)	11
+Kaze (Viento)	11
+Mizu (Agua)	11
+Tengoku (Cielo)	12
+Yami (Oscuridad)	12
+Historia y Relaciones entre Yosais	13
+Tsuchi Yosai (Fortaleza de la Tierra)	13
+Hi Yosai (Fortaleza del Fuego)	13
+Yami Yosai (Fortaleza de la Oscuridad)	13
+Organización y Costumbres	14
+Función de los Senshi (Guerreros)	14
+Creando tu Yosai	16
+¿Qué pueden hacer los jugadores?	16
+¿Qué puede hacer el director de juego?	17
+¿Qué historias puedo contar?	17
+Varios Yosais a la vez	17
+Yosais que no son Yosais	19
+Ejemplos de Yosais modificados	19
+Ejemplos de Kazokus menores	20
+Risu (Ardilla)	20
+Tsubame (Golondrina)	20
+Chicas	21
+Chicos	21
+Empezando una Campaña	22
+Primera Sesión, Akai Yoake	22
+Segunda Sesión, una misión sencilla	22
+Tercera Sesión, antagonista	23
+Cuarta Sesión, pueblo en apuros	23
+Quinta Sesión, Política	24
+Sexta Sesión, Torneo	24
+Séptima Sesión, diplomacia	24
+Es vuesta campaña, es vuestro mundo	25
+Crear el personaje	26
+Rasgos básicos de un personaje	27
+Habilidades	27
+Puntos de Inicio	28
+Características básicas	28
+Aumentar características básicas	30
+Características especiales	31
+Características de Jutsus	32
+Habilidades de Shisen (explorador)	33
+Habilidades de Kage (espía)	34
+Habilidades de Reikon (noble)	35
+Límites	36
+Mejorar el personaje	37
+Plantillas de Personaje	37
+Tanque	38
+DPS CC	38
+Curandero	39
+Controlador	39
+Equlibrado CC	39
+Equlibrado Dis	39
+Personajes de Ejemplo	40
+Hachidori Jinso (Colibrí)	40
+Habilidades	40
+Kondoru Mika (Cóndor, casa menor)	40
+Habilidades	41
+Tsuru Akane (Grulla)	41
+Habilidades	41
+Fukuro Etsu	41
+Habilidades	42
+Hakuchoo Tendo (Cisne)	42
+Habilidades	43
+Kamo Kiyoshi (Pato)	43
+Habilidades	43
+PNJs de Ejemplo	44
+Senshi Ki Base 10	44
+Senshi Físico Melee Base 10	44
+Senshi Físico Distancia Base 10	44
+Senshi equilibrado base 10	44
+Senshi Tanque 10	44
+Senshi Danzante 10	44
+Senshi Ki Base 20	44
+Senshi Físico Melee Base 20	44
+Senshi Físico Distancia Base 20	45
+Senshi equilibrado base 20	45
+Senshi Tanque 20	45
+Senshi Danzante 20	45
+Daimyo equilibrado base 30	45
+Daimyo Tanque 30	45
+Diseño de Jutsus	46
+Diseño	46
+Ataque	47
+Potenciar	48
+Invocación	50
+Dificultades	50
+Reglas Básicas	52
+Combate	53
+Iniciativa	53
+Golpear	53
+Ataques en ventaja	53
+Pifia	54
+Emboscar	54
+Estados de salud	54
+Descanso y tomar aire	54
+Críticos	55
+Crítico Ataque (incluye Jutsus)	56
+Crítico en Jutsus (incluye invocaciones)	56
+Aventura: Karasu No Aki	57
+Academia	57
+Torneo	58
+Somos un Nakama	58
+Traición	59
+Muerte de Izumi	60
+Caida y Ascenso	61
+Escena final	61
+Ser Máster en Nakama	63
+Tu Yosai	63
+Usa los jugadores	63
+Creación rápida de poderes	64
+Creación rápida de habilidades	64
+Apartados del resto	65
+El foco de protagonismo	65
+Haciendo combates más interesantes	66
+Dobla las reglas	67
+
+
