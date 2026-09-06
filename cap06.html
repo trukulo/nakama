@@ -36,14 +36,14 @@
 <h3>Ejemplos de Yosais modificados</h3>
 <p>Un ejemplo clásico de Yosai modificado en Nakama es el del Yami Yosai. Inicialmente, Yami mandaba y mantenía la paz en todo el Imperio, pero la rebelión de los Yosai menores comenzó un periodo de guerras y destrucción. Escondidos en las sombras, los jugadores pertenecen a un Yosai que busca recuperar su gloria —muy diferente al Yami clásico de tiranos sin escrúpulos que gobernaban esclavizando a los campesinos—.</p>
 <p>Dale tu toque a tu Yosai, hazlo tuyo.</p>
-<h3>Ejemplos de Kazokus menores — p.20 del PDF</h3>
+<h3>Ejemplos de Kazokus menores</h3>
 <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px">
 <article class="card" style="--c:var(--hi)"><h4>Risu — Ardilla</h4><p>Tienen a los dos hermanos Kokoro y Shin como su mayor esperanza. No creen que lleguen a formar parte de las grandes casas, pero sí a despuntar entre las menores para conseguir mejor descendencia con ellos y crecer en un futuro. Tienen en mira a Kitsune (Zorro) y Tora (Tigre) como posibles uniones, sea con los hijos mayores, o con los hijos pequeños.</p></article>
 <article class="card" style="--c:var(--hi)"><h4>Tanuki — Mapache</h4><p>Están seguros de conseguir bajo el liderazgo de la Daimyo Akane y su descendencia alcanzar a las grandes casas. La muerte de su anterior Daimyo protegiendo al Hi Shogun en la última batalla contra Yami les favorece aún más en sus aspiraciones, en contra de lo que podría haber parecido en un principio.</p></article>
 <article class="card" style="--c:var(--kz)"><h4>Tsubame — Golondrina</h4><p>De Tsubame, Natsuki la Daimyo (Señora) es la única que ha demostrado estar a alto nivel, aunque aún no ha conseguido casarse debido a que no encuentran a nadie adecuado, y con el paso del tiempo, quizás se convierta en un imposible a menos que lo hagan con otro Yosai distinto, algo a lo que son muy reacios. Se consideran los protectores de la parte baja de la ciudad, y siempre están intentando que alguna familia crezca, o mejor aún, que la parte baja gane en importancia.</p></article>
 </div>
 <div class="pdf-text" style="margin-top:18px">
-<h3>Nombres — Chicas y Chicos · p.21 del PDF, texto íntegro</h3>
+<h3>Nombres — Chicas y Chicos · p.21 del PDF</h3>
 <p>El txt lista los nombres tal cual, para bautizar Senshi. Aquí se reproducen íntegros y también están en el Glosario (cap.15).</p>
 <div class="grid" style="grid-template-columns:1fr 1fr;gap:12px">
 <article class="card"><h4>Chicas</h4><p style="font-size:13px;line-height:1.7">Ai (Amor) · Akane (Flor de Rubia) · Aoi (Azul) · Aya (Colores) · Hana (Flor) · Hanon (Sonido de las Olas) · Hikari (Luz) · Hotaru (Luciérnaga) · Kaori (Aroma) · Kohana (Pequeña) · Mei (Belleza) · Midori (Verde) · Miharu (Primavera) · Mika (Bella flor) · Miu (Lluvia) · Murasaki (Púrpura) · Nanami (Siete Mares) · Naomi (Ola) · Natsu (Verano) · Natsuki (siete lunas) · Nozomi (Sueño) · Ran (Orquídea) · Rin (Valiente) · Shizune (Calma) · Tsuki (Luna) · Yoko (Hija del Océano) · Yukiko (Hija de la Nieve) · Yumiko (Arquera) · Yuri (Azucena)</p></article>
@@ -51,7 +51,18 @@
 </div>
 </div>
 </div>
-<figure class="pdf-fig" style="text-align:center;margin:18px auto;max-width:720px"><picture><source srcset="assets/img/pdf/p18_00_p18.webp" type="image/webp"><img src="assets/img/pdf/p18_00_p18.webp" alt="Ilustración de Yosais alternativos" loading="lazy" style="display:block;margin:0 auto;max-width:100%;height:auto;border:1px solid #2b2419;border-radius:6px"></picture><figcaption>Varios Yosais a la vez y Yosais que no son Yosais (p. 18) — extraída del PDF original.</figcaption></figure>
+<figure class="pdf-fig" style="text-align:center;margin:18px auto;max-width:720px"><picture><source srcset="assets/img/pdf/p18_00_p18.webp" type="image/webp"><img src="assets/img/pdf/p18_00_p18.webp" alt="Ilustración de Yosais alternativos" loading="lazy" style="display:block;margin:0 auto;max-width:100%;height:auto;border:1px solid #2b2419;border-radius:6px"></picture></figure>
+
+<div class="tool" id="yosaiGen">
+<h3>Generador de Yosais — todas las familias</h3>
+<p class="sub">Crea un Yosai entero al azar: elemento, capital, Shogun, historia breve y <b>todas sus Kazokus</b> con Daimyo, especialidad, y 2–3 PNJs por casa con stats, habilidades y un gancho. Ideal para tener tu Yosai listo en 1 clic y luego pulirlo.</p>
+<div class="gctrl">
+<div><label>Yosai<select id="ygYos"><option selected value="any">Aleatorio</option><option value="hi">Hi · Fuego</option><option value="ts">Tsuchi · Tierra</option><option value="kz">Kaze · Viento</option><option value="mz">Mizu · Agua</option><option value="tg">Tengoku · Cielo</option><option value="ym">Yami · Oscuridad</option><option value="kn">Kinzoku · Metal (nuevo)</option><option value="kr">Kōri · Hielo (nuevo)</option><option value="ik">Ikazuchi · Rayo (nuevo)</option><option value="ar">Arashi · Tormenta (nuevo)</option><option value="mr">Mori · Bosque (nuevo)</option><option value="yu">Yume · Sueño (nuevo)</option></select></label></div>
+<div><label>Tamaño<select id="ygSize"><option value="compact">Compacto · 5-6 Kazokus</option><option selected value="normal">Normal · 7-8 Kazokus</option><option value="grande">Grande · 9-10 Kazokus</option></select></label></div>
+<div style="display:flex;align-items:flex-end"><button class="btn-t" id="ygGo">⛩ Generar Yosai</button></div>
+</div>
+<div class="genout" id="ygOut"><p class="ph">Pulsa “Generar Yosai” y nacerá una fortaleza con todas sus casas, Daimyos y PNJs listos para jugar.</p></div>
+</div>
 
 <div class="orn">絆</div>
 </section></div></main>

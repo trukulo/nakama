@@ -14,6 +14,7 @@
 <div class="chap-head"><span class="chap-num">14</span><h2>Bestiario oficial<span class="chap-sub">Cien criaturas fijas · diez niveles de amenaza · generador</span></h2></div>
 <p class="lead">Este es el <b>bestiario oficial de Nakama</b>: cien criaturas fijas y canónicas, siempre las mismas, con las mismas estadísticas. Cada una está construida con las reglas de creación del libro (PC sobre el perfil base: PV 20 · defensas 10 · daño 1d6) y gasta exactamente su presupuesto de nivel × 5 PC. Las que conocen jutsu lanzan técnicas del grimorio (capítulo 11).</p>
 <p>La tabla está escrita directamente en la página, así que <b>se muestra siempre</b>, aunque el JavaScript falle o lo desactives; los filtros de nivel, elemento y búsqueda son solo una comodidad añadida. El generador de más abajo sirve únicamente para crear criaturas <em>nuevas</em> cuando ninguna de las cien encaje.</p>
+<figure class="pdf-fig" style="text-align:center;margin:18px auto;max-width:720px"><picture><source srcset="assets/img/pdf/bestiario.webp" type="image/webp"><img src="assets/img/pdf/bestiario.webp" alt="Bestiario — ilustración del PDF" loading="lazy" style="display:block;margin:0 auto;max-width:100%;height:auto;border:1px solid #2b2419;border-radius:6px"></picture></figure>
 <h3>Los diez niveles de amenaza</h3>
 <table class="tb" style="--c:var(--ym)">
 <tbody><tr><th>Nivel</th><th>Amenaza</th><th>PC</th><th>Para qué sirve</th></tr>
@@ -155,12 +156,12 @@
 </table></div>
 <div class="note"><b>Nota del DJ:</b> cada ficha cuadra exactamente con su presupuesto de nivel × 5 PC según las tablas del libro (1 PC por punto de In/At/Daño/Def/Abs/CK · 1 PC por +5 PV · 1 PC por +5 PK · un jutsu de nivel X cuesta X PC). Los jutsu listados están en el grimorio con su dificultad y coste de Ki. Ajustad libremente: vuestro mundo, vuestras reglas.</div>
 <h3>Generador de monstruos (criaturas nuevas)</h3>
-<p>Si ninguna de las cien criaturas oficiales encaja, crea una al momento: <b>Menor</b> (5 PC, nivel oficial 1), <b>Común</b> (10, nivel 2), <b>Mayor</b> (20, nivel 4), <b>Terrible</b> (30, nivel 6) y <b>Legendaria</b> (50, nivel 10). Las amenazas Terrible y Legendaria reciben nombre propio y título, como los grandes monstruos de las sagas.</p>
+<p>Si ninguna de las cien criaturas oficiales encaja, crea una al momento con los <b>diez niveles oficiales</b> del capítulo: del 1 Menor (5 PC) al 10 Legendaria (50 PC). Los niveles 6 Terrible (30) en adelante reciben nombre propio y título, como los grandes monstruos de las sagas.</p>
 <div class="tool" id="monGen">
-<h3>Generador de monstruos</h3>
-<p class="sub">Cada criatura llega con nombre, tipo, elemento, tamaño, estadísticas, poderes del grimorio afines a su elemento, y cuatro ganchos: rasgos, comportamiento, botín y qué ocurre si nadie la detiene.</p>
+<h3>Generador de monstruos — 10 niveles</h3>
+<p class="sub">Cada criatura llega con nombre, tipo, elemento, tamaño, estadísticas, poderes del grimorio afines a su elemento, y cuatro ganchos: rasgos, comportamiento, botín y qué ocurre si nadie la detiene. Elige el nivel exacto del bestiario.</p>
 <div class="gctrl">
-<div><label>Amenaza<select id="monPc"><option value="5">Menor · 5 PC</option><option selected="" value="10">Común · 10 PC</option><option value="20">Mayor · 20 PC</option><option value="30">Terrible · 30 PC</option><option value="50">Legendaria · 50 PC</option></select></label></div>
+<div><label>Amenaza<select id="monPc"><option value="5">1 · Menor · 5 PC</option><option selected="" value="10">2 · Común · 10 PC</option><option value="15">3 · Notable · 15 PC</option><option value="20">4 · Mayor · 20 PC</option><option value="25">5 · Peligrosa · 25 PC</option><option value="30">6 · Terrible · 30 PC</option><option value="35">7 · Grave · 35 PC</option><option value="40">8 · Catastrófica · 40 PC</option><option value="45">9 · Apocalíptica · 45 PC</option><option value="50">10 · Legendaria · 50 PC</option></select></label></div>
 <div><label>Elemento<select id="monEl"><option selected="" value="any">Aleatorio</option><option value="hi">Fuego</option><option value="ts">Tierra</option><option value="kz">Viento</option><option value="mz">Agua</option><option value="tg">Cielo</option><option value="ym">Oscuridad</option></select></label></div>
 <div style="display:flex;align-items:flex-end"><button class="btn-t" id="monGo">獣 Generar criatura</button></div>
 </div>
