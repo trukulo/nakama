@@ -43,7 +43,6 @@
 <h3>Límites y progresión</h3>
 <p>Los máximos suben 1 cada 10 PC/PH: con 10 el máximo es 3, con 20 es 4, con 30 es 5… hasta 12 con 100. Recomendación del libro: máximo absoluto 50 para PNJ y 30 para jugadores (Kobura, 50, es el techo legendario).</p>
 <p>Cada partida jugada otorga 1 PC y 1 PH (2 y 2 si fue especialmente buena y larga; nada si fue de relleno; o crecimiento lento alternando 1 PC/1 PH). Al recibir experiencia puedes <b>redistribuir en características</b> (no en habilidades) tantos puntos como tu límite: simula la adaptación y el cambio de estilo.</p>
-<p class="sub">Nota de maquetación: el PDF original (p.26–39) detalla cada característica y habilidad en párrafos corridos; aquí ese texto íntegro está re-presentado en las tablas y tarjetas siguientes para que sea legible sin duplicar: el <b>contenido literal se conserva</b> pero no se repite dos veces.</p>
 </div>
 <figure class="pdf-fig" style="text-align:center;margin:18px auto;max-width:720px"><picture><source srcset="assets/img/pdf/p29_00_p29.webp" type="image/webp"><img src="assets/img/pdf/p29_00_p29.webp" alt="Bloque de características" loading="lazy" style="display:block;margin:0 auto;max-width:100%;height:auto;border:1px solid #2b2419;border-radius:6px"></picture></figure>
 
@@ -114,7 +113,7 @@
 </ul></article>
 </div>
 <div style="margin:18px 0">
-<h4 style="margin:8px 0;color:var(--mz)">Las tres escuelas al detalle — PDF p.32–35, texto completo y visible</h4>
+<h4 style="margin:8px 0;color:var(--mz)">Las tres escuelas al detalle</h4>
 <div class="grid" style="grid-template-columns:1fr;gap:14px">
 <article class="card" style="--c:var(--kz)"><div class="kic">眼</div><h4>Shisen (Ojos) — explorador</h4>
 <ul class="txt">
@@ -147,7 +146,7 @@
 </ul>
 </article>
 </div>
-<p class="sub" style="margin-top:8px">PDF p.35: <i>“Más adelante podrás escoger de estas tres categorías cuáles son las habilidades de tu personaje y su valor… ¿Cómo aprendiste tus habilidades? ¿Tuviste un mentor o las aprendiste por las malas? ¿Has tenido que vivir de ellas? ¿Te supuso algún problema con alguien? ¿Por qué?”</i></p>
+<p class="sub" style="margin-top:8px"><i>“Más adelante podrás escoger de estas tres categorías cuáles son las habilidades de tu personaje y su valor… ¿Cómo aprendiste tus habilidades? ¿Tuviste un mentor o las aprendiste por las malas? ¿Has tenido que vivir de ellas? ¿Te supuso algún problema con alguien? ¿Por qué?”</i></p>
 </div>
 <h3>Límites y mejora</h3>
 <p>Los máximos de habilidades y características suben 1 cada 10 PC/PH: con 10 puntos el máximo es 3; con 20, 4; con 30, 5… hasta 12 con 100. Recomendación: máximo absoluto 30 para jugadores y 50 para PNJ legendarios, como el Emperador Kobura.</p>
@@ -170,7 +169,7 @@
 <div><label>Puntos de inicio<select id="sgPc"><option selected="" value="10">10 · recién nombrado</option><option value="15">15 · con experiencia</option><option value="20">20 · veterano</option></select></label></div>
 <div><label>Yosai<select id="sgYos"><option selected="" value="any">Aleatorio</option><option value="hi">Hi · Fuego</option><option value="ts">Tsuchi · Tierra</option><option value="kz">Kaze · Viento</option><option value="mz">Mizu · Agua</option><option value="tg">Tengoku · Cielo</option><option value="ym">Yami · Oscuridad</option></select></label></div>
 <div><label>Arquetipo<select id="sgArch"><option selected="" value="any">Aleatorio</option><option value="espadachin">Espadachín</option><option value="arquero">Arquero</option><option value="tanque">Tanque</option><option value="danzante">Danzante</option><option value="elementalista">Elementalista</option><option value="invocador">Invocador</option><option value="potenciador">Potenciador</option><option value="equilibrado">Equilibrado</option></select></label></div>
-<div style="display:flex;align-items:flex-end"><button class="btn-t" id="sgGo">仲 Generar Senshi</button></div>
+<div style="display:flex;align-items:flex-end"><button class="btn-t" id="sgGo" onclick="if(typeof runSG2==='function') runSG2()">仲 Generar Senshi</button></div>
 </div>
 <div class="genout" id="sgOut"><p class="ph">Pulsa «Generar Senshi» y un guerrero de Shikoku nacerá ante ti.</p></div>
 </div>
@@ -264,10 +263,6 @@
 <div id="bDef"><b>10 / 10</b><span>defensas CC / Dis</span></div>
 </div>
 <p class="warn" id="bWarn"></p>
-<div class="bld-bar">
-<button class="btn-t solid" id="bExportJSON">⬇ Exportar JSON</button>
-<button class="btn-t" id="bExportPDF">⬇ Exportar PDF</button>
-</div>
 </div>
 <div class="orn">絆</div>
 </section></div></main>

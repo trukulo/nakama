@@ -203,6 +203,8 @@ function runSG(){
 }
 function SG_LASTinit(){return true;}
 function runSG2(){
+  console.log('runSG2 clicked', Date.now());
+  try{
   const b=N($('#sgPc').value)||10;
   const yv=$('#sgYos').value;
   const yos=yv==='any'?pick(YOS):YOS.find(y=>y[0]===yv);
@@ -262,6 +264,7 @@ function runSG2(){
   const c=SG_LAST, col=ELC[el];
   const skillsLine=Object.entries(c.gskl).filter(([,v])=>N(v)>0).map(([n2,v])=>`${n2} ${N(v)}`).join(', ');
   const advLine=c.advPicks.length?c.advPicks.map(a=>`${a.n} (${a.c} PC)`).join(' · '):'—';
+  const houseMean = typeof KAZOKU_MEANING!=='undefined' && KAZOKU_MEANING[house] ? ` (${KAZOKU_MEANING[house]})` : '';
   $('#sgOut').innerHTML=`
     <h4>${nm} <small style="font:400 13px var(--fb);color:#6f6350">(${mean})</small> <span style="font:600 11px var(--fpx);color:#8a6b2e;border:1px solid #cdbf9d;border-radius:999px;padding:1px 8px;margin-left:6px">${c.gender}</span></h4>
     <p class="gsub">${yos[1]} · Kazoku ${house}${houseMean} · Escuela ${school} · ${A.n} (${b} PC) · ${c.gender} · concepto: ${c.concept}</p>
@@ -277,6 +280,7 @@ function runSG2(){
     <p class="gline"><b>Motivación:</b> ${c.mot}.</p>
     <p class="gline"><b>Secreto (solo el DJ):</b> ${c.sec}.</p>
     <div class="bld-bar" style="margin:14px 0 0"><button class="btn-t solid" id="sgLoad">↑ Cargar en el constructor</button></div>`;
+  }catch(e){ console.error('runSG2 error',e); const o=$('#sgOut'); if(o) o.innerHTML=`<p style="color:#a83b2b"><b>Error:</b> ${e.message}<br><small>${e.stack||''}</small></p>`; }
 }
 
 /* ---------- diseñador / generador de jutsu / grimorio personal ---------- */
@@ -815,7 +819,14 @@ function dunGoRun(){
     const [nm,mean]=pick(female?NF:NM);
     const house=pick(HOUSES[yos[0]]);
     const school=pick(['Kage','Reikon','Shisen','Kansei']);
-    const [an,s]=pick(TPL[pc]||TPL[10]);
+    // 15 y 25 son granularidad intermedia: interpola entre plantillas
+    let tpl = TPL[pc];
+    if(!tpl){
+      if(pc===15) tpl=TPL[10].map(([n,s])=> [n, {...s, pv:s.pv+5, ab:Math.min(5,s.ab+1)}]);
+      else if(pc===25) tpl=TPL[20].map(([n,s])=> [n, {...s, pv:s.pv+5, ab:Math.min(5,s.ab+1), in:s.in+1}]);
+      else tpl=TPL[10];
+    }
+    const [an,s]=pick(tpl);
     const pool=school==='Kansei'?[...SKP.Kage,...SKP.Reikon,...SKP.Shisen]:SKP[school];
     const skills=pickN(pool,3+rnd(2)).map(k=>`${k} ${1+rnd(2)}`).join(', ');
     const maxLv=pc===10?2:3;

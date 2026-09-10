@@ -52,7 +52,7 @@ const SG_BOD=['esbelto y fibroso','musculoso y compacto','alto y enjuto','menudo
 const SG_TREND=['una cicatriz vertical en la ceja','cascabeles cosidos al obi','media cara cubierta por una máscara de madera','vendas en las muñecas','un colmillo de lobo al cuello','sandalias gastadas de mil caminos','un abanico con el emblema de su Kazoku','los pulgares siempre vendados'];
 const SG_PERS=['serio y leal hasta la médula','bromista incansable','callado y observador','irascible pero noble','cortés hasta la rigidez','rebelde con causa','tímido de fuerza oculta','orgulloso y competitivo'];
 const SG_CONCEPT=['la tormenta silenciosa','la sonrisa antes del golpe','el loto en el barro','la brasa que no se apaga','la marea paciente','el filo recién templado','la primera nieve','el eco del trueno','la raíz que parte la roca'];
-const ELCOL={hi:'rojo y negro',ts:'ocre y verde oliva',kz:'verde jade y blanco',mz:'azul profundo y gris',tg:'blanco y dorado',ym:'violeta y negro'};
+const ELCOL={hi:'rojo y negro',ts:'ocre y verde oliva',kz:'verde jade y blanco',mz:'azul profundo y gris',tg:'blanco y dorado',ym:'violeta y negro',kn:'gris acero y negro',kr:'blanco hielo y azul pálido',ik:'amarillo rayo y gris tormenta',ar:'gris tormenta y verde musgo',mr:'verde bosque y marrón tierra',yu:'violeta sueño y plata lunar'};
 const SG_ARC={
  espadachin:{n:'Espadachín',ty:null,d:'La vía del acero: precisión y furia en el cuerpo a cuerpo.',
   10:{in:1,atm:3,dtm:3,atd:0,dtd:0,dfm:1,dfd:0,ab:1,pvx:1,ck:0,pk:0,ju:[]},
