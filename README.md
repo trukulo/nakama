@@ -2,7 +2,7 @@
 
 Versión estática y offline del manuscrito, con generadores interactivos.
 
-[Web Online de Nakama]([https://www.genome.gov/](https://trukulo.github.io/nakama))
+[Web Online de Nakama(https://trukulo.github.io/nakama)]
 
 ## Esta revisión
 - Grimorio (`GRIM`) integrado en `assets/js/datos.js`: 150 jutsus validados, 50 por tipo.
