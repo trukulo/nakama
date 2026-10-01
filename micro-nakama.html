@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Micro Nakama</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:#1a1a2e;color:#e0e0e0;padding:20px;line-height:1.5}
+.wrap{max-width:900px;margin:0 auto}
+h1{color:#e94560;margin-bottom:8px}
+h2{color:#e94560;margin:24px 0 12px;border-bottom:1px solid #333;padding-bottom:4px}
+h3{color:#aaa;margin:16px 0 8px}
+.card{background:#16213e;border:1px solid #333;border-radius:8px;padding:14px;margin:10px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+table{width:100%;border-collapse:collapse;margin:10px 0}
+th,td{border:1px solid #333;padding:6px 10px;text-align:left}
+th{background:#0f3460}
+button{background:#e94560;color:#fff;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;font-size:14px}
+button:hover{background:#c73650}
+input,select{background:#16213e;color:#e0e0e0;border:1px solid #333;padding:6px 10px;border-radius:4px}
+label{display:block;margin:8px 0 4px;font-size:13px;color:#aaa}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:end}
+.tag{display:inline-block;background:#0f3460;padding:2px 8px;border-radius:4px;font-size:12px;margin:2px}
+.output{background:#0f3460;border-radius:8px;padding:14px;margin:10px 0;white-space:pre-wrap;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Micro Nakama</h1>
+<p>Sistema genérico de rol con 3d6. Sin lore, sin ambientación: solo reglas.</p>
+
+<h2>1. Crear personaje</h2>
+<div class="card">
+<p>Tienes <b>10 puntos</b> para repartir entre características. Cada punto = +1.</p>
+<table>
+<tr><th>Característica</th><th>Base</th><th>Coste</th></tr>
+<tr><td>Ataque</td><td>+0</td><td>1 pt = +1</td></tr>
+<tr><td>Daño</td><td>1d6</td><td>1 pt = +1 (cada 3 = +1d6)</td></tr>
+<tr><td>Defensa</td><td>10</td><td>1 pt = +1</td></tr>
+<tr><td>Iniciativa</td><td>+0</td><td>1 pt = +1</td></tr>
+<tr><td>Absorción</td><td>0</td><td>1 pt = +1</td></tr>
+<tr><td>Puntos de Vida</td><td>20</td><td>1 pt = +5 PV</td></tr>
+<tr><td>Control de Energía</td><td>+0</td><td>1 pt = +1</td></tr>
+<tr><td>Puntos de Energía</td><td>0</td><td>1 pt = +5 PE</td></tr>
+</table>
+<p><b>Habilidades</b> (base 0, 1 PH = +1): Combate (Atletismo, Sigilo, Rastrear), Investigación (Callejeo, Disfraz, Rumores), Apoyo (Comercio, Etiqueta, Sanación).</p>
+<p><b>Ventajas especiales:</b> Certero (2pt), Especialista (1pt), Voluntad (2pt), Plus Ultra (1pt), Suerte (5pt).</p>
+</div>
+
+<h2>2. Poderes</h2>
+<div class="card">
+<p>Un poder tiene <b>nivel 1-9</b>. Dificultad = 8 + nivel. Coste en PC = nivel. Gasto de PE = nivel.</p>
+<table>
+<tr><th>Tipo</th><th>Nivel 1</th><th>Por nivel extra</th></tr>
+<tr><td>Ataque</td><td>6 PdP</td><td>+3 PdP</td></tr>
+<tr><td>Apoyo</td><td>2 PdP</td><td>+2 PdP</td></tr>
+<tr><td>Definitivo</td><td>2 PdP + PC aliado</td><td>+1 PC = +1 PdP</td></tr>
+</table>
+<h3>Efectos de Ataque</h3>
+<table>
+<tr><th>Efecto</th><th>Coste</th></tr>
+<tr><td>Daño +1</td><td>1 PdP</td></tr>
+<tr><td>A distancia</td><td>1 PdP</td></tr>
+<tr><td>Objetivo adicional</td><td>3 PdP</td></tr>
+<tr><td>Ignora absorción</td><td>3 PdP</td></tr>
+<tr><td>Incapacitado (−1)</td><td>2 PdP</td></tr>
+<tr><td>Congelar 1 turno</td><td>5 PdP</td></tr>
+<tr><td>Robar vida</td><td>2 PdP</td></tr>
+<tr><td>Robar energía</td><td>2 PdP</td></tr>
+</table>
+<h3>Efectos de Apoyo</h3>
+<table>
+<tr><th>Efecto</th><th>Coste</th></tr>
+<tr><td>Otra persona</td><td>1 PdP</td></tr>
+<tr><td>A distancia</td><td>1 PdP</td></tr>
+<tr><td>Todo el grupo</td><td>4 PdP</td></tr>
+<tr><td>Característica +1</td><td>1 PdP</td></tr>
+<tr><td>Curación</td><td>1 PdP</td></tr>
+<tr><td>Invisibilidad</td><td>1 PdP</td></tr>
+<tr><td>Volar</td><td>1 PdP</td></tr>
+<tr><td>Duplicado</td><td>4 PdP</td></tr>
+<tr><td>Teletransporte</td><td>1 PdP / 5m</td></tr>
+</table>
+</div>
+
+<h2>3. Monstruos</h2>
+<div class="card">
+<p>Se definen con PC. Perfil base humano: PV 20, defensas 10, daño 1d6.</p>
+<table>
+<tr><th>Nivel</th><th>PC</th><th>Uso</th></tr>
+<tr><td>1</td><td>5</td><td>Menor</td></tr>
+<tr><td>2</td><td>10</td><td>Común</td></tr>
+<tr><td>3</td><td>15</td><td>Relevante</td></tr>
+<tr><td>4</td><td>20</td><td>Jefe</td></tr>
+<tr><td>5</td><td>25</td><td>Grave</td></tr>
+<tr><td>6</td><td>30</td><td>Élite</td></tr>
+<tr><td>7</td><td>35</td><td>Arco</td></tr>
+<tr><td>8</td><td>40</td><td>Crisis regional</td></tr>
+<tr><td>9</td><td>45</td><td>Crisis nacional</td></tr>
+<tr><td>10</td><td>50</td><td>Legendario</td></tr>
+</table>
+<p>Cada 5 PC = +1 a todos los bonos, +1d6 PV, +1 daño.</p>
+</div>
+
+<h2>4. Reglas de juego</h2>
+<div class="card">
+<h3>Tiradas</h3>
+<p><b>3d6 + habilidad</b> contra dificultad. Igualar o superar = éxito.</p>
+<table>
+<tr><th>Dificultad</th><th>Tarea</th></tr>
+<tr><td>10-11</td><td>Media</td></tr>
+<tr><td>12-13</td><td>Complicada</td></tr>
+<tr><td>15-16</td><td>Difícil</td></tr>
+<tr><td>17-18</td><td>Casi imposible</td></tr>
+</table>
+<h3>Combate</h3>
+<p><b>Iniciativa:</b> 3d6 + Iniciativa. 15+ = 2 acciones (desde 2º turno). 18+ = 2 acciones (1º turno).</p>
+<p><b>Atacar:</b> 3d6 + Ataque vs Defensa. Si igualas o superas: daño − absorción = PV perdidos.</p>
+<p><b>Ventaja:</b> +1 menor (flanqueo, 2v1), +2 mayor (por la espalda, sorprendido, 4v1).</p>
+<p><b>Pifia (triple 1):</b> el DJ decide el desastre.</p>
+<p><b>Crítico (doble/triple):</b> eliges efecto en tabla con PdC = valor del dado distinto.</p>
+<h3>Crítico de Ataque</h3>
+<table>
+<tr><th>Efecto</th><th>PdC</th></tr>
+<tr><td>Daño adicional +1</td><td>1</td></tr>
+<tr><td>Objetivo adicional</td><td>3</td></tr>
+<tr><td>Ignora absorción</td><td>3</td></tr>
+<tr><td>Incapacitado −1</td><td>2</td></tr>
+<tr><td>Congelar 1 turno</td><td>6</td></tr>
+<tr><td>Acción relámpago</td><td>6</td></tr>
+</table>
+<h3>Crítico de Apoyo</h3>
+<table>
+<tr><th>Efecto</th><th>PdC</th></tr>
+<tr><td>Duración +1 turno</td><td>1</td></tr>
+<tr><td>Energía eficiente (−1 PE)</td><td>1</td></tr>
+</table>
+<h3>Descanso</h3>
+<table>
+<tr><th>Tipo</th><th>Recuperación</th></tr>
+<tr><td>Tomar aire (5 min)</td><td>2d6 PV + 1d6 PE</td></tr>
+<tr><td>Dormir bien</td><td>4d6 PV + todo PE</td></tr>
+<tr><td>Dormir mal</td><td>3d6 PV + 1d6 PE</td></tr>
+</table>
+<h3>Estados</h3>
+<p><b>Malherido:</b> dobles/triples sin efecto. <b>Inconsciente:</b> 0 PV. <b>Muerto:</b> −10 PV.</p>
+</div>
+
+<h2>5. Progresión</h2>
+<div class="card">
+<p>Cada partida: +1 PC y +1 PH (2/2 si fue buena). Redistribuye características al subir.</p>
+<p>Máximo por valor: 3 con 10 pts, 4 con 20, 5 con 30... hasta 12 con 100.</p>
+<p>Techo: 30 para jugadores, 50 para PNJ legendarios.</p>
+</div>
+
+<h2>6. Generador rápido</h2>
+<div class="card">
+<div class="row">
+<div><label>Tipo<select id="gType"><option value="p">Personaje</option><option value="m">Monstruo</option><option value="j">Poder</option></select></label></div>
+<div><label>Nivel / PC<select id="gLvl"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select></label></div>
+<div><button id="gGo">Generar</button></div>
+</div>
+<div class="output" id="gOut">Pulsa Generar.</div>
+</div>
+</div>
+
+<script>
+const $=s=>document.querySelector(s);
+const R=(a,b)=>Math.floor(Math.random()*(b-a+1))+a;
+const pick=a=>a[R(0,a.length-1)];
+const d6=()=>R(1,6);
+const roll3=()=>d6()+d6()+d6();
+
+const NOMBRES=['Kael','Mira','Doran','Lena','Rook','Sable','Vex','Nia','Orin','Zara','Kai','Ryn'];
+const PODER_ATK=['Golpe','Descarga','Lanzamiento','Explosión','Corte','Impacto','Ráfaga','Embestida'];
+const PODER_APO=['Escudo','Curación','Velocidad','Refuerzo','Visión','Teletransporte','Duplicado','Invisibilidad'];
+const MONSTRUOS=['Sombra','Bestia','Constructo','Enjambre','Coloso','Acechador','Devorador','Guardián'];
+
+function genPersonaje(nivel){
+  const pts=nivel*5;
+  const stats={Ataque:R(0,3),Daño:R(0,3),Defensa:R(0,3),Iniciativa:R(0,3),Abs:R(0,2),PV:R(0,3),CE:R(0,3),PE:R(0,3)};
+  const hab=pick(['Atletismo','Sigilo','Rastrear','Callejeo','Disfraz','Rumores','Comercio','Etiqueta','Sanación']);
+  const poder=pick(PODER_ATK);
+  return `Personaje: ${pick(NOMBRES)}
+Pts: ${pts} | Ataque +${stats.Ataque} | Daño 1d6+${stats.Daño} | Defensa ${10+stats.Defensa} | Iniciativa +${stats.Iniciativa} | Abs ${stats.Abs} | PV ${20+stats.PV*5} | CE +${stats.CE} | PE ${stats.PE*5}
+Habilidad: ${hab} +${R(1,3)}
+Poder: ${poder} (nivel ${nivel}, dif ${8+nivel}, gasta ${nivel} PE)`;
+}
+
+function genMonstruo(nivel){
+  const pc=nivel*5;
+  const bonus=Math.floor(pc/5);
+  return `Monstruo: ${pick(MONSTRUOS)} (nivel ${nivel})
+PC: ${pc} | Iniciativa +${bonus} | Ataque +${bonus} | Daño 1d6+${bonus} | Defensa ${10+bonus} | Abs ${Math.floor(bonus/2)} | PV ${20+pc*5}
+Habilidad especial: ${pick(PODER_ATK)}`;
+}
+
+function genPoder(nivel){
+  const tipo=pick(['Ataque','Apoyo','Definitivo']);
+  const efectos=tipo==='Ataque'?PODER_ATK:PODER_APO;
+  const pdpt=tipo==='Ataque'?6+(nivel-1)*3:tipo==='Apoyo'?2+(nivel-1)*2:2+(nivel-1);
+  return `Poder de ${tipo} (nivel ${nivel})
+Dificultad: ${8+nivel} | Coste: ${nivel} PC | Gasto: ${nivel} PE
+PdP: ${pdpt} | Efecto: ${pick(efectos)}`;
+}
+
+$('#gGo').addEventListener('click',()=>{
+  const t=$('#gType').value,n=+$('#gLvl').value;
+  $('#gOut').textContent=t==='p'?genPersonaje(n):t==='m'?genMonstruo(n):genPoder(n);
+});
+</script>
+</body>
+</html>
